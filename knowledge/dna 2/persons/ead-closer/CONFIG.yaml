@@ -1,0 +1,226 @@
+# CONFIG - EAD CLOSER DNA COGNITIVO
+# Arquivo central de configuração e metadados do DNA
+# Versão: 1.0.0 | Criado: 2026-03-12 | Pipeline EDC-001
+
+versao: "1.0.0"
+pessoa: "EAD Closer"
+nome_canonico: "EAD Closer"
+empresa: "EAD Closer (Curso Brasileiro de Vendas High-Ticket)"
+localizacao: "Brasil"
+idioma: "Português (BR)"
+tipo: "CURSO"
+
+# Padrões comportamentais identificados
+padroes_comportamentais:
+  - padrao: "Diagnóstico-Primeiro (SPIN)"
+    frequencia: "ALTA"
+    evidencia: "Venda via questionário S→P→I→N antes do pitch"
+  - padrao: "Emoção-Antes-de-Lógica"
+    frequencia: "ALTA"
+    evidencia: "Pré-pitch + BITs elevam estado antes da apresentação"
+  - padrao: "Closer como Consultor"
+    frequencia: "ALTA"
+    evidencia: "Diagnóstico genuíno, não empurrar produto"
+  - padrao: "Value Stacking Brasileiro"
+    frequencia: "ALTA"
+    evidencia: "Âncora em R$17k antes do real R$6.2k"
+  - padrao: "Liderança-como-Termostato"
+    frequencia: "ALTA"
+    evidencia: "Velocidade da equipe = velocidade do líder"
+  - padrao: "Rapport Técnico (Mirroring)"
+    frequencia: "ALTA"
+    evidencia: "Tom, ritmo, vocabulário espelhado = confiança"
+  - padrao: "Micropactos Progressivos"
+    frequencia: "ALTA"
+    evidencia: "Compromissos pequenos criam urgência orgânica"
+  - padrao: "Gatilhos Mentais Estratégicos"
+    frequencia: "ALTA"
+    evidencia: "8 gatilhos aplicados em sequência específica"
+
+# Síntese narrativa
+sintese_narrativa: |
+  EAD Closer é um curso brasileiro de vendas high-ticket que combina
+  técnicas internacionais (SPIN, DISC, PNL) com contexto de mercado brasileiro.
+
+  FILOSOFIA CORE: Vender é um ato de amor — só venda o que acredita que
+  vai transformar a vida da pessoa. Emoção decide, lógica justifica.
+
+  METODOLOGIAS SIGNATURE:
+  - SPIN Selling Adaptado: Situação → Problema → Implicação → Necessidade
+  - BITs (Believe Implants): Pequenas crenças instaladas no pré-pitch
+  - Value Stacking B2C: Âncora de valor + revelação do preço real
+  - Cenário A vs B: Contraste Inferno/Céu para motivar decisão
+  - Micropactos Progressivos: Ladder de compromissos pequenos
+  - Warm-Up PRS: Pergunta → Resposta → Suporte (anti-interrogatório)
+  - FORM: Família → Ocupação → Recreação → Motivação
+
+  MODELO DE TIME: SDR (aquece) → Closer (fecha) → CS (retém)
+  COMISSÃO: 5-30% dependendo do tipo de produto (info/serviço/físico)
+
+  MÉTRICAS DE REFERÊNCIA:
+  - 7% webinário vs 93% closer (importância do vendedor humano)
+  - Pitch padronizado: 97-98% do conteúdo igual, 2-3% personalizado
+  - 20min diagnóstico / 40min pitch / 20min fechamento (estrutura ideal)
+  - R$20k treinamento → R$408k retorno (ROI exemplo)
+  - 3:1 ratio positivo/negativo em feedback de liderança
+
+# Estatísticas do DNA
+estatisticas:
+  filosofias: 23
+  modelos_mentais: 22
+  heuristicas: 33
+  frameworks: 25
+  metodologias: 31
+  total_itens: 134
+
+  heuristicas_numericas: 24
+  heuristicas_qualitativas: 9
+  percentual_com_threshold: 72.7
+
+# Fontes utilizadas
+fontes:
+  batches_processados: 1
+  batch_range: "EDC-001"
+  arquivos_processados: 22
+
+  arquivos:
+    - id: "EDC-0005"
+      titulo: "Questionário SPIN Selling"
+      tipo: "CURSO"
+    - id: "EDC-0007"
+      titulo: "Apresentação Pitch Padrão"
+      tipo: "CURSO"
+    - id: "EDC-0020"
+      titulo: "Como Vender Ingressos"
+      tipo: "CURSO"
+    - id: "EDC-0023"
+      titulo: "Pré-Pitch e BITs"
+      tipo: "CURSO"
+    - id: "EDC-0025"
+      titulo: "Treinamento Apresentação Comercial"
+      tipo: "CURSO"
+    - id: "EDC-0035"
+      titulo: "Construção da Venda 1 a 1"
+      tipo: "CURSO"
+    - id: "EDC-0037"
+      titulo: "Técnicas de Fechamento"
+      tipo: "CURSO"
+    - id: "EDC-0040"
+      titulo: "Rapport e Mirroring"
+      tipo: "CURSO"
+    - id: "EDC-0042"
+      titulo: "Oferta Irresistível"
+      tipo: "CURSO"
+    - id: "EDC-0046"
+      titulo: "Negociação com Expert"
+      tipo: "CURSO"
+    - id: "EDC-0048"
+      titulo: "Fechar Contrato com Alta Conversão"
+      tipo: "CURSO"
+    - id: "EDC-0054"
+      titulo: "Intensivo Mestres em Fechamento (Parte 1)"
+      tipo: "CURSO"
+    - id: "EDC-0055"
+      titulo: "Intensivo Mestres em Fechamento (Parte 2)"
+      tipo: "CURSO"
+    - id: "EDC-0057"
+      titulo: "Intensivo Mestres em Fechamento (Parte 3)"
+      tipo: "CURSO"
+    - id: "EDC-0064"
+      titulo: "Formas de Remuneração e Comissão"
+      tipo: "CURSO"
+    - id: "EDC-0065"
+      titulo: "Responsabilidades do Closer"
+      tipo: "CURSO"
+    - id: "EDC-0067"
+      titulo: "Skills do Closer Águia"
+      tipo: "CURSO"
+    - id: "EDC-0074"
+      titulo: "10 Formas de Treinar Equipe"
+      tipo: "CURSO"
+    - id: "EDC-0075"
+      titulo: "Retenção de Talentos"
+      tipo: "CURSO"
+    - id: "EDC-0085"
+      titulo: "Vendas 1x1"
+      tipo: "CURSO"
+    - id: "EDC-0086"
+      titulo: "Warm-Up e Emoção"
+      tipo: "CURSO"
+    - id: "EDC-0089"
+      titulo: "Gatilhos Mentais"
+      tipo: "CURSO"
+
+  batch_log: "/logs/batches/BATCH-EDC-001.md"
+  insights_totais: 134
+
+# Domínios de conhecimento
+dominios:
+  primarios:
+    - "fechamento-vendas"
+    - "diagnostico-spin"
+    - "rapport-conexao"
+    - "pre-pitch-bits"
+    - "gatilhos-mentais"
+  secundarios:
+    - "gestao-times-vendas"
+    - "lideranca-retencao"
+    - "remuneracao-comissao"
+    - "social-selling"
+    - "negociacao"
+
+# CARGOs beneficiados (para distribuição futura)
+cargos_beneficiados:
+  - cargo: "CLOSER"
+    relevancia: "ALTA"
+    dominios_chave: ["diagnostico-spin", "fechamento-vendas", "rapport-conexao", "gatilhos-mentais", "pre-pitch-bits"]
+  - cargo: "SALES MANAGER"
+    relevancia: "ALTA"
+    dominios_chave: ["gestao-times-vendas", "lideranca-retencao", "remuneracao-comissao", "treinamento-equipe"]
+  - cargo: "CRO"
+    relevancia: "MEDIA"
+    dominios_chave: ["metricas-conversao", "estrutura-funil", "estrategia-vendas"]
+  - cargo: "HEAD OF SALES"
+    relevancia: "ALTA"
+    dominios_chave: ["gestao-times-vendas", "lideranca-retencao", "estrutura-time-sdr-closer-cs"]
+
+# Tensões com outras fontes
+tensoes:
+  - fonte: "Cole Gordon"
+    topico: "Abordagem de fechamento"
+    ead_closer: "Linha Reta + Tirar do Muro (mais direto)"
+    outra_fonte: "5 Armas do Fechamento + Objeções"
+    tipo: "COMPLEMENTAR"
+    nota: "Abordagem brasileira vs americana - adaptar tom"
+  - fonte: "Alex Hormozi"
+    topico: "Estrutura do time"
+    ead_closer: "SDR→Closer→CS (especialização)"
+    outra_fonte: "BDR→SDS→BC (Christmas Tree)"
+    tipo: "ALINHADO"
+    nota: "Mesmo conceito, nomenclatura diferente"
+  - fonte: "Jeremy Miner"
+    topico: "Diagnóstico"
+    ead_closer: "SPIN adaptado com questionário estruturado"
+    outra_fonte: "NEPQ - Neuro-Emotional Persuasion Questions"
+    tipo: "COMPLEMENTAR"
+    nota: "SPIN mais clássico vs NEPQ mais emocional"
+
+# Metadados de extração
+metadados:
+  criado_em: "2026-03-12T00:00:00Z"
+  atualizado_em: "2026-03-12T00:00:00Z"
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  pipeline: "Jarvis Full - EDC-001"
+  extraido_por: "Claude Code"
+  sessao: "SESSION-2026-03-12-1639"
+  fase: "PHASE-3-CONSOLIDATION"
+
+changelog:
+  - data: "2026-03-12T00:00:00Z"
+    acao: "Criação inicial do DNA EAD Closer"
+    mudancas:
+      - "22 arquivos processados em 1 batch (EDC-001)"
+      - "134 knowledge atoms extraídos em 5 camadas"
+      - "FILOSOFIAS: 23 | MODELOS-MENTAIS: 22 | HEURISTICAS: 33 | FRAMEWORKS: 25 | METODOLOGIAS: 31"
+      - "Fonte: Curso Brasileiro EAD Closer - Vendas High-Ticket"
+    versao: "1.0.0"

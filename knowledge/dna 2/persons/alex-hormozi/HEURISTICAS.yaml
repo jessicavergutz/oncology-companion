@@ -1,0 +1,118 @@
+# knowledge/dna/persons/alex-hormozi/HEURISTICAS.yaml
+# Gerado em: 2026-03-17
+# Fonte: Raw files AH-0002, AH-0004, AH-0006, AH-0008, AH-0010, AH-0012, AH-0019
+
+pessoa: "Alex Hormozi"
+codigo: "AH"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 18
+
+heuristicas:
+  - id: "HEUR-AH-001"
+    regra: "Ticket mínimo de $15K para outbound ser viável"
+    explicacao: "Abaixo de $15K o math de outbound não funciona — custo de BDR, SDS e BC não compensa. Ideal é $20K+."
+    metrica: "$15.000 ticket mínimo"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-002"
+    regra: "100 dials → 20 pickups → 2 shows por BDR por dia"
+    explicacao: "Funil outbound padrão. 100 ligações geram 20 atendimentos (20% pick-up rate), que geram 2 shows qualificados. BDR trabalha 4h/dia em blocos focados."
+    metrica: "100 → 20 → 2 (por dia, por BDR)"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-003"
+    regra: "10% de close rate em cima de shows qualificados"
+    explicacao: "De cada 10 shows qualificados para o BC/closer, 1 fecha. Benchmar para calcular quantos BDRs são necessários por closer."
+    metrica: "10% de conversão show → deal"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-004"
+    regra: "CAC outbound de ~$500 por cliente (para LTV de $40K)"
+    explicacao: "BDR recebe $50 por show. Com 10 shows para 1 close, o custo por BDR por deal é $500. Para LTV de $40K, isso é excelente unit economics."
+    metrica: "$500 CAC outbound / $40K LTV = ratio 80:1"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-005"
+    regra: "BDR não precisa de mais de 2 dias para ser rampeado"
+    explicacao: "O papel de BDR é simples: aqui está a lista, aqui está o telefone, diga essas palavras. Onboarding rápido permite baixo custo de teste — deixa todos entrarem e vê quem performa."
+    metrica: "2 dias de ramp-up"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-006"
+    regra: "Vendedor tem 6 a 8 semanas de energia antes de desanimar — criar milestones de progresso nesse intervalo"
+    explicacao: "Pessoas perdem esperança quando ficam sem futuro visível. Milestones de progressão (Junior → Associate → BDR → Senior) devem ocorrer a cada ~8 semanas para manter motivação."
+    metrica: "6-8 semanas entre cada milestone de promoção"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-007"
+    regra: "Novo closer tem 10 deals para provar ou é desclassificado"
+    explicacao: "Quando promovido de SDS para BC (closer), o vendedor tem exatamente 10 deals para fechar pelo menos 1. Killers fecham desde cedo — ninguém começa frio e esquenta depois."
+    metrica: "10 deals de trial / mínimo 1 close"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-008"
+    regra: "Proporção Christmas Tree: 6 BDRs → 3 SDS → 1 BC"
+    explicacao: "Cada nível alimenta metade do próximo. Estrutura permite escalar de forma previsível — adicionar BDRs sobe leads pelo pipeline naturalmente até criar demanda por mais closers."
+    metrica: "6:3:1 (BDR:SDS:BC)"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-009"
+    regra: "OTE de closers (BCs): $120K–$220K, SDS: $55K–$70K, BDRs: ~$40K"
+    explicacao: "Estrutura de remuneração por nível. BDRs entram por $40K mas sabem que podem chegar a $200K+ em 9-12 meses — isso é o grande motivador de recrutamento."
+    metrica: "BDR: $40K | SDS: $60K | BC: $120K-$220K OTE"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-010"
+    regra: "Cortar bottom 10% do time de vendas a cada trimestre"
+    explicacao: "Se não cortar, está comunicando que é OK performar mal. Isso arrasta a cultura. Corte trimestral mantém standards elevados e sinaliza que excelência é requisito, não diferencial."
+    metrica: "10% de corte por trimestre"
+    source_arquivo: "[AH-0010] 10 - HOW TO BUILD LARGE SALES TEAMS (STARTING FROM 0).txt"
+
+  - id: "HEUR-AH-011"
+    regra: "Onboarding de 14 dias antes de colocar na linha"
+    explicacao: "Os primeiros 14 dias são: ouvir 40 calls boas, estudar script, role-play diário. Só depois coloca em half schedule. Depois do half schedule com quota mínima, full schedule."
+    metrica: "14 dias de onboarding / half schedule / full schedule"
+    source_arquivo: "[AH-0010] 10 - HOW TO BUILD LARGE SALES TEAMS (STARTING FROM 0).txt"
+
+  - id: "HEUR-AH-012"
+    regra: "Manager deve dedicar 1 hora por vendedor por semana para coaching"
+    explicacao: "30 min para ouvir 1-2 calls em 2x speed e anotar, 5 min para comunicar 1-2 pontos de melhoria de maior impacto, 25 min de role-play dos pontos identificados."
+    metrica: "1h/vendedor/semana dividida em 30+5+25 min"
+    source_arquivo: "[AH-0010] 10 - HOW TO BUILD LARGE SALES TEAMS (STARTING FROM 0).txt"
+
+  - id: "HEUR-AH-013"
+    regra: "Pitch não pode ter mais de 3 pontos — cérebro humano não segura mais"
+    explicacao: "Atenção humana não suporta mais de 3 pilares em uma venda. Escolha os 3 mais relevantes para o prospect. Qualidade sobre quantidade — menos é mais na hora de vender a vacação."
+    metrica: "Máximo 3 pontos no pitch"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"
+
+  - id: "HEUR-AH-014"
+    regra: "Palavras representam apenas 10% da venda — 90% é como você diz"
+    explicacao: "O script mais testado do mundo ainda é apenas 10% do resultado. Tonalidade é 90%. Conviction corrige o tom automaticamente — quem acredita verdadeiramente soa convicto sem forçar."
+    metrica: "10% palavras / 90% tonalidade"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"
+
+  - id: "HEUR-AH-015"
+    regra: "Outbound leva 12-14 meses para maturar — não desistir antes"
+    explicacao: "Mês 1: 1 venda. Mês 2: 2. Mês 3: 4. Crescimento linear, não exponencial. Quem desiste antes de 14 meses nunca verá o ROI. A curva de crescimento existe e é previsível."
+    metrica: "12-14 meses para maturidade plena"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-016"
+    regra: "Acima de $10M de receita, adicionar segundo canal de aquisição é obrigatório"
+    explicacao: "Dependência de canal único é fraqueza fatal. PE e acquirers desvalorizam o negócio. Abaixo de $10M é opcional. Acima de $10M, diversificar canais deve ser prioridade."
+    metrica: "$10M receita = trigger para diversificação de canal"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-017"
+    regra: "Inbound closing rate sobe de 20-25% para 60% quando closer foi treinado em outbound"
+    explicacao: "Closers que cortaram os dentes em cold calling têm resultado muito superior em leads quentes. Quem veio direto de inbound não desenvolveu resiliência e frieza necessárias."
+    metrica: "20-25% inbound padrão → 60% após treinamento outbound"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "HEUR-AH-018"
+    regra: "Primeiras 48h pós-compra determinam LTV e churn do cliente"
+    explicacao: "Cliente decide se vai ficar de longo prazo nos primeiros 2 dias após o pagamento. Video personalizado do próximo responsável, card de agradecimento escrito à mão — esses detalhes fecham o ciclo de compra."
+    metrica: "48h = janela crítica de decisão de LTV"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"

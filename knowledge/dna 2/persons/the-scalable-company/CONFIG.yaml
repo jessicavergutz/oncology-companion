@@ -1,0 +1,68 @@
+# THE SCALABLE COMPANY - DNA CONFIG
+# Metadados e configuracao do DNA completo
+# Versao: 1.0.0 | Criado: 2026-03-17
+
+pessoa: "Ryan Deiss / The Scalable Company"
+codigo: "TSC"
+versao: "1.0.0"
+status: "COMPLETE"
+data_criacao: "2026-03-17T00:00:00Z"
+total_itens: 115
+
+dna_layers:
+  filosofias: 14
+  modelos_mentais: 55
+  heuristicas: 18
+  frameworks: 15
+  metodologias: 13
+
+fontes_processadas: 10
+arquivos_fonte:
+  - "[TSC-0004] 04 Program Overview - YouTube.txt"
+  - "[TSC-0006] 04 Design the Playbook - YouTube.txt"
+  - "[TSC-0009] 01 What is a Business Playbook - YouTube.txt"
+  - "[TSC-0023] 17 Management + Metrics with Tom & Karen Pierce  04 21 22 - YouTube.txt"
+  - "[TSC-0025] 01 How to Facilitate a Quarterly Sprint Planning Session - YouTube.txt"
+  - "[TSC-0031] 08 Management + Metrics with Tom & Karen Pierce  04 28 22 - YouTube.txt"
+  - "[TSC-0036] 04 Brainstorming the Core Functions - YouTube.txt"
+  - "[TSC-0049] 09 Publish Your Value Engine - YouTube.txt"
+  - "[TSC-0062] 03 Growth Engines Explained - YouTube.txt"
+  - "[TSC-0066] 08 The Clarity Day - YouTube.txt"
+
+dominios_cobertos:
+  - "escalabilidade"
+  - "sistema operacional empresarial"
+  - "playbooks e documentacao de processos"
+  - "planejamento estratégico trimestral (QSP)"
+  - "estrutura organizacional (HOT Canvas)"
+  - "métricas e scorecards"
+  - "value engines (growth e fulfillment)"
+  - "cultura organizacional"
+  - "liderança e delegação"
+  - "facilitação de reuniões"
+  - "melhoria contínua"
+  - "gestão de pessoas"
+
+frameworks_principais:
+  - "ScalableOS (Sistema Operacional Escalável)"
+  - "Clarity Compass"
+  - "12Q Plan"
+  - "Value Engines (Growth + Fulfillment)"
+  - "Business Playbook Library"
+  - "High Output Team Canvas (HOT Canvas)"
+  - "Company Scorecard"
+  - "Quarterly Sprint Planning (QSP)"
+  - "90-Day Game Plan"
+  - "Quarterly Sprint Plan Canvas"
+  - "B&O List (Bottlenecks & Opportunities)"
+  - "Growth Engine Mapping"
+  - "Playbook Design Process (3-Step)"
+  - "OS Audit"
+  - "QSP Rollout Process"
+
+metadados:
+  protocolo: "DNA-EXTRACTION-PROTOCOL v2.0"
+  extraido_por: "Claude Code"
+  pipeline: "Jarvis"
+  idioma_extracao: "Portugues Brasileiro"
+  nota: "MODELOS-MENTAIS.yaml criado anteriormente (2026-01-11) com 55 itens MM-TSC-001 a MM-TSC-055 - nao recriado nesta extracao"

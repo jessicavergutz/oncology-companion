@@ -1,0 +1,551 @@
+# knowledge/dna 2/persons/ead-closer/METODOLOGIAS.yaml
+# EAD Closer - Curso Brasileiro de Vendas High-Ticket
+# Processos passo-a-passo executáveis
+# Gerado em: 2026-03-12
+# Fonte: 22 arquivos EDC (EDC-0005 a EDC-0089)
+
+fonte: "EAD Closer"
+codigo: "EDC"
+versao: "1.0.0"
+data_extracao: "2026-03-12T00:00:00Z"
+total_itens: 31
+arquivos_fonte: ["EDC-0005", "EDC-0007", "EDC-0020", "EDC-0023", "EDC-0025",
+                 "EDC-0035", "EDC-0037", "EDC-0046", "EDC-0048", "EDC-0054",
+                 "EDC-0055", "EDC-0057", "EDC-0065", "EDC-0067", "EDC-0074",
+                 "EDC-0075", "EDC-0086", "EDC-0089"]
+
+metodologias:
+
+  # ==========================================================================
+  # DIAGNÓSTICO E ABERTURA
+  # ==========================================================================
+
+  - id: "MET-EDC-001"
+    nome: "Questionário SPIN Selling Completo"
+    descricao: "Conduzir diagnóstico completo usando as 4 fases do SPIN antes de qualquer apresentação."
+    passos:
+      - ordem: 1
+        fase: "Situação"
+        acoes:
+          - "Perguntar sobre contexto atual: faturamento, modelo de negócio, time"
+          - "Construir mapa mental visual enquanto cliente fala"
+          - "Anotar palavras EXATAS do cliente (serão usadas no pitch)"
+      - ordem: 2
+        fase: "Problema"
+        acoes:
+          - "Identificar dores específicas: 'O que está impedindo você de X?'"
+          - "Aprofundar cada problema: 'Como isso te faz sentir?'"
+          - "Mapear as 3-5 dores mais fortes"
+      - ordem: 3
+        fase: "Implicação"
+        acoes:
+          - "Ampliar consequências de não resolver: 'Se continuar assim, o que acontece?'"
+          - "'Em 5 anos, onde você estará se não resolver isso hoje?'"
+          - "Transformar dor em sofrimento — amplificar urgência"
+      - ordem: 4
+        fase: "Necessidade-Payoff"
+        acoes:
+          - "'De 0 a 10, o quanto você precisa urgentemente resolver isso?'"
+          - "'O que mudaria na sua vida se isso estivesse resolvido?'"
+          - "Ancorar na necessidade antes de apresentar solução"
+    regra: "Só apresentar solução depois que cliente confirmou urgência ≥8"
+    fontes: ["EDC-0005"]
+
+  - id: "MET-EDC-002"
+    nome: "Pré-Pitch de Evento — Instalação de BITs"
+    descricao: "Sequência de aquecimento emocional antes do pitch de vendas em eventos ao vivo."
+    passos:
+      - ordem: 1
+        acao: "Ativar música de baixa frequência para estado reflexivo"
+      - ordem: 2
+        acao: "Identificar as 3-5 crenças que o cliente precisa ter para comprar"
+      - ordem: 3
+        acao: "Iniciar conteúdo que instala Crença 1 — histórias, dados, exercício (5 min)"
+      - ordem: 4
+        acao: "Bater na crença até fixar, depois transicionar para Crença 2"
+      - ordem: 5
+        acao: "Repetir para cada BIT (5 min cada)"
+      - ordem: 6
+        acao: "Visualização temporal: 5 anos SEM mudança → 5 anos COM a solução"
+      - ordem: 7
+        acao: "Transição emocional para abertura do pitch racional"
+    resultado: "Audiência chega no pitch com estado emocional elevado e crenças pré-instaladas"
+    fontes: ["EDC-0023"]
+
+  - id: "MET-EDC-003"
+    nome: "Warm-Up — Abertura de Conversa com Rapport"
+    descricao: "Protocolo de abertura de call/reunião que constrói conexão genuína antes de qualquer diagnóstico."
+    passos:
+      - ordem: 1
+        acao: "Fazer pergunta aberta sobre a pessoa (não sobre a venda)"
+        exemplos: ["Como você chegou no mercado de X?", "Vi que você [algo do perfil] — conta mais"]
+      - ordem: 2
+        acao: "Ouvir completamente, sem interromper"
+      - ordem: 3
+        acao: "Dar suporte: validar + aprofundar ('que interessante, e como foi isso?')"
+      - ordem: 4
+        acao: "Usar ponto em comum identificado para marketing pessoal natural"
+      - ordem: 5
+        acao: "Após 2-3 ciclos de pergunta-suporte: 'Posso te fazer algumas perguntas sobre o seu negócio?'"
+    transicao: "Warm-up bem feito cria abertura natural para questionário SPIN"
+    fontes: ["EDC-0086"]
+
+  # ==========================================================================
+  # APRESENTAÇÃO E PITCH
+  # ==========================================================================
+
+  - id: "MET-EDC-004"
+    nome: "Apresentação Comercial B2C — Closer"
+    descricao: "Sequência completa de apresentação de produto de vendas para B2C com 10 blocos."
+    passos:
+      - ordem: 1
+        bloco: "Credibilidade"
+        acao: "Falar expertise de quem criou (resultados, alunos, marcas) — não da empresa abstrata"
+      - ordem: 2
+        bloco: "Cenário A"
+        acao: "Listar 5+ dores atuais com emoção: comissão baixa, faturamento caindo, sem método"
+      - ordem: 3
+        bloco: "Cenário B"
+        acao: "Contrastar: alta comissão, fechamento em call, vida pessoal melhorada"
+      - ordem: 4
+        bloco: "Método"
+        acao: "Mostrar estrutura do método (visual) sem dar todos os detalhes"
+      - ordem: 5
+        bloco: "Entregáveis"
+        acao: "Apresentar cada módulo pelo BENEFÍCIO, não pela característica"
+      - ordem: 6
+        bloco: "Bônus"
+        acao: "Valorizar cada bônus individualmente (1-2 min cada), conectar com dor do cliente"
+      - ordem: 7
+        bloco: "Soma de Valor"
+        acao: "Mostrar total acumulado: 'isso tudo valeria R$17.000'"
+      - ordem: 8
+        bloco: "Ancoragem"
+        acao: "Descer: R$17k → 50% off R$8.5k → 'hoje por R$6.2k você leva tudo'"
+      - ordem: 9
+        bloco: "Urgência"
+        acao: "Explicar por que a decisão agora vale mais: vagas, prazo, economia calculada"
+      - ordem: 10
+        bloco: "Prova Social"
+        acao: "Depoimentos específicos por perfil e objeção"
+    duracao_total: "30-45 minutos"
+    fontes: ["EDC-0025"]
+
+  - id: "MET-EDC-005"
+    nome: "Apresentação de Bônus com Valorização Progressiva"
+    descricao: "Como apresentar cada bônus da oferta para maximizar percepção de valor."
+    passos:
+      - "Nunca listar bônus em sequência rápida — perde valor percebido"
+      - "Para cada bônus: (1) O que é, (2) O que resolve, (3) Por que é importante"
+      - "Se bônus conecta com dor mencionada pelo cliente: explorar mais esse"
+      - "Usar depoimento específico de bônus se tiver"
+      - "Perguntar antes do próximo: 'você vê como isso te ajudaria?'"
+      - "Só revelar preço depois de mostrar e validar toda a pilha de valor"
+    fontes: ["EDC-0042"]
+
+  # ==========================================================================
+  # FECHAMENTO
+  # ==========================================================================
+
+  - id: "MET-EDC-006"
+    nome: "Fechamento em Call — Pedido Direto"
+    descricao: "Como fazer o pedido de fechamento de forma direta e confiante."
+    passos:
+      - ordem: 1
+        acao: "Após apresentação: 'Você tem alguma dúvida antes de avançarmos?'"
+      - ordem: 2
+        acao: "Responder dúvidas com confiança (autoridade)"
+      - ordem: 3
+        acao: "Fazer micropacto: 'Você vê valor no que apresentei até aqui?'"
+      - ordem: 4
+        acao: "Pedido direto: 'Vamos avançar? Posso te enviar o link agora?'"
+      - ordem: 5
+        acao: "Silêncio após pedido — quem fala primeiro está negociando"
+      - ordem: 6
+        acao: "Se objeção: identificar (não entendeu a oferta? não confia? preço?)"
+      - ordem: 7
+        acao: "Tratar objeção específica com script + depoimento"
+      - ordem: 8
+        acao: "Pedir novamente"
+    regra: "Nunca deixar cliente 'em cima do muro'. Forçar decisão (sim ou não definitivo)."
+    fontes: ["EDC-0020", "EDC-0037"]
+
+  - id: "MET-EDC-007"
+    nome: "Metodologia Linha Reta (Alto Volume, Baixo Ticket)"
+    descricao: "Processo de fechamento direto para produtos de menor ticket em abordagem rápida."
+    passos:
+      - "Investigar necessidade em 2-3 perguntas"
+      - "Apresentar solução focada no principal benefício"
+      - "Fazer pedido direto na cara dura"
+      - "Silêncio — aguardar resposta"
+      - "Se objeção: responder com depoimento específico"
+      - "Pedir novamente"
+      - "Repetir até 3x antes de aceitar não definitivo"
+    indicado_para: "Tickets abaixo de R$3k, alta cadência de chamadas"
+    fontes: ["EDC-0020"]
+
+  - id: "MET-EDC-008"
+    nome: "Tirar do Muro — Forçar Decisão"
+    descricao: "Como lidar com cliente indeciso que não diz sim nem não."
+    passos:
+      - "Identificar que cliente está procrastinando decisão"
+      - "Script: 'Quero ser honesto com você: seu não agora me ajuda mais do que seu silêncio'"
+      - "'Se não quiser, eu entendo — tenho outra pessoa interessada'"
+      - "Aguardar resposta — não preencher o silêncio"
+      - "Se sim: avançar imediatamente"
+      - "Se não: aceitar, pedir feedback, manter porta aberta"
+    resultado: "Alívio para ambos — encerra ciclo de incerteza"
+    fontes: ["EDC-0020"]
+
+  - id: "MET-EDC-009"
+    nome: "Micropactos para Urgência Progressiva"
+    descricao: "Sequência de compromissos crescentes que aumentam urgência de forma orgânica."
+    passos:
+      - ordem: 1
+        pergunta: "'Você seria cliente hoje se a oferta for boa?'"
+        objetivo: "Ancoragem de intenção"
+      - ordem: 2
+        pergunta: "'Se couber no seu orçamento, você fecha agora?'"
+        objetivo: "Qualificação de decisão"
+      - ordem: 3
+        situacao: "Cliente negocia valor"
+        resposta: "'Que valor funcionaria para você?'"
+      - ordem: 4
+        situacao: "Cliente dá valor menor"
+        resposta: "'Se eu conseguir chegar nesse valor, você fecha agora mesmo comigo?'"
+      - ordem: 5
+        acao: "Verificar se é possível (consultar, negociar internamente)"
+      - ordem: 6
+        acao: "Voltar com resposta e fechar"
+    resultado: "Cada pacto aumenta comprometimento subconsciente — no final o sim está 90% dado"
+    fontes: ["EDC-0089"]
+
+  - id: "MET-EDC-010"
+    nome: "Processo Completo de Acompanhamento Pós-Call"
+    descricao: "Protocolo de follow-up após resultado da call (sim ou não)."
+    cenario_sim:
+      passos:
+        - "Enviar link de pagamento imediatamente (PIX, cartão, boleto)"
+        - "Acompanhar até confirmar pagamento (não desligar antes)"
+        - "Confirmar recebimento por parte do expert/empresa"
+        - "Encaminhar para CS com contexto do cliente"
+    cenario_nao:
+      passos:
+        - "Aceitar com graça: 'Entendo. Pode me dizer o que pesou mais?'"
+        - "Ouvir feedback real"
+        - "Manter porta aberta: 'Se mudar de ideia, estou aqui'"
+        - "Adicionar em sequência de follow-up de 5-7 contatos"
+        - "Primeiro follow-up em 48h; depois escalar intervalos"
+    regra: "Primeiro não não é definitivo. Acompanhar com valor, não com insistência."
+    fontes: ["EDC-0065"]
+
+  # ==========================================================================
+  # RAPPORT E NEGOCIAÇÃO
+  # ==========================================================================
+
+  - id: "MET-EDC-011"
+    nome: "Construção de Rapport Técnico"
+    descricao: "Como criar sincronização genuína com o cliente em chamada ou presencial."
+    passos:
+      - "Calibrar tom de voz ao volume e ritmo do cliente"
+      - "Adotar vocabulário e nível de formalidade do cliente"
+      - "Espelhar postura e energia na videoconferência"
+      - "Usar FORM para encontrar área que o cliente adora falar"
+      - "Encontrar ponto em comum e abrir com isso"
+      - "Validar e aprofundar respostas (suporte antes de nova pergunta)"
+      - "Manter postura de perguntador — nunca de respondedor"
+    fontes: ["EDC-0040", "EDC-0086"]
+
+  - id: "MET-EDC-012"
+    nome: "Marketing Pessoal via Ponto em Comum"
+    descricao: "Como inserir marketing pessoal de forma natural durante warm-up."
+    passos:
+      - "Descobrir ponto em comum (nome, cidade, profissão, hobby)"
+      - "Usar o ponto como abertura: 'Nossa, também conheço bem o Rio de Janeiro...'"
+      - "A partir do ponto comum: inserir credencial relacionada"
+      - "'...trabalhei com um médico parecido com você que conseguiu X resultado'"
+      - "Nunca abrir com 'sou Fulano, tenho X anos de experiência' — artificial e frio"
+    resultado: "Credibilidade inserida no contexto da conversa — parece conversa, não pitch"
+    fontes: ["EDC-0086"]
+
+  - id: "MET-EDC-013"
+    nome: "Negociação de Comissão com Expert"
+    descricao: "Como negociar taxa de comissão de forma assertiva e profissional."
+    preparacao:
+      - "Mapear taxa de fechamento própria com dados reais"
+      - "Compilar 2-3 cases de resultado documentados"
+      - "Definir: ideal, aceitável e limite antes da reunião"
+      - "Pesquisar o produto e mercado do expert"
+    execucao:
+      - "Apresentar resultados antes de falar números: cases, conversão, LTV gerado"
+      - "Propor 30-50% acima do objetivo para ter margem de recuo"
+      - "Nunca aceitar primeira proposta"
+      - "Se pressionar muito: 'Entendo. Posso considerar uma estrutura escalonada?'"
+      - "Fechar com ambas as partes satisfeitas — relação de parceria, não subcontratação"
+    fontes: ["EDC-0046", "EDC-0064"]
+
+  - id: "MET-EDC-014"
+    nome: "Envio de Materiais e Entregáveis"
+    descricao: "Processo de envio de materiais prometidos durante ou após a venda."
+    passos:
+      - "Identificar preferência do cliente: escrito, PDF, WhatsApp"
+      - "Compilar entregáveis + bônus em documento organizado"
+      - "Se cliente pedir escrito: entregar escrito (não verbal)"
+      - "Adicionar valor extra: PDF próprio se não tiver material padrão"
+      - "Confirmar recebimento e abrir espaço para dúvidas"
+    fontes: ["EDC-0065"]
+
+  # ==========================================================================
+  # GATILHOS MENTAIS — APLICAÇÃO
+  # ==========================================================================
+
+  - id: "MET-EDC-015"
+    nome: "Aplicação do Gatilho de Curiosidade"
+    descricao: "Como usar antecipação para manter atenção durante apresentação longa."
+    passos:
+      - "Quando cliente perguntar sobre a solução antes da hora: não responder diretamente"
+      - "Script: 'Excelente pergunta. Fica atento porque em alguns minutos você vai entender exatamente como isso funciona'"
+      - "Usar frases como: 'O mais interessante desta parte vem agora...'"
+      - "Revelar gradualmente — cada seção gera expectativa pela próxima"
+    resultado: "Atenção mantida durante pitch inteiro; cliente ansioso para a próxima informação"
+    fontes: ["EDC-0089"]
+
+  - id: "MET-EDC-016"
+    nome: "Aplicação do Gatilho de Autoridade"
+    descricao: "Como demonstrar expertise que inspira confiança automática."
+    passos:
+      - "Responder perguntas com confiança e precisão — sem hesitar"
+      - "Usar frases que demonstram domínio: 'O que geralmente acontece nesse caso é...'"
+      - "Quando não souber algo: ser honesto com competência ('isso é área da equipe técnica, te coloco em contato com quem pode responder precisamente'"
+      - "Citar dados, percentuais, cases específicos"
+      - "Nunca dizer 'eu acho' sobre fatos — dizer 'é' ou buscar o dado"
+    resultado: "Autoridade percebida facilita decisão — cliente não questiona quando confia"
+    fontes: ["EDC-0089"]
+
+  - id: "MET-EDC-017"
+    nome: "Aplicação do Gatilho de Escassez e Urgência"
+    descricao: "Como criar urgência legítima sem parecer pressão artificial."
+    passos:
+      - "Apresentar value stacking completo antes de revelar preço"
+      - "Deixar slide de valor em tela: 'O valor do protagonista está aqui' — SEM mostrar preço"
+      - "Deixar cliente 'louco' para saber o preço"
+      - "Só revelar após criar o estado de querer saber"
+      - "Usar escassez real: vagas, prazo, preço exclusivo"
+      - "Nunca inventar escassez — cliente percebe e perde confiança"
+    fontes: ["EDC-0089"]
+
+  - id: "MET-EDC-018"
+    nome: "Aplicação do Gatilho de Emoção"
+    descricao: "Como usar histórias emocionais para conectar produto à dor mais profunda do cliente."
+    passos:
+      - "Identificar ponto emocional do cliente (família, tempo, status, legado)"
+      - "Fazer perguntas que ativem essa emoção: 'Como você vê isso em 5 anos?'"
+      - "Contar história de cliente similar que estava na mesma situação"
+      - "Comparar: 'Fulano estava nessa situação há 12 meses; hoje [resultado]'"
+      - "Perguntar: 'O que seria diferente na sua vida se você resolvesse isso?'"
+      - "Não fazer o cliente chegar lá sozinho — guiar a visualização emocional"
+    resultado: "Emoção + lógica = decisão. Sem emoção, só lógica raramente fecha."
+    fontes: ["EDC-0089"]
+
+  # ==========================================================================
+  # GESTÃO E RETENÇÃO DE EQUIPE
+  # ==========================================================================
+
+  - id: "MET-EDC-019"
+    nome: "Reconhecimento e Validação Individual"
+    descricao: "Como reconhecer membros da equipe de forma que cria lealdade e pertencimento."
+    passos:
+      - "Identificar vitória específica (não genérica)"
+      - "Reconhecer publicamente quando possível (reunião de equipe)"
+      - "Usar frases de impacto: 'Você é maravilhoso', 'É uma honra ter você aqui'"
+      - "Toque físico quando apropriado (tapinha nas costas, aperto de mão)"
+      - "Frequência: 6-8 reconhecimentos positivos por mês por colaborador"
+      - "Proporção: 3 positivos para cada 1 negativo"
+    fontes: ["EDC-0075"]
+
+  - id: "MET-EDC-020"
+    nome: "Bonificação Progressiva Baseada em Meta"
+    descricao: "Como estruturar sistema de premiação que ativa competição saudável."
+    passos:
+      - "Definir meta coletiva mensal com premiação de grupo"
+      - "Estruturar escala individual: até X = 5%, de X a Y = 10%, de Y a Z = 20%, acima = 30%"
+      - "Premiar melhor vendedor do mês: bônus financeiro + reconhecimento público"
+      - "Incluir premiações não financeiras: almoço, viagem curta, dia de folga"
+      - "Anunciar premiação de fim de mês no início para criar antecipação"
+    resultado: "Time se auto-gerencia em busca do prêmio — reduz trabalho de gestão diária"
+    fontes: ["EDC-0075"]
+
+  - id: "MET-EDC-021"
+    nome: "Descoberta de Necessidade Individual (Retenção)"
+    descricao: "Como descobrir o que realmente motiva cada membro da equipe para conectar ao crescimento."
+    passos:
+      - "Conversa individual (não em grupo)"
+      - "Pergunta direta: 'Qual é a sua necessidade hoje? O que você mais precisa?'"
+      - "Ouvir sem julgamento — não pressionar para resposta certa"
+      - "Conectar necessidade ao que empresa pode oferecer: 'Para chegar nesse objetivo, precisamos...'"
+      - "Criar plano concreto ligando necessidade + meta de vendas"
+      - "Exemplo: 'Você precisa de R$10k a mais? Aqui está o que precisa fechar para chegar lá'"
+    resultado: "Colaborador motivado por necessidade própria — motivação intrínseca e duradoura"
+    fontes: ["EDC-0075"]
+
+  - id: "MET-EDC-022"
+    nome: "Feedback Sanduíche Individual"
+    descricao: "Como dar feedback corretivo sem desmotivar o colaborador."
+    passos:
+      - "Preparar: identificar 1 coisa que está bem + 1 coisa para melhorar + 1 coisa que está bem"
+      - "Abertura: reconhecer comportamento positivo específico ('Você está arrasando na parte de rapport')"
+      - "Desenvolvimento: falar o que ajustar com orientação prática ('Preciso que você trabalhe o fechamento assim...')"
+      - "Encerramento: reforçar identidade positiva ('Você tem tudo para ser top performer')"
+      - "Comprometimento: 'O que você vai fazer diferente na próxima call?'"
+    regra: "Feedback sem plano de ação é desabafo, não gestão."
+    fontes: ["EDC-0075"]
+
+  - id: "MET-EDC-023"
+    nome: "Onboarding com Parceria Dobrada"
+    descricao: "Como integrar novato na equipe usando veterano como mentor de campo."
+    passos:
+      - "Selecionar veterano: motivado, confiável, top performer que você respeita"
+      - "NÃO usar veterano desmotivado ou reclamão — contamina novato"
+      - "Apresentar a missão para o veterano: 'Você vai acelerar o crescimento dele'"
+      - "Colocar novato em campo junto com veterano (observar fazendo)"
+      - "Após cada call/evento: dupla se reúne para debriefing (o que funcionou, o que não)"
+      - "Duração: 2-4 semanas ou até novato ter confiança para ir solo"
+    fontes: ["EDC-0074"]
+
+  - id: "MET-EDC-024"
+    nome: "Caso de Sucesso Semanal com Premiação"
+    descricao: "Ritual semanal que cria cultura de reconhecimento e aprendizado por pares."
+    passos:
+      - "Cada semana: um membro da equipe apresenta case de sucesso (5-10 min)"
+      - "Equipe ouve e faz perguntas"
+      - "Fim do mês: votação anônima — qual foi o melhor caso?"
+      - "Ganharán um prêmio (anunciar antes para gerar expectativa)"
+      - "Celebrar o ganhador publicamente"
+    beneficio: "Aprendizado entre pares + reconhecimento + competição saudável em um ritual só"
+    fontes: ["EDC-0074"]
+
+  - id: "MET-EDC-025"
+    nome: "Brainstorming de Problema com Equipe"
+    descricao: "Como usar inteligência coletiva para resolver desafios do time sem criar resistência."
+    passos:
+      - "Definir problema específico para resolver (ex: 'Como aumentar taxa de confirmação de calls?')"
+      - "Regra: zero crítica durante geração de ideias"
+      - "'Coloquem até as ideias mais loucas — não existe ideia errada aqui'"
+      - "Cada pessoa escreve suas ideias (silêncio, sem influência mútua)"
+      - "Compartilhar todas as ideias sem julgamento"
+      - "Identificar e combinar as mais promissoras"
+      - "Definir plano de ação com responsável e prazo"
+    bonus: "Time que participa da solução implementa com mais energia — senso de pertencimento"
+    fontes: ["EDC-0074"]
+
+  - id: "MET-EDC-026"
+    nome: "Preenchimento da Roda de Skills do Closer Águia"
+    descricao: "Como usar a ferramenta de auto-avaliação para identificar e eliminar gargalos de performance."
+    passos:
+      - "Pausar vídeo/aula no momento do exercício"
+      - "Baixar ou copiar à mão as 13 dimensões em formato de roda"
+      - "Dar nota honesta de 0-10 para cada dimensão (primeira nota = mais verdadeira)"
+      - "Ligar todos os pontos formando o contorno da roda"
+      - "Avaliar: essa roda roda? Onde está capenga?"
+      - "Selecionar 4 dimensões prioritárias para desenvolvimento (não 13)"
+      - "Para cada uma das 4: definir 1 ação específica com data e hora"
+    regra: "Focar em eliminar os piores gaps primeiro — uma roda coxa limita velocidade"
+    fontes: ["EDC-0067"]
+
+  # ==========================================================================
+  # FOLLOW-UP E PÓS-VENDA
+  # ==========================================================================
+
+  - id: "MET-EDC-027"
+    nome: "Sequência de Follow-Up para Quem Não Fechou"
+    descricao: "Cadência de acompanhamento após call sem fechamento."
+    passos:
+      - ordem: 1
+        timing: "Imediatamente após call"
+        acao: "Mensagem de agradecimento + resumo de valor discutido"
+      - ordem: 2
+        timing: "48h depois"
+        acao: "Compartilhar depoimento relevante à objeção do cliente"
+      - ordem: 3
+        timing: "5 dias depois"
+        acao: "Compartilhar conteúdo de valor relacionado à dor do cliente"
+      - ordem: 4
+        timing: "10 dias depois"
+        acao: "Checar se situação mudou: 'Como você está com [problema mencionado]?'"
+      - ordem: 5
+        timing: "21 dias depois"
+        acao: "Última tentativa — oferta especial ou nova perspectiva"
+    regra: "Nunca fazer follow-up com 'só passando para ver se decidiu' — sempre trazer valor"
+    fontes: ["EDC-0065"]
+
+  - id: "MET-EDC-028"
+    nome: "Processo de Envio de Link de Pagamento"
+    descricao: "Protocolo imediatamente após o 'sim' do cliente."
+    passos:
+      - "Ter prontos: PIX, link de cartão e boleto parcelado"
+      - "Enviar imediatamente após confirmação verbal (não esperar)"
+      - "Especificar forma preferida: 'Prefere PIX, cartão ou parcelado?'"
+      - "Acompanhar até receber comprovante"
+      - "Não encerrar acompanhamento antes de confirmar pagamento"
+      - "Notificar CS após confirmação com contexto do cliente"
+    regra: "Venda só fecha quando o dinheiro entra. Acompanhar até o fim."
+    fontes: ["EDC-0065"]
+
+  - id: "MET-EDC-029"
+    nome: "Social Selling — Abordagem Personalizada por DM"
+    descricao: "Como prospectar de forma personalizada via Instagram."
+    passos:
+      - "Identificar quem interage muito com o conteúdo (likes, comentários, saves)"
+      - "Acessar perfil da pessoa"
+      - "Analisar: área de atuação, interesses, conquistas, estilo de vida"
+      - "Gravar vídeo de 30-60 segundos: usar nome, mencionar algo específico do perfil, falar como pode ajudar"
+      - "Enviar vídeo com mensagem curta e calorosa"
+      - "Não vender na primeira mensagem — construir conexão"
+      - "Após resposta: investir em conversa, gerar valor, convidar para call/evento"
+    fontes: ["EDC-0020"]
+
+  - id: "MET-EDC-030"
+    nome: "Estrutura de Venda 1:1 Completa"
+    descricao: "Sequência completa de uma venda 1:1 do zero ao fechamento."
+    passos:
+      - ordem: 1
+        fase: "Conexão"
+        acao: "Criar boa primeira impressão — vídeo, voz, texto (warm-up)"
+      - ordem: 2
+        fase: "Rapport"
+        acao: "Estabelecer conexão genuína antes de qualquer venda"
+      - ordem: 3
+        fase: "Investigação"
+        acao: "SPIN: descobrir necessidade real e urgência"
+      - ordem: 4
+        fase: "Transição"
+        acao: "Mostrar casos similares resolvidos (depoimentos, prints)"
+      - ordem: 5
+        fase: "Apresentação"
+        acao: "Apresentar solução focada nas dores específicas levantadas"
+      - ordem: 6
+        fase: "Pedido"
+        acao: "Perguntar pelo fechamento — diretamente, sem rodeios"
+      - ordem: 7
+        fase: "Redução de Fricção"
+        acao: "Facilitar o próximo passo (link, forma de pagamento, menos cliques)"
+      - ordem: 8
+        fase: "Fechamento"
+        acao: "Confirmar, enviar link, acompanhar até pagamento"
+    regra_de_ouro: "Nunca deixar cliente em cima do muro — sempre forçar uma decisão"
+    fontes: ["EDC-0020", "EDC-0035"]
+
+  - id: "MET-EDC-031"
+    nome: "Estrutura de Mentoria Semanal de Desenvolvimento"
+    descricao: "Como conduzir mentoria de vendas individual com cronograma estruturado."
+    cronograma:
+      semana_1: "Prospecção — fontes, qualificação, abordagem inicial"
+      semana_2: "Rapport e Warm-Up — conexão genuína, técnicas de sincronização"
+      semana_3: "Diagnóstico e SPIN — fazer as perguntas certas, ouvir ativamente"
+      semana_4: "Apresentação — estrutura de pitch, benefits vs features"
+      semana_5: "Objeções — identificar, tratar, usar depoimentos"
+      semana_6: "Fechamento — pedido direto, micropactos, tirar do muro"
+      semana_7: "Pós-Venda e LTV — CS, indicação, reativação"
+    formato: "1h por semana, horário fixo, conteúdo teórico (20min) + prática/role-play (40min)"
+    regra: "Toda sessão termina com 1 ação específica que o mentee executa antes da próxima"
+    fontes: ["EDC-0074"]

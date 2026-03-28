@@ -1,12 +1,13 @@
 # knowledge/dna/persons/JEREMY-MINER/METODOLOGIAS.yaml
 # Processos passo-a-passo - Metodologias executaveis
-# Gerado em: 2026-01-09 | Total extraido: 154 | Top 15 documentadas aqui
+# Atualizado em: 2026-03-16 | Total itens: 25 | Total fontes: 45
 
 pessoa: "Jeremy Miner"
-versao: "1.0.0"
+versao: "1.1.0"
 data_extracao: "2026-01-09T19:30:00Z"
-total_itens: 15
-total_fonte: 154
+data_atualizacao: "2026-03-16T00:00:00Z"
+total_itens: 25
+total_fonte: 45
 
 metodologias:
 
@@ -83,7 +84,7 @@ metodologias:
         duracao: "2-3 min"
         acoes:
           - "Do you feel this could be what you're looking for?"
-          - "Why do you feel like it is?" (self-persuasion trigger)
+          - "Why do you feel like it is? (self-persuasion trigger)"
           - "What would you like to do from here?"
         objetivo: "Self-persuasion final - prospect fecha a si mesmo"
 
@@ -790,3 +791,448 @@ metodologias:
       - "methodology"
 
     peso: 0.90
+
+  - id: "MET-JM-016"
+    nome: "Confused Old Man Cold Call Methodology — Porta-a-Porta e Visitacao"
+    descricao: "Metodologia completa de reducao de resistencia para visitas nao anunciadas (porta-a-porta ou visita fria B2B). Inclui preparacao visual, abertura comportamental e sequencia de perguntas que criam curiosidade em vez de defensividade."
+
+    passos:
+      - ordem: 1
+        nome: "Preparacao Visual"
+        acoes:
+          - "Roupas casuais sem marcadores de status (relogio barato, sem gravata ou terno)"
+          - "Colete de construcao laranja/verde-limao OR prancheta com formulario de pesquisa"
+          - "Fita metrica pendurada na cintura (home security/utilities)"
+          - "Objetivo: parecer pesquisador/verificador, nao vendedor"
+
+      - ordem: 2
+        nome: "Posicionamento Fisico"
+        acoes:
+          - "Ficar mais afastado da porta que o normal"
+          - "Olhar ao redor como se estivesse tomando notas/verificando algo"
+          - "Postura: neutro, nao confrontacional"
+          - "Resultado: prospecto tem curiosidade, nao defensividade"
+
+      - ordem: 3
+        nome: "Abertura com Confusao Deliberada"
+        acao: "Ahhh... sao voces os donos aqui?"
+        tonalidade: "Confuso, incerto"
+        resultado: "Instinto de ajudar ativa, nao instinto de resistir"
+
+      - ordem: 4
+        nome: "Trigger de Curiosidade"
+        acao: "Deixar a resposta deles criar a pergunta para voce — nao dar pitch"
+        objetivo: "Curiosidade no lugar de resistencia"
+
+      - ordem: 5
+        nome: "Transition para Problem Statement"
+        acao: "Mencionar o problema/consequencia que sua solucao resolve — como pesquisador encontrando um dado"
+        exemplo: "'Sim, estou verificando casas na area sobre [problema]. Voces tem tido alguma situacao de [problema]?'"
+
+    resultado_esperado: "Reducao de 80-90% de resistencia imediata"
+
+    evidencias:
+      - citacao: "Confused old man methodology for door-to-door and unannounced visits"
+        source_id: "JM-0101"
+
+    dominios:
+      - "cold-calling"
+      - "door-to-door"
+      - "methodology"
+
+    peso: 0.88
+
+  - id: "MET-JM-017"
+    nome: "Off-The-Record Unlock Methodology — Desbloquear Prospecto Fechado"
+    descricao: "Metodologia de dois pontos de aplicacao para desbloquear prospectos que nao estao se abrindo. Usa a criacao de um espaco psicologico de confidencialidade que convida honestidade."
+
+    passos:
+      - ordem: 1
+        nome: "Detectar Resistencia"
+        acoes:
+          - "Prospecto da respostas monossilabicas"
+          - "Prospecto confirma tudo mas sem elaborar"
+          - "Energia baixa, sem engajamento emocional"
+
+      - ordem: 2
+        nome: "Lean-In Fisico"
+        acao: "Aproximar-se fisicamente ou se inclinar para frente — mesmo em Zoom"
+        objetivo: "Sinalizar que o que vem e privado/especial"
+
+      - ordem: 3
+        nome: "Primeira Aplicacao — Durante Discovery"
+        acao: "'Entre voce e eu, e fora do registro — qual e a razao principal pela qual voce esta buscando [resultado desejado]?'"
+        tonalidade: "Confidencial, curiosa"
+        quando: "Quando prospect nao esta se abrindo durante discovery"
+
+      - ordem: 4
+        nome: "Segunda Aplicacao — Ultima Chance"
+        acao: "'Entre voce e eu, fora do registro — o que esta realmente te segurando de avancar para conseguir [resultado desejado]?'"
+        tonalidade: "Empatica, preocupada"
+        quando: "Quando prospect nao esta fechando e nenhuma outra tecnica funcionou"
+
+    principio: "Off the record = permissao para ser honesto sem consequencias"
+
+    evidencias:
+      - citacao: "Off-the-record unlock methodology for closed prospects"
+        source_id: "JM-0114"
+
+    dominios:
+      - "objections"
+      - "discovery"
+      - "methodology"
+
+    peso: 0.90
+
+  - id: "MET-JM-018"
+    nome: "Competitor Cheaper Handling Methodology — Tratar Concorrente Mais Barato"
+    descricao: "Metodologia completa de 6 passos para quando o prospecto recebe uma cotacao menor de um concorrente. Nao compete no preco — compete no resultado e move a conversa do custo para o valor."
+
+    passos:
+      - ordem: 1
+        nome: "Validacao Sem Defensividade"
+        acao: "Sem problema. (pausa)"
+        objetivo: "Nao demonstrar ameaca — desarmar"
+
+      - ordem: 2
+        nome: "Investigacao do Orcamento Especifico"
+        acao: "'Posso perguntar o que exatamente eles cotaram e para que especificamente?'"
+        objetivo: "Entender o que esta incluido/excluido"
+
+      - ordem: 3
+        nome: "Analise Comparativa Detalhada"
+        acao: "'Pode ir atraves da proposta deles comigo especificamente para que eu entenda o que esta sendo oferecido?'"
+        objetivo: "Encontrar o gap entre o que cheap oferece e o que o prospect precisa"
+
+      - ordem: 4
+        nome: "Reframe Preco → Resultado"
+        acao: "'O preco e o mais importante para voce ou resolver o problema e obter o resultado que voce quer?'"
+        objetivo: "Mover conversa de custo para valor"
+
+      - ordem: 5
+        nome: "3-Option Presentation"
+        acoes:
+          - "Opcao barata (preco concorrente): listar o que NAO esta incluido, por que nao resolve o problema real"
+          - "Opcao intermediaria: mostrar diferencas"
+          - "Opcao premium (sua): mostrar ROI e resultado completo"
+
+      - ordem: 6
+        nome: "Inversao de Custo"
+        acao: "'Se voce pensar bem — qual e o mais caro?'"
+        tonalidade: "Curiosa, nao manipuladora"
+        objetivo: "Prospect percebe que o barato pode custar mais a longo prazo"
+
+    evidencias:
+      - citacao: "Competitor cheaper handling: validate-investigate-analyze-reframe-3options-invert"
+        source_id: "JM-0125"
+
+    dominios:
+      - "objections"
+      - "price"
+      - "methodology"
+
+    peso: 0.91
+
+  - id: "MET-JM-019"
+    nome: "Pray About It / Spiritual Objection Methodology"
+    descricao: "Metodologia para lidar com objecoes de natureza espiritual ou religiosa ('preciso rezar sobre isso'). Nao briga com a crenca — usa a propria crenca do prospecto para criar comprometimento."
+
+    passos:
+      - ordem: 1
+        nome: "Validacao Total"
+        acao: "'Sim, sem problema, claro.' (tom genuinamente empatico)"
+        importante: "NAO usar 'sim, MAS...' — dispara resistencia"
+
+      - ordem: 2
+        nome: "Clarificacao da Objecao Real"
+        acao: "'Agora, quando voce diz que precisa rezar — que partes especificas do que conversamos voce sente que realmente precisa rezar?'"
+        tonalidade: "Curiosa e empatica — enfatizar 'realmente precisa rezar sobre'"
+        resultado: "Em 100% dos casos, a objecao REAL emerge (dinheiro, tempo, medo)"
+
+      - ordem: 3
+        nome: "Resolver Objecao Real"
+        acao: "Enderacar diretamente o concern real que emergiu (nao a objecao espiritual de superficie)"
+        nota: "Seguir processo padrao de tratamento de objecao para o concern real"
+
+      - ordem: 4
+        nome: "Reconectar com o Espiritual"
+        acao_b2c: "'Como voce sente que Deus se sentiria sobre voce [obter o resultado que eles disseram querer]?'"
+        acao_b2b: "'Como voce sente que Deus se sentiria sobre voces [obter resultado de negocio especifico que mencionaram]?'"
+        tonalidade: "Voz mais baixa, empatica, inclinando-se para frente"
+        resultado: "99% dos casos nunca dizem que Deus nao quer que eles obtenham o resultado positivo"
+
+    principio: "Usar a crenca do prospecto, nao lutar contra ela"
+
+    evidencias:
+      - citacao: "Pray about it / spiritual objection: validate-clarify-resolve-reconnect"
+        source_id: "JM-0128"
+
+    dominios:
+      - "objections"
+      - "spiritual"
+      - "methodology"
+
+    peso: 0.88
+
+  - id: "MET-JM-020"
+    nome: "Want to Look Around / Compare Methodology"
+    descricao: "Metodologia de 4 passos para quando o prospecto diz que quer comparar com outros fornecedores. Transforma a comparacao em descoberta do hot button de decisao."
+
+    passos:
+      - ordem: 1
+        nome: "Validacao Nao-Defensiva"
+        acao: "'Sim, sem problema.' (pausa — nao explicar nada)"
+        objetivo: "Nao disparar defensividade"
+
+      - ordem: 2
+        nome: "Descoberta de Expectativa"
+        acao: "'O que voce esta esperando que essas outras empresas te mostrem?'"
+        objetivo: "Entender o que o prospect esta realmente buscando"
+
+      - ordem: 3
+        nome: "Hot Button Discovery Question"
+        acao: "'Digamos que todas as empresas atendam seus criterios de preco e funcionalidades — como voce decidiria entao com quem ir?'"
+        objetivo: "A resposta = o criterio de decisao REAL = o hot button"
+        nota: "Fechar em cima do hot button que eles revelam"
+
+      - ordem: 4
+        nome: "Confirm Their Hot Button"
+        acao: "Demonstrar especificamente como voce atende ao criterio de decisao que eles revelaram na pergunta 3"
+        objetivo: "Fechar a venda no criterio deles, nao no criterio seu"
+
+    evidencias:
+      - citacao: "Want to compare methodology: validate-expectation-hot button-confirm"
+        source_id: "JM-0119"
+
+    dominios:
+      - "objections"
+      - "comparison"
+      - "methodology"
+
+    peso: 0.91
+
+  - id: "MET-JM-021"
+    nome: "7-Figure Warm Lead Call Opening Methodology"
+    descricao: "Metodologia de 6 passos para ligar para leads que responderam a anuncios. Inclui os erros do vendedor medio como contraste e os passos corretos do vendedor de 7 figuras."
+
+    passos:
+      - ordem: 1
+        nome: "Apresentacao Relaxada"
+        acao: "'Oi [nome], aqui e [seu nome]...'"
+        tonalidade: "Relaxada, conversacional — como se estivesse ligando para um amigo"
+
+      - ordem: 2
+        nome: "Nome da Empresa"
+        acao: "'...da [empresa]...'"
+        tonalidade: "Casual, nao corporativo"
+
+      - ordem: 3
+        nome: "Referencia ao Anuncio — Lembrar Que ELES Pediram"
+        acao: "'Parece que voce respondeu a um anuncio ontem sobre [topico especifico]...'"
+        objetivo: "Contextualizar — eles pediram esse contato, nao e uma invasao"
+
+      - ordem: 4
+        nome: "Verificacao de Momento Apropriado"
+        acao: "'E um momento apropriado para conversar?'"
+        nota: "Vendedores medios PULAM este passo e entram em pitch — cria resistencia imediata"
+
+      - ordem: 5
+        nome: "Verificacao de Status — Ainda Buscando"
+        acao: "'Voce ja encontrou o que estava procurando ou ainda esta buscando?'"
+        estatistica: "99% ainda estao buscando"
+        objetivo: "Confirmar abertura para continuar"
+
+      - ordem: 6
+        nome: "Transicao para Discovery com Downplay"
+        acao: "'Antes de entrar em quem somos e o que fazemos e todo esse assunto chato... seria mais util se eu soubesse um pouco mais sobre voce e o que voce esta buscando para ver se poderimos ajudar.'"
+        objetivo: "Transicionar para NEPQ discovery — downplay ativa resgate"
+
+    evidencias:
+      - citacao: "7-figure warm lead call opening methodology: 6 steps"
+        source_id: "JM-0153"
+
+    dominios:
+      - "warm-leads"
+      - "phone-methodology"
+      - "opening"
+
+    peso: 0.90
+
+  - id: "MET-JM-022"
+    nome: "Emotional Word Repetition Deep Probing Methodology"
+    descricao: "Metodologia de probing profundo baseada na repeticao das proprias palavras emocionais do prospecto como perguntas. Quando o prospecto usa uma palavra emocional, repeti-la como pergunta os faz automaticamente expandir e aprofundar."
+
+    passos:
+      - ordem: 1
+        nome: "Detectar Palavra Emocional"
+        acoes:
+          - "Escutar ativamente palavras carregadas emocionalmente"
+          - "Exemplos: 'frustrado', 'sobrecarregado', 'empolgado', 'preocupado', 'exausto'"
+          - "Essas palavras sao ouro — o prospect revelou estado emocional real"
+
+      - ordem: 2
+        nome: "Reflexao como Pergunta — Eco"
+        acao: "Repetir apenas a palavra emocional com tom curioso/confuso"
+        exemplo: "Prospect: 'Eu estou muito frustrado com isso.' → Voce: 'Frustrado?'"
+        tonalidade: "Curiosa, empatica — nao robotica"
+
+      - ordem: 3
+        nome: "Silencio Estrategico"
+        acao: "Fazer pausa de 3-7 segundos apos a repeticao"
+        objetivo: "Deixar o silencio trabalhar — o prospect vai preencher"
+
+      - ordem: 4
+        nome: "Escuta Ativa Expandida"
+        acao: "O prospect vai elaborar automaticamente sobre a emocao — escutar sem interromper"
+        resultado: "Prospect revela camada mais profunda de dor"
+
+      - ordem: 5
+        nome: "Probing de Duracao"
+        acao: "'Quanto tempo voce tem se sentido assim?'"
+        objetivo: "Estabelecer cronicidade — dor mais antiga = urgencia maior"
+
+      - ordem: 6
+        nome: "Probing de Impacto"
+        acao: "'Isso tem tido um... impacto em voce?' (pausar antes de 'impacto')"
+        objetivo: "A pausa antes de 'impacto' faz o prospect processar profundamente"
+
+    principio: "Perguntas nao sao necessarias — a repeticao da palavra emocional ja e a pergunta"
+
+    evidencias:
+      - citacao: "Emotional word repetition deep probing methodology"
+        source_id: "JM-0080"
+
+    dominios:
+      - "probing"
+      - "discovery"
+      - "methodology"
+
+    peso: 0.93
+
+  - id: "MET-JM-023"
+    nome: "Commitment Questions Extended Sequence — Versao Estendida com 'Would That Be Appropriate'"
+    descricao: "Versao estendida das Commitment Questions (MET-JM-013) com passos adicionais de comprometimento progressivo e a pergunta final 'would that be appropriate' que transfere controle ao prospect."
+    nota: "MET-JM-013 cobre as 3 perguntas base. Esta metodologia cobre a SEQUENCIA COMPLETA incluindo comprometimento progressivo durante a apresentacao."
+
+    passos:
+      - ordem: 1
+        nome: "Checking Agreement durante Apresentacao"
+        acao: "Fazer micro-perguntas de confirmacao durante apresentacao: 'Faz sentido?' / 'Isso se encaixaria no que voce estava buscando?'"
+        objetivo: "Construir micro-comprometimentos antes do comprometimento final"
+
+      - ordem: 2
+        nome: "Self-Assessment Question"
+        acao: "'Voce sente que isso poderia ser o que voce esta buscando?'"
+        palavra_chave: "FEEL — nao THINK"
+
+      - ordem: 3
+        nome: "Self-Persuasion Trigger"
+        acao: "'Por que voce sente que sim?'"
+        resultado: "Quando o prospect articula o POR QUE, eles se convencem a si mesmos"
+
+      - ordem: 4
+        nome: "Confirmar Resultado Especifico"
+        acao: "'Voce sente que isso e algo que [voce tera / podera usar / podera fazer] que vai te dar [resultado desejado especifico que eles mencionaram]?'"
+
+      - ordem: 5
+        nome: "Permission Question"
+        acao: "'Com sua permissao, isso seria apropriado [avancar com X]?'"
+        objetivo: "PROSPECT sente que esta no controle da decisao — nao sendo fechado"
+        linguagem_alternativa: "'Would that be appropriate?'"
+
+      - ordem: 6
+        nome: "Transicao com Proximo Passo"
+        acao: "'O que voce gostaria de ver a seguir?'"
+        objetivo: "Transferir controle total para o prospect"
+
+    evidencias:
+      - citacao: "Commitment questions extended sequence with 'would that be appropriate'"
+        source_id: "JM-0136"
+
+    dominios:
+      - "closing"
+      - "commitment"
+      - "methodology"
+
+    peso: 0.94
+
+  - id: "MET-JM-024"
+    nome: "Property Tax / Public Record Cold Call Technique"
+    descricao: "Metodologia especializada para cold calls no setor imobiliario ou vendas B2C onde registros publicos estao disponiveis. Usar informacao de registro publico como 'razao de ligacao' que nao soa como cold call."
+
+    passos:
+      - ordem: 1
+        nome: "Pesquisa Previa"
+        acao: "Consultar registros publicos (imposto sobre propriedade, registro de imoveis, etc.) sobre o prospect"
+        objetivo: "Ter informacao especifica e real sobre eles"
+
+      - ordem: 2
+        nome: "Abertura Baseada em Dado Real"
+        acao: "'Oi, estou ligando porque vi nos registros de imposto sobre propriedade que sua propriedade em [endereco]...'"
+        objetivo: "Soa como verificacao legitima, nao cold call"
+
+      - ordem: 3
+        nome: "Connection Atraves do Registro"
+        acao: "Usar dado do registro para criar conexao especifica com problema que sua solucao resolve"
+        objetivo: "Personalizacao real — nao padrao"
+
+      - ordem: 4
+        nome: "Problem Statement"
+        acao: "Ligar o dado do registro ao problema que sua solucao resolve"
+        objetivo: "Criar relevancia imediata"
+
+    nota: "So funciona em contextos onde registros publicos sao acessiveis e o uso e legalmente permitido"
+
+    evidencias:
+      - citacao: "Property tax / public record cold call technique"
+        source_id: "JM-0101"
+
+    dominios:
+      - "cold-calling"
+      - "real-estate"
+      - "methodology"
+
+    peso: 0.82
+
+  - id: "MET-JM-025"
+    nome: "Sell the Exit — Metodologia de Pre-Frame para Envio de Material"
+    descricao: "Antes de enviar qualquer material, usar perguntas de pre-frame que criam comprometimento sobre o que o prospect vai buscar no material e quando vai revisar. Elimina o fenomeno 'manda info → nunca mais responde'."
+
+    passos:
+      - ordem: 1
+        nome: "Aceitar o Pedido"
+        acao: "Aceitar o pedido de material sem questionamento"
+        objetivo: "Nao criar resistencia"
+
+      - ordem: 2
+        nome: "Sell the Exit — O Que Eles Esperam Ver"
+        acao: "'O que voce esta esperando ver nessas informacoes que te ajudaria a tomar uma decisao?'"
+        objetivo: "Descobrir o hot button ANTES de enviar — permite customizar o material"
+
+      - ordem: 3
+        nome: "Timing Commitment"
+        acao: "'Quando voce acha que tera tempo de olhar isso para que eu saiba quando entrar em contato?'"
+        objetivo: "Criacao de compromisso de tempo especifico"
+
+      - ordem: 4
+        nome: "Calendario do Follow-Up"
+        acao: "Agendar follow-up no momento especifico que eles indicaram"
+        objetivo: "O proximo contato esta confirmado ANTES de enviar o material"
+
+      - ordem: 5
+        nome: "Enviar Material Customizado"
+        acao: "Enviar apenas o material relevante ao hot button identificado na pergunta 2"
+        objetivo: "Material relevante tem 10x mais chance de ser lido"
+
+    principio: "9/10 que pedem 'envie info' nunca retornam — pre-frame antes de enviar"
+
+    evidencias:
+      - citacao: "Sell the exit: pre-frame material sending to prevent ghosting"
+        source_id: "JM-0022"
+
+    dominios:
+      - "follow-up"
+      - "information-request"
+      - "methodology"
+
+    peso: 0.91

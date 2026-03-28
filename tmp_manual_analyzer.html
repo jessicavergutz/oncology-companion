@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Sync Analyzer</title>
+</head>
+<body>
+    <h1>Upload ad5.mp3</h1>
+    <input type="file" id="audioFile" accept="audio/*">
+    <div id="status">Ready. Select file.</div>
+    <pre id="results"></pre>
+
+    <script>
+        const fileInput = document.getElementById('audioFile');
+        const status = document.getElementById('status');
+        const resultsPre = document.getElementById('results');
+
+        fileInput.onchange = (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            status.innerText = 'Processing...';
+            const reader = new FileReader();
+            reader.onload = (re) => {
+                const arrayBuffer = re.target.result;
+                const context = new AudioContext();
+                context.decodeAudioData(arrayBuffer, (audioBuffer) => {
+                    const data = audioBuffer.getChannelData(0);
+                    const sampleRate = audioBuffer.sampleRate;
+                    const threshold = 0.008; // Sensitive
+                    const segments = [];
+                    let inSegment = false;
+                    let start = 0;
+
+                    for (let i = 0; i < data.length; i++) {
+                        const amplitude = Math.abs(data[i]);
+                        if (!inSegment && amplitude > threshold) {
+                            inSegment = true;
+                            start = i / sampleRate;
+                        } else if (inSegment && amplitude < threshold) {
+                            // Check for 0.4s silence to mark end of phrase
+                            let silent = true;
+                            const lookahead = 0.4 * sampleRate;
+                            for (let j = 1; j < lookahead && i + j < data.length; j++) {
+                                if (Math.abs(data[i + j]) > threshold) {
+                                    silent = false;
+                                    break;
+                                }
+                            }
+                            if (silent) {
+                                inSegment = false;
+                                segments.push({ start, end: i / sampleRate });
+                                i += lookahead; // skip lookahead
+                            }
+                        }
+                    }
+                    
+                    if (inSegment) segments.push({ start, end: data.length / sampleRate });
+
+                    console.log('AUDIO_SEGMENTS:', JSON.stringify(segments));
+                    resultsPre.innerText = JSON.stringify(segments, null, 2);
+                    status.innerText = 'Analysis Complete.';
+                }, (err) => {
+                    status.innerText = 'Error: ' + err.message;
+                });
+            };
+            reader.readAsArrayBuffer(file);
+        };
+    </script>
+</body>
+</html>

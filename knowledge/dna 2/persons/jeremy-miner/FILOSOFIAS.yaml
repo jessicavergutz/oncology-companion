@@ -1,0 +1,130 @@
+# knowledge/dna/persons/JEREMY-MINER/FILOSOFIAS.yaml
+# Crencas fundamentais e visao de mundo — Camada L1
+# Gerado em: 2026-03-16 | Total extraido: 17
+
+pessoa: "Jeremy Miner"
+versao: "1.0.0"
+data_extracao: "2026-03-16T00:00:00Z"
+total_itens: 17
+total_fonte: 45
+
+filosofias:
+
+  - id: "FIL-JM-001"
+    nome: "Ser Humano Decide com Emocao, Justifica com Logica"
+    descricao: "100% das decisoes de compra sao emocionais. A logica e usada apenas para justificar depois. Vendedores que tentam vender com fatos e features estao lutando contra a biologia humana."
+    citacao: "People buy on emotion, not logic. They only justify their decisions with logic, but they always buy with emotion first."
+    source_id: "JM-0138"
+    peso: 0.99
+
+  - id: "FIL-JM-002"
+    nome: "Dor e Medo de Dor Futura Sao Os Maiores Motivadores"
+    descricao: "Os dois maiores drivers emocionais para mudanca sao: a dor atual e o medo de dor futura. Prazer e 'a distant third'. Vendas eficazes ativam esses dois drivers, nao prometem beneficios."
+    citacao: "The two biggest things that get humans to take action to solve their problems: number one is pain, and number two is the fear of future pain. Pleasure is a distant third."
+    source_id: "JM-0080"
+    peso: 0.98
+
+  - id: "FIL-JM-003"
+    nome: "Auto-Persuasao e a Forma Mais Alta de Persuasao"
+    descricao: "Quando o prospect se convence por si mesmo, a decisao e irrevogavel e sem arrependimento. A funcao do vendedor e fazer perguntas que levem o prospect a essa auto-descoberta, nao convencer externamente."
+    citacao: "Self-persuasion is the highest form of persuasion. When you get a prospect to convince themselves, that's the most powerful thing you can do."
+    source_id: "JM-0080"
+    peso: 0.98
+
+  - id: "FIL-JM-004"
+    nome: "Tecnicas de Fechamento Tradicionais Trabalham Contra a Psicologia Humana"
+    descricao: "Tecnicas de fechamento dos anos 50-80 ativam o modo luta-ou-fuga no prospecto moderno. Em vez de fechar, o vendedor deve ajudar o prospect a 'se comprometer'. A pressao gera resistencia, nao vendas."
+    citacao: "Old selling techniques from the 50s, 60s, 70s, 80s, maybe the 90s - do you think people have changed their buying behavior since then? Of course they have."
+    source_id: "JM-0131"
+    peso: 0.97
+
+  - id: "FIL-JM-005"
+    nome: "Rejeicao e Causada Pelo Vendedor, Nao Pelo Prospecto"
+    descricao: "Rejeicao nao e 'parte do jogo de vendas'. E o resultado de comportamentos especificos do vendedor que ativam resistencia no prospecto. Identificar e eliminar esses gatilhos elimina a rejeicao."
+    citacao: "What if the reason why your prospects rejected you was because you were actually triggering that rejection by the way you were communicating to them?"
+    source_id: "JM-0143"
+    peso: 0.96
+
+  - id: "FIL-JM-006"
+    nome: "Vendas Nao e Jogo de Numeros — E Jogo de Habilidades"
+    descricao: "O conceito 'vendas e um jogo de numeros' foi inventado por gerentes de vendas para fazer seus times se sentirem melhor com a rejeicao constante. Com as habilidades corretas, a taxa de conversao aumenta drasticamente e o volume de calls necessario cai."
+    citacao: "The numbers game concept actually came from several decades ago after the invention of the telephone. The sales manager made it up. Just to make his salespeople feel better."
+    source_id: "JM-0143"
+    peso: 0.96
+
+  - id: "FIL-JM-007"
+    nome: "Perguntas Sao a Forma Mais Poderosa de Persuasao"
+    descricao: "Perguntas bem feitas sao mais persuasivas do que qualquer argumento ou feature. Elas dao ao prospecto perspectiva diferente sobre a propria situacao, causam auto-questionamento e motivam mudanca de dentro para fora."
+    citacao: "Asking skilled questions is the most powerful form of persuasion known to mankind."
+    source_id: "JM-0138"
+    peso: 0.97
+
+  - id: "FIL-JM-008"
+    nome: "Confianca, Nao Simpatia, e o Que Faz as Pessoas Comprarem"
+    descricao: "A crenca popular de que 'as pessoas compram de quem elas gostam' e falsa. Elas compram de quem elas CONFIAM. Confianca vem de fazer perguntas que demonstram entendimento genuino, nao de tecnicas de rapport superficial."
+    citacao: "Trust is what makes people buy, not likability."
+    source_id: "JM-0093"
+    peso: 0.95
+
+  - id: "FIL-JM-009"
+    nome: "O Especialista Nao Precisa da Venda — E Isso o Torna Mais Atraente"
+    descricao: "Quando o vendedor demonstra que nao 'precisa' da venda, ele assume status de autoridade. Prospectos sao atraidos por quem parece nao precisar deles — como no namoro, perseguir faz o outro correr. Desapego cria atracao."
+    citacao: "Experts and authorities don't need the sale. When you do that, it's almost like they view you much differently. They're like, 'Whoa, okay, maybe I should listen to this person.'"
+    source_id: "JM-0129"
+    peso: 0.95
+
+  - id: "FIL-JM-010"
+    nome: "Objecoes Sao Incertezas Criadas Pelo Vendedor"
+    descricao: "Objecoes nao surgem do prospecto — surgem da incerteza que o proprio vendedor criou durante a conversa. Quando o processo NEPQ e executado corretamente, objecoes quase nao existem porque a incerteza foi eliminada durante o discovery."
+    citacao: "Objections are uncertainty that the salesperson created in the mind of the prospect. If you do the process right, you won't have many objections."
+    source_id: "JM-0126"
+    peso: 0.95
+
+  - id: "FIL-JM-011"
+    nome: "Vivemos na Era Pos-Confianca — Manipulacao Nao Funciona Mais"
+    descricao: "A revolucao da informacao destruiu as fundacoes do modelo de vendas tradicional nos ultimos 7-8 anos. Prospectos tem acesso a tudo: precos, reviews, concorrentes. Manipulacao e detectada imediatamente. Apenas transparencia e perguntas genuinas funcionam."
+    citacao: "With trust being at its lowest point than it's ever been in the marketplace, it's no longer the quantity of the calls you make. It's about the quality of those conversations."
+    source_id: "JM-0134"
+    peso: 0.94
+
+  - id: "FIL-JM-012"
+    nome: "Fatos e Features Raramente Vendem — Confianca e Emocao Sempre Vendem"
+    descricao: "Todo vendedor conta ao prospecto o mesmo: quao excelente e o produto, o servico, o atendimento. O prospecto ouve isso de todos. O que diferencia e construir confianca e tocar emocao — nao acumular mais argumentos racionais."
+    citacao: "Facts and features rarely sell. Trust and emotion always do."
+    source_id: "JM-0138"
+    peso: 0.96
+
+  - id: "FIL-JM-013"
+    nome: "O Vendedor E Responsavel pela Incerteza e Certeza do Prospecto"
+    descricao: "A funcao do vendedor e transformar a incerteza do prospecto em certeza. Se o prospect sai com duvida, foi o vendedor que criou essa duvida — seja por omissao de perguntas, pressao prematura ou apresentacao de features sem entender necessidades."
+    citacao: "Salespeople are responsible for their prospects' uncertainty or certainty."
+    source_id: "JM-0095"
+    peso: 0.93
+
+  - id: "FIL-JM-014"
+    nome: "Identidade Dirige Comportamento — Pessoas Compram Para Confirmar Quem Sao"
+    descricao: "As pessoas nao compram produtos — compram versoes do que querem se tornar. Quando o vendedor formula a conversa em termos de identidade ('voce e o tipo de pessoa que...'), o prospecto toma decisoes alinhadas com a identidade que deseja ter."
+    citacao: "People do who they believe they are. It's Freudian. If you can build an identity frame, you'll sell way more."
+    source_id: "JM-0044"
+    peso: 0.91
+
+  - id: "FIL-JM-015"
+    nome: "O Comprometimento Acontece Durante o Discovery, Nao no Fechamento"
+    descricao: "O fechamento nao e um momento no final da call — e o resultado natural de um discovery bem feito. Quando o prospecto articula sua propria dor, seus proprios problemas e suas proprias razoes para mudar, a decisao ja foi tomada muito antes do 'fechamento'."
+    citacao: "The close happens during the discovery, not at the end. If you do the discovery right, the close is automatic."
+    source_id: "JM-0126"
+    peso: 0.96
+
+  - id: "FIL-JM-016"
+    nome: "Urgencia Real Vem da Dor, Nao de Pressao Artificial de Tempo"
+    descricao: "Criacao de urgencia artificial ('oferta so ate hoje', 'ultimas vagas') gera resistencia em prospectos modernos que reconhecem a manipulacao. Urgencia genuina emerge quando o prospecto percebe profundamente o custo de continuar com o problema atual."
+    citacao: "Urgency is built through pain awareness, not time pressure. When they feel the pain deeply enough, they create their own urgency."
+    source_id: "JM-0107"
+    peso: 0.93
+
+  - id: "FIL-JM-017"
+    nome: "Top 1% Vende Como Autoridade Confiavel, Nao Como Vendedor"
+    descricao: "O top 1% dos vendedores nao se identifica como 'vendedor' — se identifica como medico, consultor ou autoridade confiavel. Essa distincao muda tudo: eles fazem perguntas como um medico faria, nao prometem como um vendedor faria."
+    citacao: "The master salesperson, the seven-figure earner... you've become the trusted authority in your prospect's eyes rather than the dreaded salesperson trying to sell them something."
+    source_id: "JM-0138"
+    peso: 0.95

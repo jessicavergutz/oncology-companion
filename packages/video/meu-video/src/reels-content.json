@@ -1,0 +1,34 @@
+{
+  "scenes": [
+    {
+      "id": "hook",
+      "duration": 150,
+      "text": "É amizade... ou algo mais?",
+      "theme": "rose"
+    },
+    {
+      "id": "doubt",
+      "duration": 150,
+      "text": "Aquelas borboletas no estômago às 3 da manhã...",
+      "theme": "night"
+    },
+    {
+      "id": "empathy",
+      "duration": 150,
+      "text": "Você não está sozinha. Milhares de mulheres passam por isso.",
+      "theme": "gold"
+    },
+    {
+      "id": "solution",
+      "duration": 300,
+      "text": "O Método Bússola Interior te guia do caos mental para a clareza emocional.",
+      "theme": "gold"
+    },
+    {
+      "id": "cta",
+      "duration": 150,
+      "text": "Decodifique seus sentimentos hoje. Link na Bio.",
+      "theme": "nude"
+    }
+  ]
+}

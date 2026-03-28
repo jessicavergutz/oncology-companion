@@ -1,0 +1,157 @@
+# knowledge/dna/persons/alex-hormozi/CONFIG.yaml
+# Gerado em: 2026-03-17
+# Fonte: Contagem real de itens nos arquivos YAML desta pasta
+
+pessoa: "Alex Hormozi"
+codigo: "AH"
+versao: "1.0.0"
+data_criacao: "2026-03-17T00:00:00Z"
+data_atualizacao: "2026-03-17T00:00:00Z"
+
+perfil:
+  descricao: "Empresário serial, investidor e criador de conteúdo. Fundador da Acquisition.com (portfólio de $200M+/ano). Conhecido pelo framework $100M Offers e $100M Leads. Especialista em vendas high-ticket, scaling de times de vendas e exits."
+  dominios_principais:
+    - "sales-process"
+    - "sales-team-scaling"
+    - "outbound"
+    - "hiring"
+    - "compensation"
+    - "hr-philosophy"
+    - "lead-generation"
+    - "unit-economics"
+    - "exit-strategy"
+    - "wealth-building"
+
+dna_layers:
+  filosofias:
+    arquivo: "FILOSOFIAS.yaml"
+    total_itens: 8
+    status: "COMPLETE"
+    dominios:
+      - "outbound resilience"
+      - "HR philosophy"
+      - "compensation"
+      - "meritocracy"
+      - "culture"
+      - "talent development"
+      - "leadership"
+      - "long-term thinking"
+
+  modelos_mentais:
+    arquivo: "MODELOS-MENTAIS.yaml"
+    total_itens: 6
+    status: "COMPLETE"
+    dominios:
+      - "sales-structure"
+      - "hiring"
+      - "hr-philosophy"
+      - "scaling"
+      - "marketing"
+      - "persuasion"
+
+  heuristicas:
+    arquivo: "HEURISTICAS.yaml"
+    total_itens: 18
+    status: "COMPLETE"
+    dominios:
+      - "outbound metrics"
+      - "compensation ranges"
+      - "hiring timing"
+      - "sales conversion"
+      - "team management"
+      - "channel strategy"
+
+  frameworks:
+    arquivo: "FRAMEWORKS.yaml"
+    total_itens: 12
+    status: "COMPLETE"
+    dominios:
+      - "sales process"
+      - "team structure"
+      - "lead generation"
+      - "offer creation"
+      - "trust building"
+      - "objection handling"
+
+  metodologias:
+    arquivo: "METODOLOGIAS.yaml"
+    total_itens: 10
+    status: "COMPLETE"
+    dominios:
+      - "sales team building"
+      - "sales call execution"
+      - "outbound scaling"
+      - "first customers"
+      - "conviction training"
+      - "compensation design"
+      - "exit preparation"
+      - "objection management"
+      - "cold outreach"
+
+dna_sources:
+  total_raw_files: 8
+  arquivos_processados:
+    - codigo: "AH-0002"
+      titulo: "HOW TO SELL BETTER THAN 99% OF PEOPLE (4 HOUR ULTIMATE GUIDE)"
+      tipo: "presentation"
+      contribui_para:
+        - "frameworks"
+        - "metodologias"
+        - "heuristicas"
+
+    - codigo: "AH-0004"
+      titulo: "I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK"
+      tipo: "training_session"
+      contribui_para:
+        - "frameworks"
+        - "metodologias"
+        - "heuristicas"
+        - "modelos_mentais"
+
+    - codigo: "AH-0005"
+      titulo: "IF YOURE AMBITIOUS BUT INCONSISTENT, PLEASE WATCH THIS"
+      tipo: "video"
+      contribui_para:
+        - "filosofias"
+        - "metodologias"
+
+    - codigo: "AH-0006"
+      titulo: "MY BEST SALES TACTIC (TO MAKE A TON OF MONEY)"
+      tipo: "video"
+      contribui_para:
+        - "frameworks"
+        - "metodologias"
+
+    - codigo: "AH-0008"
+      titulo: "WATCH THIS TO GET YOUR FIRST 5 CUSTOMERS"
+      tipo: "video"
+      contribui_para:
+        - "frameworks"
+        - "metodologias"
+
+    - codigo: "AH-0010"
+      titulo: "HOW TO BUILD LARGE SALES TEAMS (STARTING FROM 0)"
+      tipo: "video"
+      contribui_para:
+        - "heuristicas"
+        - "metodologias"
+
+    - codigo: "AH-0012"
+      titulo: "How I Scaled My Sales Team [Compensation, Recruiting & Training]"
+      tipo: "mastermind_keynote"
+      contribui_para:
+        - "filosofias"
+        - "modelos_mentais"
+        - "heuristicas"
+        - "frameworks"
+        - "metodologias"
+
+    - codigo: "AH-0019"
+      titulo: "ALEX HORMOZI'S LEAD GENERATION STRATEGY FOR 2025"
+      tipo: "analysis_video"
+      contribui_para:
+        - "frameworks"
+        - "metodologias"
+
+total_itens: 54  # 8 filosofias + 6 modelos mentais + 18 heuristicas + 12 frameworks + 10 metodologias
+status: "COMPLETE"

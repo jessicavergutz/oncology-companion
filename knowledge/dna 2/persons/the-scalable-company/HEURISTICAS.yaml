@@ -1,0 +1,264 @@
+# THE SCALABLE COMPANY - DNA COGNITIVO
+# Camada: HEURISTICAS (Regras Práticas e Atalhos de Decisão)
+# Versao: 1.0.0 | Criado: 2026-03-17 | Extraido de 10 fontes TSC
+
+pessoa: "Ryan Deiss / The Scalable Company"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 18
+camada: "HEURISTICAS"
+
+heuristicas:
+
+  - id: "HEUR-TSC-001"
+    regra: "5-7 equipes funcionais core é o número certo"
+    descricao: "A grande maioria das empresas bem estruturadas tem entre 5 e 7 equipes funcionais core. Ter menos pode indicar acúmulo de funções; ter mais pode indicar fragmentação excessiva. Este número é uma âncora prática para o design organizacional."
+    aplicacao:
+      - "Ao mapear o High Output Team Canvas, validar se há entre 5 e 7 times"
+      - "Se houver mais de 7, verificar se alguns podem ser agrupados"
+      - "Se houver menos de 5, verificar se alguma função crítica está sendo negligenciada"
+    dominios:
+      - "estrutura organizacional"
+      - "liderança"
+      - "High Output Team Canvas"
+    numero: "5 a 7 equipes"
+    peso: 0.93
+
+  - id: "HEUR-TSC-002"
+    regra: "1-3 North Star metrics por área funcional no company scorecard"
+    descricao: "O company scorecard deve ter, no máximo, 1 a 3 métricas principais por área funcional. Mais do que isso sobrecarrega os líderes com dados irrelevantes para o nível estratégico e torna as reuniões QSP improdutivas."
+    aplicacao:
+      - "Ao revisar o scorecard, perguntar: 'se eu estiver de férias, preciso ver este número?'"
+      - "Métricas que não passam no 'litmus test de férias' pertencem ao scorecard departamental"
+      - "Cada função core deve ter sua representação sintética no company scorecard"
+    dominios:
+      - "métricas"
+      - "scorecards"
+      - "QSP"
+    numero: "1 a 3 métricas por área"
+    peso: 0.94
+
+  - id: "HEUR-TSC-003"
+    regra: "O primeiro QSP é mais pesado; os seguintes ficam progressivamente mais curtos"
+    descricao: "A primeira vez que se faz um Quarterly Sprint Planning é intensiva — pode durar 2 dias completos com todos os componentes. Com o tempo, à medida que o ritmo é internalizado e o time matura, os QSPs ficam mais curtos. Após 6-7 trimestres, é possível fazer em ~4 horas distribuídas em 2 dias."
+    aplicacao:
+      - "Não se frustrar se o primeiro QSP for longo e complexo"
+      - "Usar o primeiro QSP para estabelecer os fundamentos (North Star, valores, competitivo)"
+      - "Medir progresso pelo tempo e qualidade dos QSPs subsequentes"
+    dominios:
+      - "QSP"
+      - "planejamento estratégico"
+      - "maturidade organizacional"
+    numero: "6-7 trimestres para otimização"
+    peso: 0.90
+
+  - id: "HEUR-TSC-004"
+    regra: "9 em 10 vezes o processo owner vai esquecer passos ao refazer sua própria documentação"
+    descricao: "Mesmo a pessoa que faz um processo todo dia e que acabou de documentá-lo vai descobrir passos faltando quando tentar executá-lo cegamente seguindo sua própria documentação. Este é o argumento definitivo para o 'double-run' no processo de criação de playbooks."
+    aplicacao:
+      - "Nunca declarar um playbook completo sem o processo owner tê-lo executado seguindo a documentação"
+      - "Este passo (double-run) é obrigatório, não opcional"
+      - "Falhar neste passo resulta em playbooks com lacunas que só aparecem em produção"
+    dominios:
+      - "playbooks"
+      - "documentação de processos"
+      - "qualidade"
+    numero: "9 em 10 vezes"
+    peso: 0.95
+
+  - id: "HEUR-TSC-005"
+    regra: "O 'field tester' ideal tem conhecimento geral mas nunca executou a tarefa específica"
+    descricao: "Ao testar um playbook, o field tester ideal é alguém que entende o cliente, os produtos e o objetivo geral da tarefa, mas que nunca ou raramente executou a tarefa específica. Alguém sem nenhum contexto se perderá em questões não relacionadas à documentação; alguém com muito contexto preencherá lacunas inconscientemente."
+    aplicacao:
+      - "Selecionar field testers que entendem o contexto mas não o processo específico"
+      - "Explicar ao field tester que eles estão testando a documentação, não suas habilidades"
+      - "Se o tester se perder, a culpa é da documentação, não do tester"
+    dominios:
+      - "playbooks"
+      - "documentação de processos"
+      - "qualidade"
+    numero: null
+    peso: 0.92
+
+  - id: "HEUR-TSC-006"
+    regra: "Um planejamento completo (QSP início ao fim) não deve levar mais de 14 dias"
+    descricao: "Do primeiro QSP da liderança até a finalização e comunicação para toda a empresa, o processo completo não deve durar mais de 2 semanas (idealmente 7-10 dias). Processos de planejamento mais longos geram paralisia e gastam demais em planejamento ao invés de execução."
+    aplicacao:
+      - "Agendar o all-hands de rollout para a mesma semana ou no máximo semana seguinte ao QSP"
+      - "Não deixar o plano 'em análise' por mais de 2 semanas"
+      - "Priorizar velocidade de implementação sobre perfeição do plano"
+    dominios:
+      - "QSP"
+      - "planejamento estratégico"
+      - "execução"
+    numero: "7-14 dias (máximo)"
+    peso: 0.91
+
+  - id: "HEUR-TSC-007"
+    regra: "Abertura e welcome no QSP não deve durar mais de 15-20 minutos"
+    descricao: "A fase de abertura do QSP (boas-vindas, agenda, ground rules, mantra, objetivo) deve ser concluída em 15-20 minutos, no máximo. Mais tempo que isso consome energia para as partes que realmente importam no planejamento."
+    aplicacao:
+      - "Seguir a agenda rigidamente para a parte de abertura"
+      - "Ground rules podem ser revisados rapidamente se já foram cobertos no Clarity Day anterior"
+      - "Não expandir essa fase mesmo que o líder queira 'preparar bem o terreno'"
+    dominios:
+      - "QSP"
+      - "facilitação de reuniões"
+    numero: "15-20 minutos"
+    peso: 0.88
+
+  - id: "HEUR-TSC-008"
+    regra: "Revisão do 12Q plan deve durar 5-20 minutos no QSP"
+    descricao: "A revisão do plano de 12 trimestres no início do QSP serve apenas para estabelecer o tom (estamos adiantados, no prazo ou atrasados). Não é uma discussão profunda — é uma verificação de realidade rápida que deve durar entre 5 e 20 minutos."
+    aplicacao:
+      - "Usar o 12Q plan como âncora de realidade, não como objeto de debate"
+      - "Chegar a consenso rápido sobre 'on track', 'ahead' ou 'behind'"
+      - "O tom estabelecido aqui influencia o nível de ambição do planejamento do trimestre"
+    dominios:
+      - "QSP"
+      - "12Q"
+      - "planejamento estratégico"
+    numero: "5-20 minutos"
+    peso: 0.87
+
+  - id: "HEUR-TSC-009"
+    regra: "Brainstorming de key initiatives começa com 5 minutos individuais em silêncio"
+    descricao: "Antes de qualquer discussão em grupo, cada participante deve ter 5 minutos em silêncio para escrever suas ideias de projetos/initiatives (um por post-it). Esse processo individual previne que vozes dominantes contaminem o brainstorming coletivo."
+    aplicacao:
+      - "Usar timer de 5 minutos para o brainstorming individual"
+      - "Exigir que todos escrevam — mesmo quem 'não tem ideia ainda'"
+      - "O silêncio pode parecer desconfortável mas é necessário para qualidade das ideias"
+    dominios:
+      - "QSP"
+      - "brainstorming"
+      - "facilitação de reuniões"
+    numero: "5 minutos"
+    peso: 0.90
+
+  - id: "HEUR-TSC-010"
+    regra: "Cada participante tem aproximadamente 5 minutos para apresentar suas key initiatives"
+    descricao: "Durante a fase de apresentação das ideas no QSP, cada participante tem cerca de 5 minutos para apresentar e colocar seus post-its no board. Isso cria ritmo, garante que todos participem e o processo completo de apresentação dura aproximadamente 30-40 minutos."
+    aplicacao:
+      - "Começar pelo participante com mais post-its (mais engajado)"
+      - "Encorajar 'stacking' quando alguém tem a mesma ideia que outro"
+      - "O stacking é um mecanismo de votação implícita muito poderoso"
+    dominios:
+      - "QSP"
+      - "facilitação de reuniões"
+      - "brainstorming"
+    numero: "5 minutos por pessoa, 30-40 minutos total"
+    peso: 0.89
+
+  - id: "HEUR-TSC-011"
+    regra: "A fase de rodar os números (run the numbers) deve durar aproximadamente 1 hora"
+    descricao: "Após definir success metrics, a equipe deve dedicar aproximadamente 1 hora para validar se as iniciativas planejadas, se executadas, realmente moverão as métricas desejadas e se essas métricas estão conectadas aos targets do 12Q plan."
+    aplicacao:
+      - "Simular: 'se dobrarmos leads de 1.000 para 2.000, quantas vendas extras geramos? Isso atinge nossa meta trimestral?'"
+      - "Não pular esta etapa mesmo que o time esteja cansado"
+      - "Serve para testar premissas, não para análise financeira detalhada"
+    dominios:
+      - "QSP"
+      - "métricas"
+      - "planejamento estratégico"
+    numero: "aproximadamente 1 hora"
+    peso: 0.88
+
+  - id: "HEUR-TSC-012"
+    regra: "O 90-day game plan usa 2 minutos de silêncio para cada uma das 3 perguntas"
+    descricao: "O exercício de 90-day game plan que abre o QSP usa 2 minutos de silêncio para cada pergunta: 1) orgulho e arrependimentos; 2) confiança e lacunas; 3) excitação e preocupações. O silêncio é intencional e importante — não pular."
+    aplicacao:
+      - "Colocar timer de 2 minutos por pergunta"
+      - "Resistir à tentação de preencher o silêncio"
+      - "Após as 3 perguntas, pedir voluntários para compartilhar usando 'quem concorda? quem discorda?'"
+    dominios:
+      - "QSP"
+      - "facilitação de reuniões"
+      - "90-day game plan"
+    numero: "2 minutos por pergunta (6 minutos total)"
+    peso: 0.89
+
+  - id: "HEUR-TSC-013"
+    regra: "Playbook field test deve ser refeito se mudanças significativas foram necessárias"
+    descricao: "Se o primeiro field test de um playbook revelar necessidade de mudanças significativas, um segundo field test com pessoa diferente é obrigatório antes de publicar o playbook. Apenas quando o playbook entrega o resultado desejado repetidamente é que pode ser adicionado à biblioteca."
+    aplicacao:
+      - "Definir 'mudanças significativas' como qualquer coisa que altere o fluxo principal do processo"
+      - "Usar pessoas diferentes para cada rodada de field test"
+      - "Ciclo: fazer → documentar → refazer seguindo doc → field test → corrigir → field test novamente se necessário"
+    dominios:
+      - "playbooks"
+      - "documentação de processos"
+      - "qualidade"
+    numero: null
+    peso: 0.91
+
+  - id: "HEUR-TSC-014"
+    regra: "Sequenciar equipes no HOT Canvas pela jornada do cliente, não por hierarquia"
+    descricao: "No High Output Team Canvas, as equipes devem ser listadas na ordem em que aparecem na jornada do cliente (produto → marketing → vendas → operações), não em ordem de importância ou hierarquia. Isso previne ciúmes e torna o fluxo organizacional visualmente intuitivo."
+    aplicacao:
+      - "Produto primeiro porque precisa existir antes de ser vendido"
+      - "Marketing em seguida para gerar demanda"
+      - "Vendas para converter"
+      - "Operações para dar suporte a tudo"
+    dominios:
+      - "estrutura organizacional"
+      - "High Output Team Canvas"
+      - "cultura organizacional"
+    numero: null
+    peso: 0.87
+
+  - id: "HEUR-TSC-015"
+    regra: "Publicar value engines em ferramentas de fluxograma apenas no final, depois dos sticky notes"
+    descricao: "Sticky notes em whiteboard são fáceis de mover e rearranjar. Fluxogramas digitais são trabalhosos de modificar. A regra é: manter o processo em sticky notes/whiteboard enquanto ainda está sendo refinado, e só publicar em ferramenta digital quando estiver finalizado."
+    aplicacao:
+      - "Não abrir Lucidchart, Miro ou similar até que o processo esteja validado em papel/sticky notes"
+      - "Uma foto do whiteboard com sticky notes é documentação suficiente por enquanto"
+      - "Priorizar simplicidade sobre apresentação visual enquanto ainda está iterando"
+    dominios:
+      - "value engines"
+      - "processos"
+      - "documentação"
+    numero: null
+    peso: 0.88
+
+  - id: "HEUR-TSC-016"
+    regra: "Ground rules de reunião devem ser aprovados verbalmente por cada participante"
+    descricao: "Ao apresentar os ground rules no início do QSP, não basta uma leitura coletiva — é necessário que cada participante verbalize sua concordância ('sim', 'concordo'). Analogia ao assento de emergência no avião: confirmação verbal é necessária, mesmo parecendo constrangedor."
+    aplicacao:
+      - "Ir de pessoa em pessoa pedindo resposta verbal, especialmente para times novos"
+      - "Criar esse ritual de comprometimento explícito mesmo em times que já fizeram QSP antes"
+      - "A confirmação cria accountability para comportamentos durante a reunião"
+    dominios:
+      - "QSP"
+      - "facilitação de reuniões"
+      - "cultura organizacional"
+    numero: null
+    peso: 0.86
+
+  - id: "HEUR-TSC-017"
+    regra: "A B&O list pode reduzir de 8-12 itens para 3 com revisão rápida"
+    descricao: "A Bottlenecks & Opportunities list (B&O list) que acumula itens durante o QSP pode parecer imensa, mas com uma revisão estruturada (eliminar, combinar, priorizar) frequentemente se reduz de 8-12 itens para apenas 3 que precisam de processamento real."
+    aplicacao:
+      - "Reservar 1 minuto de silêncio para cada participante ler a B&O list"
+      - "Perguntar: o que pode ser eliminado? o que pode ser combinado? o que deve ficar?"
+      - "Não processar os itens antes de fazer essa filtragem"
+    dominios:
+      - "QSP"
+      - "facilitação de reuniões"
+      - "tomada de decisão"
+    numero: "8-12 itens podem virar 3"
+    peso: 0.89
+
+  - id: "HEUR-TSC-018"
+    regra: "Quarterly performance appraisals devem usar o QSP como referência de contexto"
+    descricao: "As avaliações de desempenho trimestrais devem acontecer logo após o QSP e devem compartilhar os resultados do QSP com os funcionários antes deles se auto-avaliarem. Isso conecta o desempenho individual à estratégia da empresa e cria contexto para que o funcionário entenda sua contribuição."
+    aplicacao:
+      - "Compartilhar os 3 pilares do QSP com os funcionários antes da auto-avaliação"
+      - "Pedir que o funcionário identifique 5 projetos/realizações do trimestre"
+      - "A auto-avaliação deve preceder a avaliação do gestor"
+    dominios:
+      - "gestão de pessoas"
+      - "QSP"
+      - "performance"
+      - "cultura organizacional"
+    numero: null
+    peso: 0.87

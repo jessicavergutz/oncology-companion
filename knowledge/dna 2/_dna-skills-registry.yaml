@@ -1,5 +1,21 @@
 generated_at: '2026-02-26T07:20:07.861279+00:00'
+updated_at: '2026-03-12T00:00:00Z'
 personas:
+  ead-closer:
+    tipo: "CURSO"
+    idioma: "pt-BR"
+    formato: "YAML-DNA"
+    nota: "DNA em formato YAML consolidado (não fragmentado em skills)"
+    dna_files:
+      - "knowledge/dna 2/persons/ead-closer/CONFIG.yaml"
+      - "knowledge/dna 2/persons/ead-closer/FILOSOFIAS.yaml"
+      - "knowledge/dna 2/persons/ead-closer/MODELOS-MENTAIS.yaml"
+      - "knowledge/dna 2/persons/ead-closer/HEURISTICAS.yaml"
+      - "knowledge/dna 2/persons/ead-closer/FRAMEWORKS.yaml"
+      - "knowledge/dna 2/persons/ead-closer/METODOLOGIAS.yaml"
+    skills_count: 134
+    batch_log: "logs/batches/BATCH-EDC-001.md"
+    skills: []
   alex-hormozi:
     skills:
     - dna-alex-hormozi-ve-broken-this-down-into-three

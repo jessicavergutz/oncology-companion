@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back2me Global | Luxury Resort Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🔄 <span class="gradient-text">Back2me</span> <span style="color: var(--resort-emerald)">Resort</span></div>
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <select id="lang-switcher">
+                <option value="en">English</option>
+                <option value="pt">Português</option>
+            </select>
+            <a href="#demo" class="btn btn-outline" data-i18n="nav_demo">Request Demo</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-tag" data-i18n="hero_badge">Exclusive Hospitality Partnership</div>
+            <h1 data-i18n="hero_title">Elevate Your Resort's Luxury by <br> Never Letting a Guest <span class="gradient-text">Lose a Memory.</span></h1>
+            <p data-i18n="hero_subtitle">The first 'Scan-to-Chat' recovery system designed for world-class hospitality. Turn Lost & Found friction into 5-star guest loyalty.</p>
+            <div class="hero-ctas">
+                <a href="#contact" class="btn btn-primary" data-i18n="hero_cta_main">Transform Guest Experience ➔</a>
+                <a href="#stats" class="btn btn-secondary" data-i18n="hero_cta_sec">View ROI for Resorts</a>
+            </div>
+        </section>
+
+        <!-- ROI SECTION -->
+        <section id="stats" class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value">85%</div>
+                <div class="stat-label" data-i18n="stat_1">Faster Item Recovery</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">0</div>
+                <div class="stat-label" data-i18n="stat_2">Apps Required for Guests</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">30%</div>
+                <div class="stat-label" data-i18n="stat_3">Reduction in L&F Admin Time</div>
+            </div>
+        </section>
+
+        <!-- BENEFITS -->
+        <section id="benefits">
+            <h2 class="section-title" data-i18n="benefits_title">Excellence in every <span class="gradient-text">Interaction.</span></h2>
+            <div class="benefits-grid">
+                <div class="card">
+                    <div class="card-icon">🏨</div>
+                    <h3 data-i18n="ben_1_title">Guest Asset Protection</h3>
+                    <p data-i18n="ben_1_desc">Provide co-branded smart tags for luggage and personal items at check-in as a premium welcome gift.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🦮</div>
+                    <h3 data-i18n="ben_2_title">Pet-Friendly Luxury</h3>
+                    <p data-i18n="ben_2_desc">A 'must-have' for pet-friendly properties. GPS-enabled (via scan) medical alerts for guest pets.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📈</div>
+                    <h3 data-i18n="ben_3_title">Operational Control</h3>
+                    <p data-i18n="ben_3_desc">Centralized dashboard for staff to manage found items and contact guests instantly via secure bridge.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA SECTION -->
+        <section class="cta-banner">
+            <h2 data-i18n="cta_banner_title">Ready to define the future of resort hospitality?</h2>
+            <p data-i18n="cta_banner_text">Join the world's most innovative properties using Back2me Global.</p>
+            <a href="#" class="btn btn-primary" data-i18n="cta_banner_button">Get a Private Quote</a>
+        </section>
+    </main>
+
+    <footer>
+        <p data-i18n="footer">© 2026 Back2me Global | Hospitality Division. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

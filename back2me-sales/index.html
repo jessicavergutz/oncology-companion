@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back2me Global | Proteção que Nunca Falha</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🔄 <span class="gradient-text">Back2me</span> Global</div>
+        <div style="display: flex; align-items: center; gap: 20px;">
+            <select id="lang-switcher" style="background: transparent; color: white; border: 1px solid var(--glass-border); border-radius: 5px; padding: 5px; cursor: pointer;">
+                <option value="en">English</option>
+                <option value="pt">Português</option>
+            </select>
+            <a href="#loja" class="btn" data-i18n="nav_login" style="padding: 10px 25px; font-size: 14px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); color: white;">Login</a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-tag" data-i18n="hero_badge">Global QR Protection Technology</div>
+            <h1 data-i18n="hero_title">The Longest Second of <br> Your Life is Losing <span class="gradient-text">Someone.</span></h1>
+            <p data-i18n="hero_subtitle">Protect your pet, your luggage, and your family with smart tags that never run out of battery. Recover what you love in minutes.</p>
+            <a href="#planos" class="btn btn-primary" data-i18n="hero_cta">Secure My Protection Now ➔</a>
+        </section>
+
+        <!-- PROBLEMA -->
+        <section id="problema" style="text-align: center;">
+            <h2 style="font-size: 42px; margin-bottom: 30px;" data-i18n="prob_title">Why common tags <span class="gradient-text">fail?</span></h2>
+            <div class="benefits-grid">
+                <div class="card">
+                    <div class="card-icon">🪫</div>
+                    <h3 data-i18n="prob_1_title">Batteries Die</h3>
+                    <p data-i18n="prob_1_desc">GPS trackers die right when you need them most. Back2me is passive and eternal.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">📱</div>
+                    <h3 data-i18n="prob_2_title">App Barrier</h3>
+                    <p data-i18n="prob_2_desc">No one wants to download an app to return something. Our QR opens directly in any phone's browser.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">💸</div>
+                    <h3 data-i18n="prob_3_title">Abusive Costs</h3>
+                    <p data-i18n="prob_3_desc">No $500 activation fees. Affordable protection for everything that matters.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMO FUNCIONA -->
+        <section id="como-funciona" style="background: rgba(255,255,255,0.02);">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 60px; align-items: center;">
+                <div>
+                    <h2 style="font-size: 48px; margin-bottom: 20px;" data-i18n="how_title">The direct bridge <br> <span class="gradient-text">back home.</span></h2>
+                    <p style="color: var(--text-muted); margin-bottom: 30px;" data-i18n="how_subtitle">When someone finds your item and scans the tag, the miracle happens in real-time:</p>
+                    <ul style="list-style: none; display: flex; flex-direction: column; gap: 20px;">
+                        <li style="display: flex; gap: 15px;">
+                            <span style="color: var(--soft-gold); font-weight: 800;">01.</span>
+                            <div data-i18n="how_1"><strong>Secure Chat:</strong> Chat anonymously with whoever found the item.</div>
+                        </li>
+                        <li style="display: flex; gap: 15px;">
+                            <span style="color: var(--soft-gold); font-weight: 800;">02.</span>
+                            <div data-i18n="how_2"><strong>Instant GPS:</strong> Receive the exact scan location.</div>
+                        </li>
+                        <li style="display: flex; gap: 15px;">
+                            <span style="color: var(--soft-gold); font-weight: 800;">03.</span>
+                            <div data-i18n="how_3"><strong>Multimedia Proof:</strong> Ask for photos or audio to confirm the item's condition.</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="floating">
+                    <div style="background: var(--glass); padding: 40px; border-radius: 40px; border: 1px solid var(--glass-border); box-shadow: 0 0 50px rgba(194, 24, 91, 0.2);">
+                        <!-- Placeholder para Imagem do Produto/App -->
+                        <div style="width: 100%; height: 400px; background: rgba(0,0,0,0.5); border-radius: 20px; display: flex; align-items: center; justify-content: center; font-weight: 900; color: var(--soft-gold);">
+                            [ INTERFACE PREVIEW ]
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING -->
+        <section id="planos" style="text-align: center;">
+            <h2 style="font-size: 42px; margin-bottom: 50px;" data-i18n="price_title">Choose your <span class="gradient-text">Peace of Mind.</span></h2>
+            <div class="price-box">
+                <div class="hero-tag" style="margin: 0 auto 20px;" data-i18n="price_badge">Launch Offer</div>
+                <p data-i18n="price_plan">Individual Smart Tag + Safety Plus Subscription</p>
+                <div class="price-tag"><span data-i18n="price_value">$ 5.99</span><span style="font-size: 16px; color: var(--text-muted); font-weight: 400;" data-i18n="price_period">/month</span></div>
+                <p style="font-size: 14px; margin-bottom: 30px;" data-i18n="price_footer">Physical tag included + Unlimited Global Protection</p>
+                <a href="#" class="btn btn-primary" style="width: 100%;" data-i18n="price_cta">Subscribe Now ➔</a>
+                <div style="margin-top: 20px; font-size: 12px; color: var(--text-muted);" data-i18n="price_cancel">Cancel for free any time.</div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="padding: 50px 20px; text-align: center; border-top: 1px solid var(--glass-border);">
+        <p data-i18n="footer">© 2026 Back2me Global. Protecting what is irreplaceable.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

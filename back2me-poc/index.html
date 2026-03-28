@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Back2me Global - Item Encontrado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- View: Item Found -->
+    <div id="view-found" class="card">
+      <header>
+        <div class="logo">
+          <span>🔄</span> Back2me Global
+        </div>
+        <select id="lang-switcher" style="background: rgba(255,255,255,0.1); color: white; border: 1px solid var(--glass-border); border-radius: 5px; padding: 2px 5px; font-size: 12px; cursor: pointer; margin-left: auto;">
+          <option value="en">English</option>
+          <option value="pt">Português</option>
+        </select>
+      </header>
+      
+      <div style="text-align: center;">
+        <div class="status-badge" data-i18n="status_lost">Lost Pet</div>
+        <h1 class="title" data-i18n="found_title">You found "Bolinha"!</h1>
+        
+        <div class="pet-profile">
+          <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Bolinha" class="pet-avatar">
+          
+          <div class="pet-info-grid">
+            <div class="info-item">
+              <div class="info-label" data-i18n="label_breed">Breed</div>
+              <div data-i18n="val_breed">Beagle</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label" data-i18n="label_age">Age</div>
+              <div data-i18n="val_age">2 years</div>
+            </div>
+          </div>
+
+          <div class="critical-alert">
+            <div class="alert-icon">⚠️</div>
+            <div class="alert-text">
+              <div class="alert-title" data-i18n="alert_title">CRITICAL MEDICAL ALERT</div>
+              <div data-i18n="alert_desc">Bolinha is **highly allergic** to common pet food. Please, **DO NOT feed** him. He only consumes a specific veterinary diet.</div>
+            </div>
+          </div>
+        </div>
+
+        <p class="description" data-i18n="found_desc">
+          The owner has been notified of your location and is anxious for the rescue.
+        </p>
+      </div>
+
+      <button id="btn-start-chat" class="btn-primary" data-i18n="btn_chat">Message the Owner ✉️</button>
+      
+      <div class="footer-info" data-i18n="footer_note">
+        Protected by the Back2me Global network. <br>
+        Your connection is secure and anonymous.
+      </div>
+    </div>
+
+    <!-- View: Chat Room -->
+    <div id="view-chat" class="card" style="display: none;">
+      <header style="margin-bottom: 20px; text-align: left;">
+        <div class="logo" style="justify-content: flex-start; font-size: 18px;">
+          <span>💬</span> <span data-i18n="chat_title">Secure Chat</span>
+        </div>
+        <p style="font-size: 12px; color: var(--soft-gold); margin-top: 5px;" data-i18n="chat_subtitle">
+          Connected with the Owner
+        </p>
+      </header>
+
+      <div class="chat-container" style="display: flex;">
+        <div id="chat-messages" class="chat-messages">
+          <div class="message bot">
+            Olá! Obrigado por escanear o código. Eu sou o dono deste item. Onde você o encontrou?
+          </div>
+        </div>
+
+        <div class="chat-input-area">
+          <input type="file" id="photo-input" style="display: none;" accept="image/*">
+          <button id="btn-attach" class="btn-icon" data-i18n-title="btn_title_photo">📷</button>
+          <button id="btn-location" class="btn-icon" data-i18n-title="btn_title_location">📍</button>
+          <input type="text" id="chat-input" class="chat-input" data-i18n-placeholder="input_placeholder">
+          <button id="btn-record" class="btn-icon" data-i18n-title="btn_title_audio">🎤</button>
+          <button id="btn-send" class="btn-send">➤</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+# knowledge/dna/persons/JEREMY-MINER/FRAMEWORKS.yaml
+# Estruturas nomeadas reutilizaveis — Camada L4
+# Gerado em: 2026-03-16 | Total extraido: 15
+
+pessoa: "Jeremy Miner"
+versao: "1.0.0"
+data_extracao: "2026-03-16T00:00:00Z"
+total_itens: 15
+total_fonte: 45
+
+frameworks:
+
+  - id: "FW-JM-001"
+    nome: "NEPQ — Neuro Emotional Persuasion Questioning"
+    descricao: "Framework mestre de Jeremy Miner. Baseado em neuropsicologia e ciencia comportamental. Organiza a conversa de vendas em 5 tipos de perguntas sequenciais que trabalham COM a psicologia humana: Connection → Situation → Problem Awareness → Solution Awareness → Consequence. Cada tipo ativa diferentes mecanismos psicologicos."
+    componentes:
+      - "Connection Questions: criam abertura e rapport inicial sem ser salesy"
+      - "Situation Questions: mapeiam o estado atual sem julgamento"
+      - "Problem Awareness Questions: fazem o prospecto sentir e articular sua propria dor (80-90% da venda)"
+      - "Solution Awareness Questions: prospecto descreve a solucao ideal por conta propria"
+      - "Consequence Questions: prospecto visualiza o custo de nao mudar — cria urgencia real"
+    quando_usar: "Em toda conversa de vendas — e o framework mestre que organiza todas as outras tecnicas"
+    source_id: "JM-0001"
+    peso: 0.99
+
+  - id: "FW-JM-002"
+    nome: "CCCCP — 5 Tonalidades Core do NEPQ"
+    descricao: "Framework de 5 tonalidades para comunicacao nao-verbal que constitui 72% da mensagem. Cada tonalidade ativa diferentes respostas psicologicas no prospecto. Deve ser praticado ate ser automatico — a expressao facial e o controle remoto da tonalidade."
+    componentes:
+      - "Confused (Confuso): para fazer prospectos elaborar sobre problemas — ativa instinto de clarificar"
+      - "Curious (Curioso): para situation questions e abertura — desarmante, nao ameacador"
+      - "Concerned (Preocupado): para consequence questions — demonstra que voce se importa, constroi empatia"
+      - "Challenging (Desafiador): para testar comprometimento — usar apenas apos confianca estabelecida"
+      - "Playful (Brincalhao): para criar leveza e pattern interrupts humor — quebra tensao"
+    quando_usar: "Em toda interacao de vendas — selecionar tonalidade conforme fase da conversa e estado emocional do prospecto"
+    nota: "Expressao facial dirige tonalidade automaticamente — sorrir muda o som da voz"
+    source_id: "JM-0095"
+    peso: 0.97
+
+  - id: "FW-JM-003"
+    nome: "Pattern Interrupt — Quebra de Padrao em Cold Call"
+    descricao: "Framework para cold calls que quebra o padrao esperado pelo prospecto (salesperson identificando empresa + pitch) nos primeiros 7-12 segundos. Tres elementos: (1) abertura confusa/incerta, (2) pedido de ajuda (ativa instinto de ajudar), (3) frase downplay antes de qualquer pitch."
+    elementos:
+      - "Abertura incerta: 'Hi, it's just [nome]...' — downplay com 'just'"
+      - "Pedido de ajuda: 'I was wondering if you could possibly help me out for a moment?'"
+      - "Frase de non-certainty: 'I'm not even sure I can help you yet, but...'"
+      - "Downplay do produto: 'before I go into who we are and all that boring stuff...'"
+      - "Permission question: 'Would that make sense for you to take a look at?'"
+    quando_usar: "Primeiros 7-12 segundos de qualquer cold call ou primeiro contato nao anunciado"
+    source_id: "JM-0101"
+    peso: 0.95
+
+  - id: "FW-JM-004"
+    nome: "Confused Old Man Technique — Persona de Nao-Vendedor"
+    descricao: "Framework de posicionamento nao-verbal para reduzir resistencia imediata. Desenvolvido originalmente para porta-a-porta, aplicavel em qualquer primeiro contato. O objetivo e parecer um pesquisador/verificador, nao um vendedor. Inclui elementos visuais e comportamentais que sinalizam 'nao estou aqui para vender'."
+    elementos:
+      - "Visual: roupas casuais, sem marcadores de status (relogio barato, cargo pants, colete de construcao)"
+      - "Postura: distancia maior que o normal, olhando ao redor como se estivesse tomando notas"
+      - "Tom: confuso, incerto — 'sao voces os donos daqui?'"
+      - "Primeira reacao do prospecto: curiosidade, nao resistencia"
+      - "Gatilho psicologico: instinto humano de ajudar o confuso"
+    quando_usar: "Porta-a-porta, visitas B2B nao anunciadas, qualquer primeiro contato presencial"
+    resultado: "Reducao de 80-90% da resistencia imediata"
+    source_id: "JM-0101"
+    peso: 0.91
+
+  - id: "FW-JM-005"
+    nome: "Between You and I — Framework de Abertura Off The Record"
+    descricao: "Tecnica para usar quando o prospecto nao esta se abrindo durante a call. Cria um espaco psicologico de confidencialidade que convida o prospecto a revelar sua verdadeira objecao ou motivacao. Funciona porque 'off the record' sinaliza que o prospecto pode ser honesto sem consequencias."
+    scripts:
+      - "Durante discovery: 'Between you and I, and off the record, what's the main reason you're looking to [resultado]?'"
+      - "No final quando nao esta fechando: 'Between you and I, off the record, what's really holding you back from moving forward so that you can [desired outcome]?'"
+    quando_usar: "Quando o prospecto esta dando respostas de superficie e nao se abrindo"
+    source_id: "JM-0114"
+    peso: 0.93
+
+  - id: "FW-JM-006"
+    nome: "3 Opcoes de Comparacao — Framework para Objecao de Preco com Concorrente Mais Barato"
+    descricao: "Quando um concorrente oferece preco menor, apresentar tres opcoes (barato/medio/premium) que reencadram a conversa de preco para valor. A chave e revelar o gap entre o que o concorrente oferece e o que o prospecto realmente precisa."
+    passos:
+      - "Pedir o orcamento especifico do concorrente: 'Posso perguntar o que eles cotaram e para que especificamente?'"
+      - "Analisar o que esta e o que nao esta incluido: 'Pode ir atraves da proposta comigo?'"
+      - "Recadrar: 'O preco e o mais importante ou resolver o problema e obter o resultado?'"
+      - "Mostrar o gap entre cheap e o resultado real desejado"
+      - "Apresentar 3 opcoes: barato (sem resultado esperado) / medio / premium (resultado completo)"
+      - "Pergunta final: 'Se voce pensar bem, qual e realmente o mais caro?'"
+    quando_usar: "Quando prospecto recebe cotacao menor de concorrente"
+    source_id: "JM-0125"
+    peso: 0.92
+
+  - id: "FW-JM-007"
+    nome: "Hot Button Discovery — Framework Quando Prospect Quer Comparar"
+    descricao: "Quando o prospecto diz 'vou comparar com outras empresas', em vez de entrar em modo defensivo, usar a comparacao para descobrir o criterio de decisao real (hot button). Quem descobre o hot button vence a comparacao."
+    scripts:
+      - "'Sem problema. O que voce espera que essas outras empresas te mostrem?'"
+      - "'Digamos que todas as empresas atendam seus criterios e precos — como voce decidiria entao com quem ir?'"
+      - "A resposta a essa segunda pergunta = o hot button = o criterio de fechamento real"
+    quando_usar: "Quando o prospecto anuncia intencao de comparar com concorrentes"
+    source_id: "JM-0119"
+    peso: 0.92
+
+  - id: "FW-JM-008"
+    nome: "Ghost Recovery Framework — Recuperar Prospecto Que Sumiu"
+    descricao: "Framework de 3 passos para recuperar prospectos que pararam de responder (ghosting). A chave e nao demonstrar desespero — manter status de autoridade mesmo na recuperacao."
+    passos:
+      - "Passo 1: 'Where do we go from here?' — neutro, sem pressao, abre dialogo"
+      - "Passo 2 (se nao responde): 'Alias, sumiu como um alien.' — humor para quebrar a tensao"
+      - "Passo 3: 'Entendo que voce esta ocupado. Se voce mudou de ideia, tudo bem — so me fala para eu nao desperdicar nosso tempo.' — demonstra que nao esta desesperado"
+    quando_usar: "Quando o prospecto parou de responder apos interacao inicial"
+    principio: "Status e mantido quando o vendedor demonstra que tem opcoes alem desse prospecto"
+    source_id: "JM-0029"
+    peso: 0.88
+
+  - id: "FW-JM-009"
+    nome: "12 Lead-In Phrases do NEPQ — Frases de Entrada para Probing"
+    descricao: "12 frases de entrada padronizadas para aprofundar qualquer resposta do prospecto. Cada frase convida o prospecto a elaborar sem criar pressao ou parecer um interrogatorio. A variedade evita que a conversa pareca um script."
+    frases:
+      - "Tell me more about that"
+      - "Can you walk me through that?"
+      - "Can you give me a specific example?"
+      - "Can you go over that with me?"
+      - "Walk me through that"
+      - "Describe that for me"
+      - "Can you unwrap/unpack that for me?"
+      - "Can you go back a few pages on that for me?"
+      - "Explain that to me"
+      - "Can you share that with me?"
+      - "In what way though?"
+      - "What do you mean by that specifically?"
+    quando_usar: "Apos qualquer resposta do prospecto que mereca aprofundamento"
+    source_id: "JM-0121"
+    peso: 0.94
+
+  - id: "FW-JM-010"
+    nome: "Consequencia + Troca de Tom — Framework de Amplificacao de Urgencia"
+    descricao: "Nas perguntas de consequencia, aplicar uma sequencia de mudanca tonal deliberada: comecar com tom levemente desafiador/cetico e terminar com tom preocupado/empatico. Essa troca tonal amplifica o impacto das perguntas de consequencia."
+    sequencia_tonal:
+      - "Inicio: tom Cetico/Desafiador — 'e se voce nao fizer nada?'"
+      - "Meio: tom Neutro — 'o que exatamente acontece?'"
+      - "Final: tom Preocupado/Empatico — 'isso me preocupa para voce...'"
+    perguntas_tipo:
+      - "'O que acontece se voce nao resolver isso?'"
+      - "'Voce esta disposto a aceitar isso?'"
+      - "'O que isso esta custando para voce em [outras areas]?'"
+    quando_usar: "Fase de Consequence Questions para amplificar urgencia genuina"
+    source_id: "JM-0107"
+    peso: 0.93
+
+  - id: "FW-JM-011"
+    nome: "Objection Clarification — Framework Universal de Primeiro Passo"
+    descricao: "Para QUALQUER objecao recebida, o primeiro passo nunca e rebater — e clarificar. Perguntar 'Quando voce diz [X], o que especificamente voce quer dizer?' antes de qualquer resposta. 99% dos vendedores pulam este passo e respondem a objecao errada."
+    exemplos:
+      - "Objection: 'Preciso rezar sobre isso' → 'Que partes especificas do que conversamos voce sente que precisa rezar?'"
+      - "Objection: 'Preciso pensar' → 'O que especificamente voce precisa pensar?'"
+      - "Objection: 'E muito caro' → 'Quando voce diz caro, esta comparando com o que especificamente?'"
+    quando_usar: "Como primeiro passo para qualquer objecao recebida — sem excecoes"
+    principio: "Clarificar revela a objecao REAL que estava por tras da objecao de superficie"
+    source_id: "JM-0128"
+    peso: 0.95
+
+  - id: "FW-JM-012"
+    nome: "Qualifying Hypothetical — Framework de Qualificacao Antes de Viagens/Demos"
+    descricao: "Usar perguntas hipoteticas (starter phrases + consequencia) para testar o nivel de comprometimento do prospecto antes de investir tempo, dinheiro ou recursos em demos presenciais."
+    starter_phrases:
+      - "Let's pretend we could..."
+      - "What if..."
+      - "Just suppose that we could..."
+      - "Imagine for a moment..."
+      - "Assuming we were able to..."
+    pergunta_finalizadora:
+      - "...what do you feel would happen next?"
+      - "...what do you see happening next?"
+      - "...where would we go from there?"
+    decisao: "Se resposta = compromisso claro → investir. Se resposta = obstaculos novos → remover obstaculos primeiro."
+    quando_usar: "Antes de investir tempo, dinheiro ou viagens em demos/reunioes presenciais"
+    source_id: "JM-0142"
+    peso: 0.90
+
+  - id: "FW-JM-013"
+    nome: "Humor como Disrupcao de Medo — Pattern Interrupt para Objecao 'Too Good to Be True'"
+    descricao: "Objecoes baseadas em medo ('parece bom demais para ser verdade') sao melhor tratadas com humor primeiro — um pattern interrupt que quebra o estado emocional de medo antes de qualquer argumento racional."
+    sequencia:
+      - "Humor imediato: 'Bem... voce gostaria que fosse mais dificil?' — 90% riem, objecao dissolve"
+      - "Se continua: perguntar de onde veio essa crenca ('de alguem rico ou pobre?')"
+      - "Recadrar: questionar a fonte da crenca limitante"
+      - "NEPQ Negative Reverse: 'Voce nao precisa mudar. Por que olhar para isso agora e nao empurrar para frente como pessoas mal-sucedidas fariam?'"
+      - "Comprometimento final: prospect se defende e cria sua propria urgencia"
+    quando_usar: "Quando prospecto apresenta objecao 'too good to be true' ou baseada em medo/ceticismo"
+    source_id: "JM-0144"
+    peso: 0.89
+
+  - id: "FW-JM-014"
+    nome: "HILA — High Intent, Low Attachment"
+    descricao: "Framework de mentalidade/tonalidade. Alta intencao de ajudar genuinamente o prospecto + baixo apego ao resultado da call. Essa combinacao produz o estado mental de 'autoridade confiavel' que e detectado subconsciamente pelo prospecto em 7-12 segundos. E o oposto de 'needy'."
+    como_praticar:
+      - "Alta Intencao: estar genuinamente focado em descobrir SE voce pode ajudar (nao em fechar)"
+      - "Baixo Apego: internalizar que se nao for fit, tudo bem — voce tem outros prospectos"
+      - "Resultado externo: voz fica mais neutra, perguntas ficam mais genuinas, prospect se abre mais"
+    quando_usar: "Como estado mental base antes e durante toda conversa de vendas"
+    source_id: "JM-0095"
+    peso: 0.95
+
+  - id: "FW-JM-015"
+    nome: "7 Tonalidades NEPQ — Mapa Completo"
+    descricao: "As 7 tonalidades completas com indicacao de quando usar cada uma. Vao alem das 5 do CCCCP, incluindo Skeptical e Empathetic como camadas adicionais."
+    tonalidades:
+      - "Curious: discovery, situation questions — nao ameacador"
+      - "Confused: quando prospecto nao elabora — ativa instinto de clarificar"
+      - "Concerned: consequence questions, pain amplification — demonstra que se importa"
+      - "Challenging: testar comprometimento — usar apenas apos rapport estabelecido"
+      - "Playful: quebrar tensao, rapport leve — nao exagerar"
+      - "Skeptical: quando prospecto esta muito animado sem pensar — 'nao sei se isso e para todo mundo...'"
+      - "Empathetic: quando prospecto esta vulneravel — validar sem exagerar"
+    quando_usar: "Mapa de referencia para selecao de tonalidade em cada situacao da conversa"
+    source_id: "JM-0020"
+    peso: 0.93

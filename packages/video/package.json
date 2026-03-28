@@ -1,0 +1,11 @@
+{
+  "name": "@mega-brain/video",
+  "version": "1.0.0",
+  "description": "Mega Brain Video Generation (Remotion)",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "remotion": "latest",
+    "@remotion/cli": "latest"
+  }
+}

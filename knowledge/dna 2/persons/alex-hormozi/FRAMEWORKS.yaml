@@ -1,0 +1,149 @@
+# knowledge/dna/persons/alex-hormozi/FRAMEWORKS.yaml
+# Gerado em: 2026-03-17
+# Fonte: Raw files AH-0002, AH-0004, AH-0006, AH-0008, AH-0010, AH-0012, AH-0019
+
+pessoa: "Alex Hormozi"
+codigo: "AH"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 12
+
+frameworks:
+  - id: "FW-AH-001"
+    nome: "CLOSER Framework"
+    descricao: "Acrônimo que estrutura toda call de vendas high-ticket em milestones sequenciais. Funciona para B2B e B2C, de $500 a $100K+."
+    componentes:
+      - "C - Clarify (Clarificar por que a pessoa está na call)"
+      - "L - Label (Rotular com o problema que identificamos)"
+      - "O - Overview (Overview das dores e tentativas passadas)"
+      - "S - Sell the vacation (Vender o destino, não o processo)"
+      - "E - Explain concerns (Explicar e vencer objeções)"
+      - "R - Reinforce (Reforçar a decisão após o fechamento)"
+    quando_usar: "Em toda call de vendas high-ticket onde você precisa qualificar, apresentar e fechar"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"
+
+  - id: "FW-AH-002"
+    nome: "Christmas Tree Sales Structure"
+    descricao: "Estrutura de time de vendas em formato de árvore de Natal — base larga de BDRs alimentando camadas menores até chegar aos closers. Ver MM-AH-001 para o modelo mental completo."
+    componentes:
+      - "Base: BDRs (fazem 100 calls/dia, geram shows)"
+      - "Meio: SDS — Sales Development Specialists (qualificam, entregam valor)"
+      - "Topo: BCs — Business Consultants / Closers (fecham deals)"
+      - "Opcional: Ascension team (upsell para produto premium)"
+    quando_usar: "Ao escalar time de vendas outbound acima de 3 pessoas"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "FW-AH-003"
+    nome: "Farm System (4 Níveis por Posição)"
+    descricao: "Sistema de progressão de carreira em 4 sub-níveis por cargo. Cria milestones visíveis que mantêm motivação e eliminam conversas de HR desnecessárias."
+    componentes:
+      - "Junior [cargo] — nível de entrada"
+      - "Associate [cargo] — após qualificador 1 (ex: 50 shows)"
+      - "[Cargo] — após qualificador 2 (ex: 100 shows)"
+      - "Senior [cargo] — após qualificador 3 (ex: 150 shows)"
+      - "Promoção para próximo nível: após atingir Senior"
+    quando_usar: "Para qualquer cargo de vendas repetitivo com alta taxa de churn"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "FW-AH-004"
+    nome: "Value Equation (Equação de Valor)"
+    descricao: "Fórmula que determina o valor percebido de qualquer oferta. Quanto maior o numerador e menor o denominador, mais irresistível a oferta."
+    componentes:
+      - "Numerador 1: Dream Outcome (resultado desejado pelo cliente)"
+      - "Numerador 2: Perceived Likelihood of Achievement (probabilidade percebida de sucesso)"
+      - "Denominador 1: Time Delay (quanto tempo leva para obter o resultado)"
+      - "Denominador 2: Effort and Sacrifice (esforço e sacrifício exigido do cliente)"
+    quando_usar: "Ao criar ou diagnosticar qualquer oferta — aumentar valor percebido"
+    source_arquivo: "[AH-0019] 19 - ALEX HORMOZI'S LEAD GENERATION STRATEGY FOR 2025.txt"
+
+  - id: "FW-AH-005"
+    nome: "Core Four de Lead Gen"
+    descricao: "Os quatro canais de geração de leads que cobrem todo o espectro de aquisição de clientes, do mais quente ao mais frio."
+    componentes:
+      - "1. Warm Outreach — contatos que já te conhecem (DM, email, telefone)"
+      - "2. Cold Outreach — strangers (cold call, cold email, cold DM)"
+      - "3. Content — conteúdo orgânico que atrai leads passivamente"
+      - "4. Paid Ads — mídia paga para escalar volume"
+    quando_usar: "Ao planejar estratégia de lead gen ou diagnosticar por que não há leads suficientes"
+    source_arquivo: "[AH-0019] 19 - ALEX HORMOZI'S LEAD GENERATION STRATEGY FOR 2025.txt"
+
+  - id: "FW-AH-006"
+    nome: "Ghost Products (Sacrificial Lambs)"
+    descricao: "Técnica de venda que usa produtos que você deliberadamente NÃO recomenda para ganhar confiança e aumentar conversão dos produtos principais."
+    componentes:
+      - "Identificar produtos de baixa margem na lista"
+      - "Recomendar que cliente compre esses produtos no concorrente ou loja mais barata"
+      - "Com o trust ganho, fechar produtos de alta margem com muito menos resistência"
+      - "Opcionalmente: carregar o produto fisicamente mas nunca vender (apenas indicar)"
+    quando_usar: "Em ambientes de venda com múltiplos produtos onde confiança é a barreira principal"
+    source_arquivo: "[AH-0006] 6 - MY BEST SALES TACTIC (TO MAKE A TON OF MONEY).txt"
+
+  - id: "FW-AH-007"
+    nome: "ACA Framework (Acknowledge, Compliment, Ask)"
+    descricao: "Estrutura de 3 passos para warm outreach que converte contato frio em conversa de vendas sem parecer uma venda."
+    componentes:
+      - "A - Acknowledge (reconhecer algo real sobre a pessoa)"
+      - "C - Compliment (elogiar com base no que reconheceu)"
+      - "A - Ask (perguntar algo relacionado ao seu serviço, conectado ao elogio)"
+    quando_usar: "Ao fazer warm outreach para lista de contatos existentes"
+    source_arquivo: "[AH-0008] 8 - WATCH THIS TO GET YOUR FIRST 5 CUSTOMERS.txt"
+
+  - id: "FW-AH-008"
+    nome: "Pain Cycle (Ciclo de Dor)"
+    descricao: "Técnica de vendas para fazer o prospect articular todas as tentativas frustradas antes de apresentar a solução. Gera munição para o fechamento e faz o prospect sentir que está 'a 6 polegadas do sucesso'."
+    componentes:
+      - "O que você tentou para resolver isso?"
+      - "Como foi? (resposta → empathy)"
+      - "O que mais você tentou?"
+      - "Repetir até esgotar todas as tentativas"
+      - "Resumir: 'Com tudo isso que você já tentou, eu entendo a frustração'"
+      - "Transição: 'Parece que você tem quase tudo — só falta esta peça'"
+    quando_usar: "Na fase O do CLOSER Framework (Overview das dores passadas)"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"
+
+  - id: "FW-AH-009"
+    nome: "Decision Framework (3 Sim para Fechar)"
+    descricao: "Quando prospect trava em 'preciso pensar', usar série de 3 perguntas que leva a decisão lógica inevitável."
+    componentes:
+      - "Sim 1: 'Você acredita que podemos resolver o seu problema?' (produto/solução)"
+      - "Sim 2: 'Você gosta de nós como empresa e quer trabalhar com a gente?' (relacionamento)"
+      - "Sim 3: 'Você tem acesso ao dinheiro ou sabe como conseguir?' (capacidade financeira)"
+      - "Conclusão: Se 3 Sins → não há razão lógica para esperar"
+    quando_usar: "Para objeção 'preciso pensar' / 'I need to think about it'"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"
+
+  - id: "FW-AH-010"
+    nome: "Prescriptive Close (Fechar prescrevendo)"
+    descricao: "Técnica de venda onde você prescreve exatamente como o cliente vai usar o produto/serviço antes de pedir o pagamento — transformando a venda em consultoria."
+    componentes:
+      - "Explicar benefício do produto com especificidade"
+      - "Perguntar: 'O que você faz todo dia de manhã sem falta?'"
+      - "Associar o uso do produto a esse hábito existente (ex: 'coloca do lado da escova')"
+      - "Repetir para cada produto/componente do serviço"
+      - "Depois de prescrito: 'Quer usar o cartão que já temos?' (friction-free close)"
+    quando_usar: "Em vendas de produtos físicos ou programas com múltiplos componentes"
+    source_arquivo: "[AH-0006] 6 - MY BEST SALES TACTIC (TO MAKE A TON OF MONEY).txt"
+
+  - id: "FW-AH-011"
+    nome: "Self-Reinforcing Growth System"
+    descricao: "Sistema de crescimento onde cada ação cria momentum para a próxima. Clientes → resultados → reviews + referrals → mais clientes. Evita hamster wheel de pagar por lead constantemente."
+    componentes:
+      - "Pilar 1: Gerar leads de alta qualidade"
+      - "Pilar 2: Tratar clientes excepcionalmente bem"
+      - "Pilar 3: Sistematizar pedido de reviews e referrals"
+      - "O loop: Leads → Clientes → Resultados → Reviews/Referrals → Mais Leads"
+    quando_usar: "Ao planejar growth strategy de longo prazo — sistemas, não só esforço individual"
+    source_arquivo: "[AH-0019] 19 - ALEX HORMOZI'S LEAD GENERATION STRATEGY FOR 2025.txt"
+
+  - id: "FW-AH-012"
+    nome: "3-Way Live Transfer (SDS → BC)"
+    descricao: "Técnica de handoff ao vivo entre SDS e closer para maximizar show-rate do deal qualificado. SDS liga ao vivo, BC entra na call, fecha agendamento na presença do prospect."
+    componentes:
+      - "SDS conclui call de valor (30 min de entrega + 15 min de transição)"
+      - "SDS muda de chapéu: 'Olha, não consigo deixar de notar...'"
+      - "SDS chama o BC ao vivo (por telefone/speakerphone na frente do prospect)"
+      - "BC faz papel de 'muito ocupado' mas aceita olhar o caso"
+      - "BC agenda call de fechamento na hora — prospect não sai sem data confirmada"
+      - "SDS fecha a intro: 'Só para deixar claro, a próxima call será uma call de vendas'"
+    quando_usar: "Para aumentar show-rate de deals qualificados quando schedule → show está fraco"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"

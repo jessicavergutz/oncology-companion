@@ -1,0 +1,144 @@
+# knowledge/dna/persons/JEREMY-MINER/HEURISTICAS.yaml
+# Regras praticas e atalhos decisorios — Camada L3
+# Gerado em: 2026-03-16 | Total extraido: 19
+
+pessoa: "Jeremy Miner"
+versao: "1.0.0"
+data_extracao: "2026-03-16T00:00:00Z"
+total_itens: 19
+total_fonte: 45
+
+heuristicas:
+
+  - id: "HEUR-JM-001"
+    regra: "7-12 segundos para formacao do julgamento inicial"
+    explicacao: "Nos primeiros 7-12 segundos de qualquer interacao de vendas, o cerebro do prospecto ja formou um julgamento subconsciente sobre o vendedor. Nao ha nada mais que possa ser feito depois que esse julgamento e formado negativamente."
+    metrica: "7-12 segundos"
+    source_id: "JM-0129"
+    peso: 0.97
+
+  - id: "HEUR-JM-002"
+    regra: "Pausa verbal antes de palavra-chave = 3-10x mais processamento"
+    explicacao: "Fazer uma pausa de 1-3 segundos imediatamente antes de uma palavra ou frase importante faz com que o cerebro do prospecto processe essa informacao 3-10 vezes mais profundamente. O silencio cria antecipacao que amplifica o impacto do que vem depois."
+    metrica: "3-10x mais processamento com pausa de 1-3 segundos"
+    source_id: "JM-0080"
+    peso: 0.96
+
+  - id: "HEUR-JM-003"
+    regra: "95% dos prospectos dizem sim quando NEPQ e executado corretamente"
+    explicacao: "Quando o processo NEPQ e executado adequadamente — discovery completo, awareness de problemas construida, comprometimento gerado durante o processo — 95% dos prospectos dizem sim. Baixas taxas de conversao sao diagnostico de processo inadequado, nao de 'prospectos dificeis'."
+    metrica: "95% de conversao com NEPQ completo"
+    source_id: "JM-0136"
+    peso: 0.95
+
+  - id: "HEUR-JM-004"
+    regra: "82% dos vendedores desconfortaveis com tecnicas tradicionais"
+    explicacao: "82% dos proprios vendedores se sentem desconfortaveis aplicando as tecnicas tradicionais de vendas que aprenderam. Esse desconforto e sinal de que essas tecnicas violam valores humanos naturais — e os prospectos sentem isso."
+    metrica: "82% dos vendedores"
+    source_id: "JM-0134"
+    peso: 0.90
+
+  - id: "HEUR-JM-005"
+    regra: "Salario medio de vendedores = USD 42.340/ano com tecnicas antigas"
+    explicacao: "Vendedores usando tecnicas tradicionais ganham em media USD 42.340/ano. Vendedores NEPQ treinados relatam ir de 32-37% para 87% de taxa de fechamento. O modelo mental de 'vendas como jogo de numeros' garante mediocridade."
+    metrica: "USD 42.340/ano media com tecnicas tradicionais"
+    source_id: "JM-0134"
+    peso: 0.88
+
+  - id: "HEUR-JM-006"
+    regra: "95% das calls onde o prospecto fica na superficie sao perdidas"
+    explicacao: "Se o prospecto responde perguntas de forma superficial e nao se abre emocionalmente durante a call, a probabilidade de fechamento e de 5% ou menos. Profundidade emocional na conversa e o preditor mais confiavel de fechamento."
+    metrica: "5% de fechamento (superficial) vs ~90% (profundo)"
+    source_id: "JM-0093"
+    peso: 0.95
+
+  - id: "HEUR-JM-007"
+    regra: "80% das vendas acontecem apos o 5o contato"
+    explicacao: "A maioria esmagadora das vendas ocorre apenas apos o 5o ponto de contato com o prospecto. Vendedores que desistem apos 1-2 contatos perdem 80% do potencial. Follow-up com valor (nao pressao) e o que separa o top 1%."
+    metrica: "80% das vendas apos 5o contato"
+    source_id: "JM-0080"
+    peso: 0.92
+
+  - id: "HEUR-JM-008"
+    regra: "'Feel' ativa cerebro emocional; 'think' ativa cerebro logico"
+    explicacao: "A escolha entre as palavras 'feel' (sentir) e 'think' (pensar) determina qual parte do cerebro o prospecto ativa. Em perguntas de comprometimento, sempre usar 'feel': 'Do you FEEL like this could work?' — mantem a decisao no dominio emocional onde ela foi tomada."
+    metrica: "1 palavra = diferenca de 2 hemisferios cerebrais"
+    source_id: "JM-0097"
+    peso: 0.95
+
+  - id: "HEUR-JM-009"
+    regra: "'Budget' e palavra limitante; usar 'funds' ou 'funding'"
+    explicacao: "A palavra 'budget' e psicologicamente associada a algo fixo e limitado — um teto que nao pode ser ultrapassado. 'Funds' ou 'funding' implica algo que pode ser encontrado ou realocado. Trocar uma palavra muda o frame mental do prospecto."
+    metrica: "1 troca de palavra muda o frame"
+    source_id: "JM-0097"
+    peso: 0.93
+
+  - id: "HEUR-JM-010"
+    regra: "9 em 10 que pedem 'manda info' nunca retornam"
+    explicacao: "Quando um prospecto pede 'manda as informacoes', 9 em cada 10 nunca retornam. O pedido de informacao e frequentemente uma forma de encerrar a conversa sem conflito direto. Nunca enviar informacao sem antes agendar o proximo contato."
+    metrica: "9/10 nao retornam apos 'manda info'"
+    source_id: "JM-0022"
+    peso: 0.92
+
+  - id: "HEUR-JM-011"
+    regra: "72% da comunicacao e nao-verbal"
+    explicacao: "72% do impacto de qualquer comunicacao vem do nao-verbal: tom de voz, ritmo, postura, expressao facial. As palavras contribuem com apenas 28%. Em vendas telefonicas, o tom substitui o visual — ainda representa mais de 72% da mensagem."
+    metrica: "72% nao-verbal, 28% verbal"
+    source_id: "JM-0020"
+    peso: 0.91
+
+  - id: "HEUR-JM-012"
+    regra: "Perguntas rapidas = respostas de joelho; perguntas lentas = respostas profundas"
+    explicacao: "Perguntas feitas em ritmo acelerado produzem respostas reflexas de superficie ('knee-jerk answers'). A mesma pergunta feita devagar, com pausa antes e depois, produz respostas refletidas e emocionalmente carregadas."
+    metrica: "Velocidade determina profundidade da resposta"
+    source_id: "JM-0080"
+    peso: 0.94
+
+  - id: "HEUR-JM-013"
+    regra: "70% das objecoes 'conjuge/socio' sao smokescreens"
+    explicacao: "Quando o prospecto diz 'preciso consultar meu conjuge/socio', em 70% dos casos esta usando isso como desculpa para uma objecao que nao quer verbalizar. A objecao real emerge quando se pergunta: 'Que partes especificas voce precisa discutir com ele/ela?'"
+    metrica: "70% sao smokescreens"
+    source_id: "JM-0002"
+    peso: 0.91
+
+  - id: "HEUR-JM-014"
+    regra: "80-90% da venda acontece nas perguntas de consciencia do problema"
+    explicacao: "A fase de conscientizacao do problema (Problem Awareness Questions) e onde 80-90% da venda acontece — nao no pitch nem no fechamento. O tempo investido nessa fase e o principal determinante do resultado."
+    metrica: "80-90% da venda nessa fase"
+    source_id: "JM-0003"
+    peso: 0.97
+
+  - id: "HEUR-JM-015"
+    regra: "Calls com NEPQ reduzidas de 90 para 35 minutos"
+    explicacao: "Apos implementacao do NEPQ, calls de vendas que duravam 90 minutos foram reduzidas para 35 minutos, com aumento simultaneo da taxa de fechamento. Menos tempo + mais conversoes = processo mais preciso, nao apenas mais rapido."
+    metrica: "90 min → 35 min com NEPQ"
+    source_id: "JM-0005"
+    peso: 0.90
+
+  - id: "HEUR-JM-016"
+    regra: "Ciclos B2B reduzidos de 9 para 2-2,5 meses"
+    explicacao: "Ciclos de vendas B2B complexos foram reduzidos de 9 meses para 2-2,5 meses com NEPQ. A velocidade vem de chegar mais rapido a dor real, eliminar objecoes durante o processo, e envolver os decisores corretos desde o inicio."
+    metrica: "9 meses → 2-2,5 meses em B2B complexo"
+    source_id: "JM-0005"
+    peso: 0.89
+
+  - id: "HEUR-JM-017"
+    regra: "Taxa de fechamento: 32-37% → 87% com NEPQ"
+    explicacao: "Clientes que implementam NEPQ reportam aumento de taxa de fechamento de 32-37% para 87%. Esse aumento nao vem de trabalhar mais ou fazer mais calls — vem da qualidade da conversa e da profundidade do discovery."
+    metrica: "32-37% → 87% de taxa de fechamento"
+    source_id: "JM-0005"
+    peso: 0.88
+
+  - id: "HEUR-JM-018"
+    regra: "Nunca enviar informacao sem agendar proximo contato"
+    explicacao: "Antes de enviar qualquer material, perguntar: 'O que voce espera que essas informacoes te mostrem?' e 'Quando voce tera tempo para analisar — para que eu saiba quando ligar?' Sem agendar o proximo contato, a informacao enviada vira lixo eletronico."
+    metrica: "100% das vezes agendar antes de enviar"
+    source_id: "JM-0022"
+    peso: 0.92
+
+  - id: "HEUR-JM-019"
+    regra: "Perguntas de 3 a 5 niveis profundidade — regra do multi-level probing"
+    explicacao: "Apos a primeira resposta do prospect: (1) 'Tell me more' → (2) 'How long has that been going on?' → (3) 'Has that had an impact on you?' → (4) 'In what way though?' → (5) 'What have you done to try to fix it?'. Cada nivel revela camada mais profunda de dor."
+    metrica: "3-5 niveis de probing por topico"
+    source_id: "JM-0121"
+    peso: 0.94

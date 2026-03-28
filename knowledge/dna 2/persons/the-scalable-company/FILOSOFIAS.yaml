@@ -1,0 +1,221 @@
+# THE SCALABLE COMPANY - DNA COGNITIVO
+# Camada: FILOSOFIAS (Crenças Fundamentais e Visão de Mundo)
+# Versao: 1.0.0 | Criado: 2026-03-17 | Extraido de 10 fontes TSC
+
+pessoa: "Ryan Deiss / The Scalable Company"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 14
+camada: "FILOSOFIAS"
+
+filosofias:
+
+  - id: "FIL-TSC-001"
+    crenca: "O negócio deve escalar sem o dono"
+    descricao: "O objetivo final de construir sistemas e processos é que a empresa funcione e cresça sem depender diretamente do fundador no dia a dia. A missão declarada da The Scalable Company é ajudar empreendedores a 'escalar seus negócios sem eles mesmos'."
+    implicacoes:
+      - "Todo processo crítico deve ser documentado e delegável"
+      - "O fundador deve poder se ausentar sem que o negócio pare"
+      - "Sistemas substituem dependência de pessoas específicas"
+      - "A liberdade do empreendedor é o resultado final de um bom sistema operacional"
+    dominios:
+      - "escalabilidade"
+      - "liderança"
+      - "sistemas"
+      - "delegação"
+    peso: 0.98
+
+  - id: "FIL-TSC-002"
+    crenca: "Documentar conhecimento é obrigação moral da liderança"
+    descricao: "Segurar conhecimento ('black boxing') é politicamente tóxico e prejudica a empresa. A liderança tem a responsabilidade de documentar e compartilhar o que sabe. Essa crença é tão forte que black boxing é tratado como demissível na The Scalable Company."
+    implicacoes:
+      - "Conhecimento hoarded é um risco organizacional, não um ativo individual"
+      - "Um dos core values explícitos é 'document and share what you know'"
+      - "Pessoas que guardam conhecimento para 'garantir seu emprego' destroem a cultura"
+      - "Líderes devem ser os primeiros a documentar seus próprios processos"
+    dominios:
+      - "cultura organizacional"
+      - "playbooks"
+      - "conhecimento"
+      - "liderança"
+    peso: 0.97
+
+  - id: "FIL-TSC-003"
+    crenca: "Sistemas eliminam erro humano e criam certeza"
+    descricao: "A maioria dos erros operacionais não ocorre por incompetência, mas por falta de certeza. Pessoas boas erram porque não têm um processo claro para seguir. Playbooks e sistemas dão às pessoas a certeza de que precisam para executar corretamente."
+    implicacoes:
+      - "Erros recorrentes são sintoma de sistema ausente, não de pessoa ruim"
+      - "O antídoto para 'shoulder taps' (interrupções constantes) são checklists e SOPs"
+      - "Bons sistemas reduzem a dependência de heróis e talentos raros"
+      - "A meta é 'clonar as melhores pessoas' via documentação"
+    dominios:
+      - "playbooks"
+      - "processos"
+      - "cultura organizacional"
+      - "execução"
+    peso: 0.96
+
+  - id: "FIL-TSC-004"
+    crenca: "Simplicidade é a fundação da escalabilidade"
+    descricao: "Negócios complicados demais param de funcionar. A chave para escalar é simplificar — documentar como clientes acontecem em um guardanapo, ter entre 5 e 7 funções core, manter o plano de 90 dias em pilares estratégicos claros. A complexidade mata o crescimento."
+    implicacoes:
+      - "O 'napkin test' — se você não consegue explicar seu negócio num guardanapo, ele é complicado demais"
+      - "Value engines devem ser mapeados em sticky notes antes de qualquer ferramenta de fluxograma"
+      - "Most companies need only 5-7 core functional teams"
+      - "Clareza antes de qualquer execução"
+    dominios:
+      - "estratégia"
+      - "sistemas"
+      - "escalabilidade"
+      - "processos"
+    peso: 0.95
+
+  - id: "FIL-TSC-005"
+    crenca: "O passado deve ser processado antes de avançar"
+    descricao: "Não é possível construir um futuro sólido sem primeiro fazer as pazes com o passado. O QSP começa com o '90-day game plan' justamente para que os líderes processem vitórias, arrependimentos, confiança e preocupações antes de planejar o próximo ciclo. Ignorar isso é carregar âncoras para o futuro."
+    implicacoes:
+      - "Reuniões de planejamento devem começar com olhar para trás antes de planejar para frente"
+      - "Fracassos e arrependimentos apontam para oportunidades, não devem ser suprimidos"
+      - "A limpeza emocional e estratégica ('mind box zero') é pré-requisito para novo planejamento"
+      - "Equipes que não processam o passado repetem erros"
+    dominios:
+      - "planejamento"
+      - "liderança"
+      - "cultura organizacional"
+      - "QSP"
+    peso: 0.93
+
+  - id: "FIL-TSC-006"
+    crenca: "Clareza cria alinhamento — alinhamento cria resultado"
+    descricao: "A Clarity Compass não é um exercício de branding — é uma ferramenta operacional. Quando todos na organização têm clareza sobre propósito, valores, missão e plano de 12 trimestres, os vetores se alinham. Sem clareza compartilhada, cada pessoa puxa em direção diferente."
+    implicacoes:
+      - "A Clarity Compass deve ser construída com o time, não pelo fundador sozinho"
+      - "Misalignment é caro — tempo, energia e dinheiro perdidos"
+      - "Os documentos de clareza (valores, propósito, 12Q) são a cola da organização"
+      - "Clareza deve preceder qualquer planejamento tático"
+    dominios:
+      - "clareza"
+      - "cultura organizacional"
+      - "liderança"
+      - "planejamento estratégico"
+    peso: 0.95
+
+  - id: "FIL-TSC-007"
+    crenca: "Conflito produtivo é necessário para boas decisões"
+    descricao: "Evitar conflito em reuniões estratégicas é um erro. Reuniões onde todos concordam com tudo não geram as melhores decisões. O QSP e o processo de facilitação do TSC são explicitamente desenhados para criar espaço seguro para discordância, confronto de ideias e resolução real de problemas."
+    implicacoes:
+      - "Ground rules de reunião incluem explicitamente 'seja honesto, conflito é bom'"
+      - "Facilitadores devem perguntar ativamente 'quem discorda?'"
+      - "Decisões não podem ser 'kicked down the road' — alguém deve decidir"
+      - "Uma equipe que nunca discorda provavelmente não está sendo honesta"
+    dominios:
+      - "liderança"
+      - "cultura organizacional"
+      - "QSP"
+      - "tomada de decisão"
+    peso: 0.92
+
+  - id: "FIL-TSC-008"
+    crenca: "Métricas devem ser vistas de cima, não por baixo"
+    descricao: "Líderes de empresa devem olhar para métricas que indicam saúde do negócio como um todo, não para métricas departamentais detalhadas. O company scorecard existe para o CEO poder 'sair de férias e saber se o negócio está em chamas ou funcionando'. Micrométricas pertencem aos líderes de departamento."
+    implicacoes:
+      - "Company scorecard deve ter 1-3 North Star metrics por área funcional"
+      - "O litmus test de uma métrica no scorecard é: 'preciso ver isso numa ilha de férias?'"
+      - "Métricas demais no nível C-suite criam paralisia e falta de foco"
+      - "Cada líder de departamento deve ter seu próprio scorecard mais detalhado"
+    dominios:
+      - "métricas"
+      - "scorecards"
+      - "liderança"
+      - "gestão"
+    peso: 0.94
+
+  - id: "FIL-TSC-009"
+    crenca: "O empreendedor deve construir riqueza e impacto, não apenas receita"
+    descricao: "A missão da The Scalable Company não é apenas ensinar sistemas — é ajudar empreendedores a atingir sua 'versão do sonho empreendedor'. Isso inclui acumular riqueza, gerar impacto e ter liberdade. Um negócio que só gera receita mas prende o fundador falhou no objetivo mais profundo."
+    implicacoes:
+      - "O sucesso é medido em liberdade, não apenas em faturamento"
+      - "O sistema operacional é o meio, não o fim"
+      - "Empreendedores devem 'atingir seu número' e construir patrimônio"
+      - "Impacto verdadeiro é maior do que o empreendedor consegue imaginar no início"
+    dominios:
+      - "empreendedorismo"
+      - "propósito"
+      - "escalabilidade"
+      - "liderança"
+    peso: 0.93
+
+  - id: "FIL-TSC-010"
+    crenca: "Iteração e melhoria contínua são superiores à perfeição inicial"
+    descricao: "O ScalableOS nunca termina — a Fase 3 (Optimize) continua para sempre. Playbooks são testados, melhorados e re-testados. O primeiro QSP é mais pesado; os seguintes ficam mais curtos e eficientes à medida que o ritmo é internalizado. Perfeito nunca — mas sempre melhora."
+    implicacoes:
+      - "O sistema operacional deve ser revisado a cada 90 dias"
+      - "Field tests de playbooks são parte do processo, não sinal de falha"
+      - "QSPs ficam mais rápidos e eficazes com o tempo (de dias para ~4 horas)"
+      - "A busca por perfeição no planejamento inicial é inimiga da execução"
+    dominios:
+      - "melhoria contínua"
+      - "sistemas"
+      - "planejamento"
+      - "playbooks"
+    peso: 0.92
+
+  - id: "FIL-TSC-011"
+    crenca: "Pessoas boas precisam de sistema, não de supervisão"
+    descricao: "Shoulder taps (interrupções constantes ao líder) não são causadas por pessoas incompetentes — são causadas por pessoas competentes que simplesmente não confiam em si mesmas porque lhes falta certeza. Dar certeza através de playbooks é diferente de dar supervisão constante."
+    implicacoes:
+      - "A solução para shoulder taps é criar documentação, não microgerenciar"
+      - "Líderes que eliminam playbooks criam dependência deles mesmos"
+      - "Sistemas de checklist empoderam pessoas e reduzem interrupcoes"
+      - "Confiar em si mesmo vem de ter um processo claro a seguir"
+    dominios:
+      - "liderança"
+      - "gestão"
+      - "playbooks"
+      - "cultura organizacional"
+    peso: 0.94
+
+  - id: "FIL-TSC-012"
+    crenca: "Saber como clientes acontecem é o ativo mais valioso de um negócio"
+    descricao: "Muitos negócios geram clientes mas não sabem exatamente como isso acontece — como um pirata que esqueceu onde enterrou o tesouro. Documentar como clientes acontecem (growth engines) é o que diferencia um negócio escalável de um acidente feliz."
+    implicacoes:
+      - "Crescimento não replicável não é crescimento — é sorte"
+      - "O mapa de como clientes acontecem deve ser explícito, não implícito"
+      - "Growth engines mapeados permitem duplicar resultados sistematicamente"
+      - "Qualquer negócio pode ser representado em um guardanapo se bem entendido"
+    dominios:
+      - "growth"
+      - "marketing"
+      - "processos"
+      - "escalabilidade"
+    peso: 0.96
+
+  - id: "FIL-TSC-013"
+    crenca: "O time deve co-criar a estratégia, não recebê-la pronta"
+    descricao: "A Clarity Compass, os pilares estratégicos e os key initiatives do QSP são criados com o time de liderança, não pelo fundador e depois apresentados. Co-criação gera buy-in genuíno, revela blind spots e cria senso de ownership que planos top-down nunca conseguem."
+    implicacoes:
+      - "Nunca apresente uma Clarity Compass rascunhada ao time antes do Clarity Day"
+      - "No QSP, cada pessoa apresenta suas ideias de key initiatives antes de filtrar"
+      - "A votação implícita por 'stacking de post-its' captura consenso genuíno"
+      - "Líderes que recebem estratégia pronta executam com menos energia"
+    dominios:
+      - "liderança"
+      - "planejamento estratégico"
+      - "cultura organizacional"
+      - "QSP"
+    peso: 0.93
+
+  - id: "FIL-TSC-014"
+    crenca: "Nenhum problema estratégico pode ser ignorado — todos devem ser resolvidos ou adiados explicitamente"
+    descricao: "No processo de facilitação do QSP, nenhum item da B&O list (Bottlenecks & Opportunities) pode ser simplesmente ignorado. Cada problema deve ser processado: resolvido, combinado com outro, eliminado explicitamente, ou adiado para próximo trimestre com decisão consciente. 'Kicking the can' é proibido."
+    implicacoes:
+      - "Toda questão levantada na reunião merece uma decisão — não apenas discussão"
+      - "A B&O list garante que nenhum item relevante 'caia entre as cadeiras'"
+      - "Problemas não resolvidos criam ressentimento e desengajamento"
+      - "Adiar é uma decisão válida; ignorar não é"
+    dominios:
+      - "tomada de decisão"
+      - "QSP"
+      - "liderança"
+      - "cultura organizacional"
+    peso: 0.90

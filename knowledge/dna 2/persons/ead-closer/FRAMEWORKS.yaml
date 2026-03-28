@@ -1,0 +1,372 @@
+# knowledge/dna 2/persons/ead-closer/FRAMEWORKS.yaml
+# EAD Closer - Curso Brasileiro de Vendas High-Ticket
+# Gerado em: 2026-03-12
+# Fonte: 22 arquivos EDC (EDC-0005 a EDC-0089)
+
+fonte: "EAD Closer"
+codigo: "EDC"
+versao: "1.0.0"
+data_extracao: "2026-03-12T00:00:00Z"
+total_itens: 25
+arquivos_fonte: ["EDC-0005", "EDC-0007", "EDC-0020", "EDC-0023", "EDC-0025",
+                 "EDC-0040", "EDC-0042", "EDC-0046", "EDC-0064", "EDC-0065",
+                 "EDC-0067", "EDC-0074", "EDC-0075", "EDC-0086", "EDC-0089"]
+
+frameworks:
+
+  # ==========================================================================
+  # DIAGNÓSTICO E QUESTIONÁRIO
+  # ==========================================================================
+
+  - id: "FW-EDC-001"
+    nome: "SPIN Selling"
+    descricao: "Framework de diagnóstico com 4 tipos de pergunta que conduzem o cliente a descobrir a necessidade por conta própria."
+    componentes:
+      S: "Situação — diagnóstico do estado atual (faturamento, time, modelo de negócio)"
+      P: "Problema — identificar dores específicas ('O que está impedindo você?')"
+      I: "Implicação — ampliar consequências ('Se continuar assim, o que acontece?')"
+      N: "Necessidade-Payoff — confirmar urgência ('De 0-10, o quanto precisa resolver?')"
+    quando_usar: "Em toda call de alto ticket antes de apresentar qualquer solução"
+    resultado_esperado: "Cliente percebe por si mesmo que precisa da solução — facilita fechamento"
+    fontes: ["EDC-0005", "EDC-0046"]
+
+  - id: "FW-EDC-002"
+    nome: "Sequência de Pitch de Alto Ticket"
+    descricao: "Estrutura sequencial de apresentação com 5 blocos obrigatórios que levam o cliente da confiança ao fechamento."
+    componentes:
+      bloco_1: "Credibilidade — histórico do expert, marcas, resultados (cria confiança)"
+      bloco_2: "Contextualização — mostrar problemas do mercado que a solução resolve"
+      bloco_3: "Método — explicar estrutura via 'imagina-se' com benefícios emocionais"
+      bloco_4: "Produto/entregáveis — detalhes, módulos, resultados esperados"
+      bloco_5: "Antecipação de objeções — matar objeções DURANTE o pitch, não no fim"
+    regra: "Check-in de confirmação após cada bloco: 'Faz sentido até aqui?'"
+    duracao: "20 minutos total"
+    fontes: ["EDC-0007"]
+
+  - id: "FW-EDC-003"
+    nome: "BITs — Pequenas Crenças Implantadas"
+    descricao: "Sistema de pré-condicionamento emocional para eventos: instalar crenças necessárias para o 'sim' antes do pitch começar."
+    funcionamento: "Identificar 3-5 crenças críticas → criar conteúdo/storytelling para cada → bater ~5 min por BIT → transição para pitch"
+    exemplos_de_bits:
+      - "Você precisa evoluir agora ou vai ficar para trás"
+      - "Oportunidade como essa não se repete"
+      - "Gestão e sistemas são o que separa amador de profissional"
+    resultado: "Quando o pitch começa, cliente já 'sabe' que precisa — reduz resistência"
+    fontes: ["EDC-0023"]
+
+  - id: "FW-EDC-004"
+    nome: "Cenário A vs Cenário B (Inferno vs Céu)"
+    descricao: "Framework de contraste emocional: mostrar estado atual doloroso (Cenário A) vs estado futuro desejado (Cenário B) para criar urgência."
+    estrutura:
+      cenario_a: "5+ problemas atuais listados com emoção (dor amplificada)"
+      transicao: "Mostrar que existe solução para cada problema"
+      cenario_b: "Estado futuro com os mesmos problemas resolvidos (benefícios emocionais)"
+    poder: "Cliente vive mentalmente o contraste — a decisão de mudar vira óbvia"
+    fontes: ["EDC-0025"]
+
+  - id: "FW-EDC-005"
+    nome: "Visualização Temporal (Inferno de 5 Anos)"
+    descricao: "Exercício de projeção emocional: fazer cliente visualizar onde estará em 5 anos SEM mudança, depois COM a solução."
+    passos:
+      - "Música de frequência baixa (estado reflexivo)"
+      - "Guiar visualização do futuro negativo: 5 anos, mesmos problemas amplificados"
+      - "Pausa e reflecção"
+      - "Guiar visualização do futuro positivo: 5 anos, problema resolvido, vida transformada"
+      - "Transição para pitch racional"
+    objetivo: "Elevar estado emocional para máxima abertura antes do pitch"
+    fontes: ["EDC-0023"]
+
+  # ==========================================================================
+  # RAPPORT E CONEXÃO
+  # ==========================================================================
+
+  - id: "FW-EDC-006"
+    nome: "Framework RAPPORT — 8 Elementos de Conexão"
+    descricao: "Sistema de sincronização total com o cliente em 8 dimensões para criar conexão genuína."
+    componentes:
+      - "Tom de voz (grave/agudo, intensidade)"
+      - "Volume (alto/baixo, igual ao cliente)"
+      - "Ritmo de fala (rápido/lento, sincronizar)"
+      - "Vocabulário e gírias (usar mesmas expressões)"
+      - "Estado interno (espelhar energia emocional)"
+      - "Expressões faciais (sorrir quando cliente sorri)"
+      - "Postura corporal (espelhar posição)"
+      - "Movimento e respiração (sincronizar)"
+    aplicacao: "Presencial, vídeo e áudio. Em texto: usar mesmo nível de formalidade e emojis"
+    fontes: ["EDC-0040"]
+
+  - id: "FW-EDC-007"
+    nome: "Warm-Up: Estrutura Pergunta-Resposta-Suporte"
+    descricao: "Framework para abertura de conversa que cria rapport genuíno antes de qualquer processo de venda."
+    estrutura:
+      pergunta: "Fazer pergunta aberta sobre o cliente (não sobre a venda)"
+      resposta: "Ouvir completamente sem interromper"
+      suporte: "Validar + aprofundar ('que interessante, e como foi isso?')"
+      proxima_pergunta: "Só então fazer nova pergunta"
+    objetivo: "Descobrir necessidades reais + criar conexão + abrir para questionário"
+    regra: "Quem faz perguntas conduz a reunião. Manter posição de perguntador sempre."
+    fontes: ["EDC-0086"]
+
+  - id: "FW-EDC-008"
+    nome: "FORM — Mapa de Conexão (Família, Ocupação, Recreação, Motivação)"
+    descricao: "Framework para descobrir o que o cliente mais gosta de falar e usar para criar conexão autêntica."
+    componentes:
+      F: "Família — filhos, cônjuge, pais (conexão emocional)"
+      O: "Ocupação — profissão, carreira, empresa (maioria adora falar disso)"
+      R: "Recreação — hobbies, viagens, esportes (conexão de prazer)"
+      M: "Motivação — sonhos, objetivos, o que o move"
+    estrategia: "Testar cada área para ver qual abre mais o cliente. Explorar a que mais responde."
+    fontes: ["EDC-0086"]
+
+  - id: "FW-EDC-009"
+    nome: "Ponto em Comum — 6 Tipos para Quebra de Gelo"
+    descricao: "Sistema de identificação de pontos comuns para criar marketing pessoal natural e rapport autêntico."
+    tipos:
+      - "Nome: mesmo nome ou sobrenome"
+      - "Cidade: mesma cidade ou viagem em comum"
+      - "Profissão: admirar a profissão ('você é médico, que responsabilidade incrível')"
+      - "Hobby/Carro: interesse em comum"
+      - "Família: filhos na mesma idade"
+      - "Histórias: vivências similares"
+    como_usar: "Descobrir ponto em comum → usar como abertura natural → inserir marketing pessoal de forma orgânica"
+    fontes: ["EDC-0086"]
+
+  # ==========================================================================
+  # FECHAMENTO
+  # ==========================================================================
+
+  - id: "FW-EDC-010"
+    nome: "Value Stacking — Empilhamento de Bônus"
+    descricao: "Sistema de construção de valor percebido antes de revelar o preço, criando âncora alta que faz o preço real parecer oferta."
+    passos:
+      - "Apresentar cada bônus individualmente com valor + benefício (1-2 min cada)"
+      - "Conectar bônus com dor específica do cliente quando possível"
+      - "Mostrar soma: 'tudo isso teria valor de R$17.000'"
+      - "Primeiro desconto: '50% off = R$8.500'"
+      - "Revelar preço real: 'Por apenas R$6.200 você leva tudo isso'"
+    regra: "Nunca revelar preço antes de mostrar toda a pilha de valor"
+    fontes: ["EDC-0025", "EDC-0042"]
+
+  - id: "FW-EDC-011"
+    nome: "Micropactos Progressivos (Escada de Comprometimento)"
+    descricao: "Sistema de comprometimentos crescentes que aumentam urgência de forma subconsciente sem parecer pressão."
+    sequencia:
+      ancoragem: "'Você seria cliente hoje se a oferta fosse boa?'"
+      qualificacao: "'Se couber no seu bolso, você fecha comigo agora?'"
+      objecao_preco: "Cliente negocia: 'esse valor não consigo'"
+      contra_oferta: "'Se eu conseguir aquele valor, você fecha agora?'"
+      fechamento: "Repetir até compromisso final"
+    resultado: "Cada pacto aumenta urgência. No final, cliente está 95% comprometido antes do fechamento formal"
+    fontes: ["EDC-0089"]
+
+  - id: "FW-EDC-012"
+    nome: "Gatilhos Mentais — 8 Principais para Vendas"
+    descricao: "Conjunto de 8 gatilhos mentais éticos para persuasão de alto impacto."
+    gatilhos:
+      curiosidade: "Não dar resposta imediata — criar antecipação"
+      reciprocidade: "Dar valor genuíno antes de pedir venda"
+      autoridade: "Demonstrar conhecimento e expertise com confiança"
+      escassez: "Vagas limitadas, tempo limitado, oferta especial"
+      urgência: "Decisão agora tem vantagem específica"
+      novidade: "Pré-lançamento, produto novo, atualização"
+      emoção: "Histórias de transformação + visualização do futuro"
+      compromisso: "Micropactos progressivos durante a conversa"
+    regra_etica: "Usar para benefício genuíno do cliente. Manipulação = benefício só seu."
+    fontes: ["EDC-0089"]
+
+  # ==========================================================================
+  # ESTRUTURA DE TIME E CARREIRA
+  # ==========================================================================
+
+  - id: "FW-EDC-013"
+    nome: "SDR-Closer-CS — Estrutura de Time de Vendas"
+    descricao: "Divisão de responsabilidades em 3 papéis especializados para maximizar conversão e LTV."
+    papeis:
+      SDR: "Prospect, aquece contatos, agenda reuniões para closer"
+      Closer: "Conduz diagnóstico, apresenta solução, fecha contrato"
+      CS: "Onboard, suporte, retenção, geração de indicações"
+    fluxo: "Marketing → SDR → Closer → CS → LTV"
+    metrica_cada:
+      SDR: "Quantidade e qualidade de reuniões agendadas"
+      Closer: "Taxa de fechamento e ticket médio"
+      CS: "Retenção e NPS"
+    fontes: ["EDC-0020"]
+
+  - id: "FW-EDC-014"
+    nome: "Lista dos 100 (Priorização de Prospecção)"
+    descricao: "Framework para priorizar abordagem de prospects por temperatura e relacionamento."
+    categorias:
+      grupo_1: "Clientes atuais mais transformados (mais quentes, indicam melhor)"
+      grupo_2: "Clientes antigos com resultado (segundo mais quente)"
+      grupo_3: "Pessoas que demonstraram interesse mas não compraram"
+      grupo_4: "Conhecidos e influentes (mais frios, mais trabalho)"
+    regra: "Sempre começar pelo grupo mais quente. Não gastar energia nos frios enquanto há quentes."
+    fontes: ["EDC-0020"]
+
+  - id: "FW-EDC-015"
+    nome: "Social Selling — Prospecção via Redes Sociais"
+    descricao: "Processo de identificar, qualificar e abordar prospects via Instagram com mensagem personalizada."
+    passos:
+      - "Identificar quem curte/comenta/segue muito o conteúdo"
+      - "Acessar perfil da pessoa no Instagram"
+      - "Analisar: área de atuação, interesses, família, viagens"
+      - "Gravar vídeo personalizado (usar nome, comentar algo do perfil, como você pode ajudar)"
+      - "Enviar vídeo + mensagem de conexão"
+      - "Construir relacionamento antes de convidar para call/evento"
+    fontes: ["EDC-0020"]
+
+  - id: "FW-EDC-016"
+    nome: "Formas de Remuneração do Closer"
+    descricao: "Dois modelos de remuneração com suas vantagens e desvantagens."
+    modelos:
+      apenas_comissao:
+        vantagem: "Percentual mais alto (pode chegar a 30%)"
+        desvantagem: "Risco financeiro maior para o closer"
+        indicado_para: "Closer experiente com alta taxa de fechamento"
+      fixo_mais_comissao:
+        vantagem: "Segurança financeira mensal"
+        desvantagem: "Percentual menor de comissão"
+        indicado_para: "Closer em início de carreira ou produto novo"
+    regra: "Só fixo sem variável = closer não tem incentivo de performance. Evitar."
+    fontes: ["EDC-0064"]
+
+  - id: "FW-EDC-017"
+    nome: "Responsabilidades do Closer (6 Áreas)"
+    descricao: "Mapa completo das responsabilidades de um closer além do fechamento."
+    responsabilidades:
+      - "Cobrar cliente quando pagamento não chegou"
+      - "Confirmar reunião 30min antes via WhatsApp"
+      - "Acompanhar após 'sim' (até comprovante de pagamento)"
+      - "Acompanhar após 'não' (primeiro não não é definitivo)"
+      - "Enviar materiais e entregáveis conforme prometido"
+      - "Encaminhar cliente para CS após pagamento confirmado"
+    fontes: ["EDC-0065"]
+
+  - id: "FW-EDC-018"
+    nome: "Skills do Closer Águia — 13 Dimensões"
+    descricao: "Roda de desenvolvimento do closer com 13 habilidades avaliadas de 0-10 para identificar gargalos."
+    dimensoes:
+      - "Comunicação — clareza, objetividade, articulação"
+      - "Entusiasmo — energia, paixão, engajamento"
+      - "Inteligência Emocional — controle, empatia, presença"
+      - "Visão — perspectiva de longo prazo, estratégia"
+      - "Imagem — postura, apresentação, autoridade percebida"
+      - "Protagonismo — accountability, liderança própria"
+      - "Audácia — coragem de pedir, de arriscar, de fechar"
+      - "Genuíno — autenticidade, não performático"
+      - "Impetuoso — iniciativa, antecipação, proatividade"
+      - "Ambicioso — fome de crescimento, metas altas"
+      - "Único — diferenciação, personalidade marcante"
+      - "Conhecimento de Persuasão — técnica, influência"
+      - "Conhecimento do Produto — profundidade, confiança"
+    como_usar: "Avaliar 0-10 sem filtro → ligar pontos → roda capenga = gargalo → escolher 4 para trabalhar"
+    fontes: ["EDC-0067"]
+
+  # ==========================================================================
+  # LIDERANÇA E RETENÇÃO DE EQUIPE
+  # ==========================================================================
+
+  - id: "FW-EDC-019"
+    nome: "10 Formas de Treinar Equipe de Vendas"
+    descricao: "Menu completo de metodologias de treinamento para times de vendas, cada uma com propósito diferente."
+    metodos:
+      - "Brainstorming — gerar ideias sem crítica para resolver problemas"
+      - "Clube do Livro — 1x/semana, 10min de apresentação por membro"
+      - "Vídeos — 1x/semana, 15min de vídeo treinamento"
+      - "Teatralização Funcional — simulação com observação e feedback"
+      - "Caixinha de Problemas — coletar problemas reais para resolver em grupo"
+      - "Parceria Dobrada — novato + veterano experiente em campo"
+      - "Caso de Sucesso — semanal, votação, premiação do melhor"
+      - "Palestras e Cursos — externos, 2 por semestre mínimo"
+      - "Mentoria Estruturada — cronograma semanal por tema (7 semanas)"
+      - "Método Próprio — adaptar ao produto e equipe específicos"
+    fontes: ["EDC-0074"]
+
+  - id: "FW-EDC-020"
+    nome: "12 Elementos para Retenção de Talentos"
+    descricao: "Framework completo de retenção de vendedores de alto desempenho."
+    elementos:
+      - "Reconhecimento e validação (verbal, presencial, público)"
+      - "Bonificações e premiações (viagem, almoço, % extra)"
+      - "Ascensão financeira (escala de comissão por performance)"
+      - "Ascensão profissional (plano de carreira explícito)"
+      - "Conhecer necessidades individuais (perguntar, não assumir)"
+      - "Treinamentos e desenvolvimento contínuo"
+      - "Cuidar e se importar genuinamente"
+      - "Energia e exemplo do líder (velocidade do líder = velocidade do time)"
+      - "Alinhamento de visão e missão"
+      - "Pertencimento ao grupo (identidade coletiva)"
+      - "Delegação de responsabilidades"
+      - "Lembrar frequentemente do crescimento da pessoa"
+    regra: "3 positivos para cada 1 negativo. 6-8 reconhecimentos/mês = zona de alta performance."
+    fontes: ["EDC-0075"]
+
+  - id: "FW-EDC-021"
+    nome: "Estratégia de Evento Presencial (Funil Completo)"
+    descricao: "Framework para gerar vendas via evento presencial combinando digital e físico."
+    fases:
+      aquisicao: "Funil digital (ebook/webinário) para gerar leads"
+      qualificacao: "SDR faz pré-contato e qualifica interesse"
+      aquecimento: "Evento presencial: conteúdo + pré-pitch emocional"
+      fechamento: "Closer 1:1 no evento ou call pós-evento"
+      retencao: "CS cuida e gera indicações dos participantes"
+    gatilho_principal: "Persona transformada no palco = melhor argumento de venda para o público"
+    fontes: ["EDC-0020"]
+
+  - id: "FW-EDC-022"
+    nome: "Negociação Ganha-Ganha (Estrutura Completa)"
+    descricao: "Framework de negociação de comissão/contrato para closer com 7 elementos."
+    elementos:
+      preparacao:
+        - "Definir: cenário ideal, aceitável e impossível"
+        - "Compilar cases de resultado documentados"
+        - "Pesquisar a empresa/expert antes da reunião"
+      postura:
+        - "Demonstrar autoconfiança e autoridade"
+        - "Falar de resultados, não de esforço ou tempo"
+        - "Nunca aceitar primeira proposta"
+      tatica:
+        - "Jogar ~30-50% acima do objetivo para ter margem"
+        - "Identificar perfil DISC do contratante"
+        - "Nunca discordar frontalmente — mostrar outro ângulo"
+    fontes: ["EDC-0046"]
+
+  - id: "FW-EDC-023"
+    nome: "Mentoria Estruturada em 7 Semanas"
+    descricao: "Cronograma completo de mentoria para desenvolvimento de time de vendas."
+    cronograma:
+      semana_1: "Prospecção — como gerar e qualificar leads"
+      semana_2: "Qualificação e Abordagem — como qualificar e abrir conversa"
+      semana_3: "Apresentação — como estruturar e conduzir pitch"
+      semana_4: "Acompanhamento — follow-up e CRM"
+      semana_5: "Negociação — lidar com objeções e negociar"
+      semana_6: "Fechamento — técnicas e scripts de fechamento"
+      semana_7: "Pós-venda — CS, LTV e indicação"
+    formato: "Encontros semanais, hora pré-determinada, conteúdo prático + exercício executável"
+    fontes: ["EDC-0074"]
+
+  - id: "FW-EDC-024"
+    nome: "Teatralização Funcional de Treinamento"
+    descricao: "Metodologia de role-play estruturado para treinar skills de venda em equipe."
+    passos:
+      - "Escolher tema relevante (objeção mais comum, cold call, fechamento)"
+      - "Cada membro assume um papel (vendedor, cliente, gerente)"
+      - "Líder observa sem interromper — anota erros e acertos"
+      - "Equipe também anota durante a simulação"
+      - "Finalizar simulação"
+      - "Perguntar: 'o que foi bem? o que poderia melhorar?'"
+      - "Consolidar aprendizado em grupo"
+    beneficio: "Aprende-se mais vendo e errando com segurança do que ouvindo teoria"
+    fontes: ["EDC-0074"]
+
+  - id: "FW-EDC-025"
+    nome: "Feedback Sanduíche + Ratio 3:1"
+    descricao: "Sistema de feedback que maximiza impacto e minimiza resistência emocional."
+    estrutura:
+      abertura: "Elogio genuíno e específico (o que está bem)"
+      meio: "Feedback corretivo (o que ajustar, com orientação prática)"
+      fechamento: "Elogio genuíno novamente (reforçar identidade positiva)"
+    ratio: "3 interações positivas para cada 1 negativa no mês"
+    resultado: "Pessoa recebe feedback corretivo sem se sentir atacada"
+    excecao: "Situação crítica/urgente pode demandar feedback direto sem sanduíche"
+    fontes: ["EDC-0075"]

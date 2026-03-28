@@ -1,0 +1,375 @@
+# JEREMY HAYNES - DNA COGNITIVO
+# Camada: FRAMEWORKS (Frameworks e Estruturas Proprietárias)
+# Versao: 1.0.0 | Criado: 2026-03-17
+
+pessoa: "Jeremy Haynes"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 16
+camada: "FRAMEWORKS"
+
+itens:
+
+  # ═══════════════════════════════════════════════════════════════
+  # PAID MEDIA FRAMEWORKS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FW-001"
+    titulo: "Hydra Strategy - Lead Form Before VSSL"
+    descricao: |
+      Estrutura de funil onde o prospect preenche um formulário de qualificação
+      ANTES de ver o VSSL (Video Sales Letter). O nome vem da ideia de múltiplas
+      cabeças - vários pontos de captura e qualificação antes do contato de vendas.
+      TypeForm captura dados, Calendly automatiza o agendamento. Resultado: leads
+      chegam para o closer pré-qualificados e comprometidos (99% booking rate).
+    peso: 0.97
+    componentes:
+      - "TypeForm: questionário de qualificação (budget, situação atual, objetivo)"
+      - "Calendly: agendamento automático integrado com TypeForm"
+      - "VSSL: aparece APÓS preenchimento do formulário, não antes"
+      - "Hammer Strategy: protocolo de confirmação de call para reduzir no-shows"
+    aplicacao: "Funis de call booking para serviços high-ticket ($5K+/mês)"
+    dominios:
+      - "paid media"
+      - "funil de vendas"
+      - "qualificação de leads"
+    fontes: ["CONFIG"]
+
+  - id: "JH-FW-002"
+    titulo: "Venus Fly Trap 1.0 - 3-Video Content Funnel"
+    descricao: |
+      Funil de conteúdo em 3 vídeos projetado para atrair e converter prospects
+      de alto ticket. Funciona como uma Venus Fly Trap: atrai com valor, captura
+      com comprometimento, fecha na terceira interação. Cada vídeo serve um papel
+      específico: conscientização, consideração, decisão. Os vídeos criam uma jornada
+      de nurturing que qualifica o prospect naturalmente antes do contato de vendas.
+    peso: 0.95
+    componentes:
+      - "Vídeo 1 (Awareness): Problem awareness - identifica o problema que o prospect tem"
+      - "Vídeo 2 (Consideration): Solution introduction - apresenta a categoria de solução"
+      - "Vídeo 3 (Decision): Offer specific - apresenta a oferta e CTA de agendamento"
+    aplicacao: "Campanhas de nurturing para high-ticket com ciclo de decisão mais longo"
+    dominios:
+      - "paid media"
+      - "content marketing"
+      - "nurturing"
+    fontes: ["CONFIG"]
+
+  - id: "JH-FW-003"
+    titulo: "Venus Fly Trap 2.0 - Versão Otimizada do 3-Video Funnel"
+    descricao: |
+      Evolução do Venus Fly Trap 1.0 com aprimoramentos baseados em dados de
+      performance. A versão 2.0 incorpora targeting mais sofisticado, retargeting
+      estruturado entre vídeos, e triggers de conversão mais específicos.
+      Otimizado para plataformas com algoritmos mais avançados (Facebook, Instagram 2.0+).
+    peso: 0.93
+    componentes:
+      - "Sequência de retargeting entre vídeos com audiências de engajamento"
+      - "Triggers de conversão baseados em nível de engajamento com vídeos anteriores"
+      - "Múltiplas variações criativas para anti-fadiga dentro da sequência"
+      - "Integração com Hydra Strategy no ponto de conversão"
+    aplicacao: "Campanhas de high-ticket com budget de teste acima de $1K/dia"
+    dominios:
+      - "paid media"
+      - "retargeting"
+      - "funil avançado"
+    fontes: ["CONFIG"]
+
+  - id: "JH-FW-004"
+    titulo: "Andromeda Adaptation - Sistema de 50+ Criativos por Semana"
+    descricao: |
+      Framework de produção de criativos em volume industrial para combater ad
+      fatigue. O nome vem da ideia de expansão constante - como a galáxia de
+      Andromeda em expansão perpétua. O sistema cria um pipeline de criativos
+      onde novos assets entram continuamente, e o algoritmo sempre tem material
+      fresco para otimizar. 50+ criativos/semana é o mínimo para escala real.
+    peso: 0.94
+    componentes:
+      - "Brief templates padronizados para briefar criativos em volume"
+      - "Network de freelancers criativos (gráficos, vídeo, animação)"
+      - "Sistema de aprovação rápida para não criar gargalo de revisão"
+      - "Categorização de criativos por tipo, ângulo e formato para análise"
+      - "Protocolo de teste A/B sistemático de novos criativos"
+    aplicacao: "Quando budget diário supera $500/dia e ad fatigue começa a ser detectada"
+    dominios:
+      - "paid media"
+      - "criativos"
+      - "escala"
+    fontes: ["CONFIG"]
+
+  - id: "JH-FW-005"
+    titulo: "Tornado / Harvester / Forester - Estratégias de Ad Scaling"
+    descricao: |
+      Três estratégias distintas de escala de anúncios para diferentes fases do
+      crescimento de conta. Tornado: escala agressiva e rápida de ads que estão
+      performando (capturar janela de oportunidade). Harvester: colheita sistemática
+      de audiências de alto valor que já demonstraram interesse. Forester: plantio
+      de sementes de longo prazo em audiências frias para awareness futuro.
+    peso: 0.93
+    componentes:
+      - "Tornado: identificar ad vencedor → escalar budget 2x a 3x por dia"
+      - "Harvester: mapear audiências que engajaram → retargeting estruturado"
+      - "Forester: campanhas de awareness com objetivo de longo prazo"
+      - "Timing: Tornado para spikes, Harvester para consistência, Forester para sustentabilidade"
+    aplicacao: "Gestão de contas de paid media em diferentes estágios de maturidade"
+    dominios:
+      - "paid media"
+      - "ad scaling"
+      - "estratégia de budget"
+    fontes: ["CONFIG"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # SALES & FUNNEL FRAMEWORKS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FW-006"
+    titulo: "DSL - Deck Sales Letter (Alternativa ao VSL)"
+    descricao: |
+      Sales Letter em formato de apresentação/deck (slides) em vez de vídeo.
+      Resultados comprovados: 77% dos visitantes chegam ao slide 5, contra 5-9%
+      que completam um VSL. O DSL funciona melhor para audiências que preferem
+      controlar o ritmo de consumo. Cada slide tem função específica no processo
+      persuasivo, espelhando a estrutura de uma call de vendas.
+    peso: 0.96
+    componentes:
+      - "Slide 1: Hook - problema que ressoa com audiência alvo"
+      - "Slide 2-3: Agitação do problema e custo de não resolver"
+      - "Slide 4: Apresentação de solução única"
+      - "Slide 5: Prova social e credibilidade (77% chegam aqui)"
+      - "Slide 6-7: Breakdown da oferta e valor"
+      - "Slide 8: CTA e call booking"
+    aplicacao: "Página de vendas principal para funis de high-ticket"
+    dominios:
+      - "copywriting"
+      - "funil de vendas"
+      - "conversão"
+    fontes: ["CONFIG"]
+
+  - id: "JH-FW-007"
+    titulo: "Follow-Up Architecture - Little Things → Big Things → Break Glass"
+    descricao: |
+      Sistema de follow-up em 3 camadas de escalada para reativar prospects parados.
+      Layer 1 (Little Things): conteúdo de valor leve e regular (artigos, notícias).
+      Layer 2 (Big Things): entrega de value maior (case study, conexão com cliente,
+      podcast). Layer 3 (Break Glass): ação de última instância para prospects
+      de alto valor que não respondem (chamada direta, oferta especial limitada).
+    peso: 0.95
+    componentes:
+      - "Little Things: artigos de newsroom das plataformas, atualizações relevantes"
+      - "Big Things: case studies, vídeos selfie personalizados, testimonials, podcasts"
+      - "Break Glass: scarcity real (aumento de preço), conexão com cliente existente"
+      - "Cadência: Little Things 1x/semana, Big Things a cada 2 semanas, Break Glass 1x/mês"
+    aplicacao: "Gestão de pipeline de prospects que não avançaram após first contact"
+    dominios:
+      - "follow-up"
+      - "vendas"
+      - "pipeline management"
+    fontes: ["JH-ST-0008", "CONFIG"]
+
+  - id: "JH-FW-008"
+    titulo: "Call Funnel Optimization - TypeForm + Calendly + Hammer"
+    descricao: |
+      Sistema otimizado de booking de calls em 3 componentes integrados.
+      TypeForm qualifica o prospect antes do agendamento (filtro de qualidade).
+      Calendly automatiza o scheduling e elimina fricção de coordenação.
+      Hammer Strategy é o protocolo de confirmação e reforço pré-call para
+      garantir presença (99% booking rate reportado com o sistema completo).
+    peso: 0.95
+    componentes:
+      - "TypeForm: 5-7 perguntas de qualificação (situação atual, objetivo, budget, timeline)"
+      - "Calendly: integrado com TypeForm, mostra disponibilidade em real time"
+      - "Confirmação automática: email + SMS imediatamente após booking"
+      - "Hammer Strategy: sequência de lembretes 24h, 1h antes da call"
+      - "Protocolo de no-show: tentativa de reagendamento imediata"
+    aplicacao: "Configuração padrão de agendamento de calls para ofertas high-ticket"
+    dominios:
+      - "automação"
+      - "funil de vendas"
+      - "gestão de calls"
+    fontes: ["CONFIG"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # REPUTATION & AUTHORITY FRAMEWORKS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FW-009"
+    titulo: "Pentagon Solution - 5-Area AI Reputation Attack"
+    descricao: |
+      Framework para construção proativa de reputação digital em 5 frentes
+      simultâneas usando IA. O objetivo é dominar o espaço de busca e social proof
+      para que prospects que pesquisam sobre a agência/oferta encontrem credibilidade
+      em múltiplos canais independentes. As 5 áreas formam um pentágono de autoridade.
+    peso: 0.97
+    componentes:
+      - "Reddit: presença e autoridade em comunidades relevantes"
+      - "Trustpilot: gestão proativa de avaliações e reviews"
+      - "Press: cobertura em publicações relevantes do setor"
+      - "Blogs: conteúdo SEO em sites de autoridade do nicho"
+      - "Authority Content: podcasts, entrevistas, guest posts em plataformas de referência"
+    aplicacao: "Quando escalar beyond $50K/mês - reputação online se torna gargalo de conversão"
+    dominios:
+      - "reputação"
+      - "autoridade"
+      - "marketing de conteúdo"
+    fontes: ["CONFIG"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # TEAM & OPERATIONS FRAMEWORKS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FW-010"
+    titulo: "Cleaner Role Framework - Estrutura de Recuperação de Leads"
+    descricao: |
+      Sistema para recuperar leads abandonados que nenhum closer está seguindo.
+      O Cleaner é um closing role (não setter) que entra especificamente para
+      reativar leads de semanas anteriores. Progressão de carreira: Cleaner →
+      Setter ou Closer. Introduzir na semana 2-3 de campanha, antes que o
+      problema se torne matematicamente irrecuperável.
+    peso: 0.96
+    componentes:
+      - "Perfil: closer em treinamento (não setter), responsável por leads abandonados"
+      - "Função: reestabelecer comunicação com leads que não estão sendo seguidos"
+      - "Autoridade: toma ownership total dos leads atribuídos (não devolve para closers)"
+      - "Progressão: Cleaner → Setter ou Closer após demonstrar performance"
+      - "KPI: taxas de recontato e conversão de leads 'frios'"
+    aplicacao: "Equipes com 2+ semanas de campanha ativa e 2+ closers"
+    dominios:
+      - "estrutura de equipe"
+      - "vendas"
+      - "recuperação de receita"
+    fontes: ["JH-ST-0005", "JH-ST-0004"]
+
+  - id: "JH-FW-011"
+    titulo: "4 Sales Team Structures - Decisão por Volume de Leads"
+    descricao: |
+      Framework de decisão para estruturar equipe de vendas baseado no volume
+      de leads diários e capacidade operacional do closer. Quatro modelos possíveis:
+      (1) Closer Solo (baixo volume), (2) Closer + Cleaner (volume médio crescendo),
+      (3) Setter + Closer (alto volume, pre-qualificação necessária),
+      (4) Setter + Closer + Cleaner (alta escala, máxima cobertura).
+    peso: 0.95
+    componentes:
+      - "Closer Solo: viável até semana 2-3 de campanha ativa"
+      - "Closer + Cleaner: quando 3 pilares de atividade começam a conflitar"
+      - "Setter + Closer: quando volume excede capacidade do closer solo"
+      - "Setter + Closer + Cleaner: modelo completo para alta escala"
+      - "Critério de transição: qualquer pilar (leads diários, agendados, follow-up) comprometido"
+    aplicacao: "Ao estruturar ou reestruturar equipe de vendas baseada em volume atual"
+    dominios:
+      - "estrutura de equipe"
+      - "vendas"
+      - "escala"
+    fontes: ["JH-ST-0004", "JH-ST-0005"]
+
+  - id: "JH-FW-012"
+    titulo: "Staff vs Contractors vs Strategic Referral Network Decision Matrix"
+    descricao: |
+      Framework para decisão de como construir a operação da agência. Três opções
+      com trade-offs claros: Staff (máximo controle, máxima liability e custo),
+      Contractors (controle moderado, margem alta, sem liability trabalhista),
+      Strategic Referral Network (controle mínimo, margem menor, zero liability de entrega).
+      Recomendação JH: contractors + referral network, nunca staff.
+    peso: 0.94
+    componentes:
+      - "Staff: W2/CLT, paga benefícios + impostos + overhead - usar apenas em último caso"
+      - "Contractors: pay per project, sem benefits, foco em resultados - modelo principal"
+      - "Referral Network: 10-20% kickback, zero responsabilidade de entrega"
+      - "Plataforma recomendada: Upwork.com para encontrar contractors qualificados"
+      - "Nunca pagar por hora - sempre por projeto/resultado"
+    aplicacao: "Decisão de qualquer nova contratação ou parceria na agência"
+    dominios:
+      - "operações de agência"
+      - "estrutura de equipe"
+      - "gestão financeira"
+    fontes: ["AOBA-0004"]
+
+  - id: "JH-FW-013"
+    titulo: "AOV Optimization Framework - Incentive-Driven Pricing Structure"
+    descricao: |
+      Framework para maximizar Average Order Value através de estrutura de incentivos
+      que direcionam comportamento de compra. Princípio central: bônus para full pay,
+      penalidades para split pay, financing partners como terceira opção equiparada.
+      O objetivo é coletar o máximo possível no ato da venda para maximizar ROI
+      de marketing e capacidade de escala.
+    peso: 0.95
+    componentes:
+      - "Full Pay: menor preço + todos os bônus disponíveis"
+      - "Split Pay (2x): preço 4-5% maior + sem bônus"
+      - "Financing Partners (Coach Finance, Finnfi): equiparado ao full pay em incentivos"
+      - "Eliminar quad pay (4x) - alto churn por falha de pagamentos recorrentes"
+      - "Regra: incentivos devem ser suficientemente poderosos para influenciar decisão"
+    aplicacao: "Estruturação de opções de pagamento para qualquer oferta high-ticket"
+    dominios:
+      - "pricing"
+      - "AOV"
+      - "estrutura de pagamento"
+    fontes: ["JH-ST-0013"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # ACCOUNT MANAGEMENT FRAMEWORKS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FW-014"
+    titulo: "Share of Wallet Framework - Retention, Growth, Acquisition"
+    descricao: |
+      Framework de account management (adaptado da Dell) que classifica clientes
+      em três categorias para priorização de esforço e estratégia. Retention: cliente
+      já entrega 50%+ do wallet, foco em proteger e manter. Growth: cliente com
+      potencial de expandir share, foco em upsell e cross-sell. Acquisition: cliente
+      novo ou baixo share, foco em provar valor inicial.
+    peso: 0.93
+    componentes:
+      - "Retention (50%+ wallet share): defender conta, superar expectativas, evitar churn"
+      - "Growth (<50% com potencial): mapeamento de outras necessidades, apresentação de novos serviços"
+      - "Acquisition (novos/baixo share): onboarding excelente, primeiros resultados rápidos"
+      - "Revisão trimestral: reclassificar contas conforme comportamento"
+    aplicacao: "Gestão trimestral de base de clientes existentes"
+    dominios:
+      - "account management"
+      - "retenção"
+      - "crescimento de conta"
+    fontes: ["UHTC-0009"]
+
+  - id: "JH-FW-015"
+    titulo: "Money Tree Framework - Roots → Mindset → Strategy → Tactics"
+    descricao: |
+      Framework de desenvolvimento profissional em vendas de alto ticket estruturado
+      como uma árvore: Raízes (motivadores fundamentais - ninguém te deve nada,
+      controle dos dados), Tronco (mindsets - curiosidade, melhoria sistemática),
+      Galhos (estratégias - prospecção, follow-up, scripts), Folhas (táticas -
+      video prospecting, templates específicos).
+    peso: 0.91
+    componentes:
+      - "Roots (Motivadores): 'ninguém me deve nada' + 'controle meus dados'"
+      - "Mindset (Tronco): curiosidade constante + melhoria sistemática"
+      - "Strategy (Galhos): prospecção multicanal, follow-up de valor, account management"
+      - "Tactics (Folhas): video prospecting, email templates, scripts específicos"
+      - "Princípio: sem raízes sólidas, galhos e folhas não sustentam"
+    aplicacao: "Desenvolvimento de vendedores e closers de alto ticket"
+    dominios:
+      - "desenvolvimento profissional"
+      - "mentalidade"
+      - "vendas"
+    fontes: ["UHTC-0003"]
+
+  - id: "JH-FW-016"
+    titulo: "Video Prospecting Framework - Packed Pipeline em 60 Dias"
+    descricao: |
+      Sistema para construir um pipeline cheio em 60 dias usando video prospecting
+      como diferenciador. Inclui estrutura de video resume, personalização por
+      target, seguência de follow-up com vídeo, e integração com pesquisa de empresa.
+      O framework resolve o problema de prospects que levam 5-6 meses para fechar,
+      acelerando o ciclo com presença visual e personalização.
+    peso: 0.92
+    componentes:
+      - "Video Resume: apresentação profissional em vídeo de 60-90 segundos"
+      - "Personalização: referência específica ao negócio do prospect no vídeo"
+      - "Pesquisa de empresa: contexto antes do vídeo para personalização real"
+      - "Follow-up em vídeo: respostas a perguntas em formato de vídeo selfie"
+      - "Cadência: vídeo inicial + 2-3 follow-ups em vídeo nos primeiros 30 dias"
+    aplicacao: "Equipes de B2B sales targeting high-ticket clients"
+    dominios:
+      - "prospecção"
+      - "vendas B2B"
+      - "video marketing"
+    fontes: ["UHTC-0003"]

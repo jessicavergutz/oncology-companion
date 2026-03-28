@@ -1,0 +1,277 @@
+# THE SCALABLE COMPANY - DNA COGNITIVO
+# Camada: METODOLOGIAS (Implementações Passo a Passo)
+# Versao: 1.0.0 | Criado: 2026-03-17 | Extraido de 10 fontes TSC
+
+pessoa: "Ryan Deiss / The Scalable Company"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 13
+camada: "METODOLOGIAS"
+
+metodologias:
+
+  - id: "MET-TSC-001"
+    nome: "Implementação do ScalableOS Accelerator"
+    objetivo: "Instalar um sistema operacional completo e escalável na empresa em 3 fases sequenciais"
+    passos:
+      - "FASE 1 - BUILD (6-8 semanas): Usar as 6 ferramentas do ScalableOS para documentar algoritmos da empresa, desenhar a arquitetura de comunicação e construir a Clarity Compass"
+      - "FASE 2 - INSTALL (2-3 semanas): Realizar reunião estratégica de 2 dias com a equipe de liderança (Clarity Day + QSP) seguida de rollout para toda a empresa"
+      - "FASE 3 - OPTIMIZE (contínua): Encontrar-se a cada 90 dias com a liderança para planejar o próximo trimestre e fazer upgrades no sistema operacional"
+    quando_usar: "Quando o fundador quer sair do dia a dia e o negócio precisa de um OS estruturado para escalar"
+    dominios:
+      - "sistema operacional"
+      - "escalabilidade"
+      - "liderança"
+      - "processos"
+    peso: 0.97
+
+  - id: "MET-TSC-002"
+    nome: "Criação de um Business Playbook"
+    objetivo: "Documentar um processo crítico em um checklist step-by-step que qualquer pessoa com contexto geral possa executar corretamente"
+    passos:
+      - "DEFINIR: Identificar o processo a ser documentado (baseado nos value engines)"
+      - "DESIGNAR: Nomear o playbook owner — a pessoa que normalmente executa o processo"
+      - "EXECUTAR E DOCUMENTAR: O playbook owner executa o processo normalmente e documenta cada passo simultaneamente (ou imediatamente após enquanto está fresco)"
+      - "BLIND RE-RUN: O playbook owner executa o processo novamente, desta vez seguindo cegamente a documentação que acabou de criar — identificará passos faltando"
+      - "CORRIGIR: Atualizar a documentação com os passos descobertos no blind re-run"
+      - "SELECIONAR FIELD TESTER: Escolher alguém que entende o contexto geral mas nunca executou esse processo específico"
+      - "BRIEFING DO FIELD TESTER: Explicar que eles estão testando a documentação, não suas habilidades pessoais"
+      - "FIELD TEST: Field tester executa seguindo a documentação, apontando onde ficou confuso ou travado"
+      - "AVALIAR: Se mudanças significativas foram necessárias, repetir field test com pessoa diferente"
+      - "PUBLICAR: Somente quando o playbook entrega o resultado desejado consistentemente, adicioná-lo à biblioteca"
+    quando_usar: "Para qualquer processo crítico nos value engines que precise ser delegado, replicado ou protegido contra o risco de key person dependency"
+    dominios:
+      - "playbooks"
+      - "documentação de processos"
+      - "delegação"
+      - "qualidade"
+    peso: 0.95
+
+  - id: "MET-TSC-003"
+    nome: "Facilitação de um Quarterly Sprint Planning (QSP)"
+    objetivo: "Conduzir a equipe de liderança por um processo estruturado que resulte em um plano trimestral alinhado, com tema, métricas de sucesso, pilares estratégicos e key initiatives priorizadas"
+    passos:
+      - "ABERTURA (15-20 min): Welcome, agenda, ground rules (pedir confirmação verbal de cada participante), mantra 'o que precisa ser verdade para isso acontecer?', objetivo da sessão"
+      - "REVISÃO DO 12Q (5-20 min): Abrir o 12Q plan, verificar se a empresa está on track / ahead / behind e estabelecer o tom do planejamento"
+      - "90-DAY GAME PLAN (30-45 min): Reflexão individual em silêncio (2 min por pergunta: orgulho/arrependimento, confiança/lacunas, excitamento/preocupações + Focus 5), compartilhamento em grupo, ritual de virar a página"
+      - "REVISÃO DO PROCESSO QSP (10 min): Explicar o processo de planejamento para novos participantes ou relembrar o time"
+      - "BRAINSTORM DE KEY INITIATIVES (30-40 min): 5 min individuais em silêncio → cada pessoa apresenta seus post-its (stacking de duplicatas) → identificar temas e pilares emergentes"
+      - "BRAINSTORM DE SUCCESS METRICS (20-30 min): Revisar company scorecard → 5 min individuais → apresentação com stacking → verificar se há novas initiatives sugeridas pelas métricas"
+      - "RODAR OS NÚMEROS (1 hora): Simular impacto das initiatives nas métricas e verificar se fecharão o gap com os targets do 12Q"
+      - "GUT CHECK: Perguntar ao time se o plano é realizável dado bandwidth, budget, knowledge e skill gaps"
+      - "B&O REVIEW: Ler a lista de bottlenecks e opportunities, eliminar/combinar/processar cada item"
+      - "FINALIZAR E PRIORIZAR: Confirmar tema, pilares estratégicos e priorizar key initiatives no Quarterly Sprint Plan Canvas"
+      - "OS AUDIT: Verificar se o plano requer mudanças no scorecard, value engines, HOT canvas ou Clarity Compass"
+      - "PLANO DE ROLLOUT: Definir o que cada líder vai comunicar para seu time e quando, agendar all-hands"
+    quando_usar: "A cada 90 dias com toda a equipe de liderança, independente do estágio de maturidade da empresa"
+    dominios:
+      - "QSP"
+      - "planejamento estratégico"
+      - "facilitação de reuniões"
+      - "liderança"
+    peso: 0.96
+
+  - id: "MET-TSC-004"
+    nome: "Mapeamento de Growth Engine"
+    objetivo: "Documentar explicitamente como clientes acontecem no negócio, transformando um processo implícito e dependente de pessoas em um mapa visual e replicável"
+    passos:
+      - "PERGUNTAR: 'Como clientes acontecem aqui?' — é a pergunta central a responder"
+      - "REUNIR: Trazer as pessoas que mais entendem como leads chegam e se convertem"
+      - "MAPEAR AWARENESS: Como as pessoas descobrem a existência da empresa (ads, conteúdo, indicação, SEO etc.)"
+      - "MAPEAR ENGAGE: Como as pessoas se engajam antes de comprar (visitar site, assistir vídeo, ler artigo etc.)"
+      - "MAPEAR SUBSCRIBE: Como as pessoas entram no funil/lista/comunidade (opt-in, follow etc.)"
+      - "MAPEAR CONVERT: Como se tornam clientes pagantes (trial, proposta, checkout etc.)"
+      - "DOCUMENTAR EM STICKY NOTES: Usar whiteboard e sticky notes, não ferramenta digital ainda"
+      - "VALIDAR: Verificar se o mapa representa fielmente como clientes realmente acontecem hoje"
+      - "IDENTIFICAR LACUNAS: Onde o processo é mais frágil, dependente de uma pessoa ou incerto"
+      - "PUBLICAR DIGITALMENTE: Apenas após validação completa, converter para ferramenta de fluxograma"
+    quando_usar: "Quando o negócio não sabe como clientes acontecem sistematicamente, ou quando o fundador quer criar um growth engine replicável"
+    dominios:
+      - "growth"
+      - "marketing"
+      - "processos"
+      - "value engines"
+    peso: 0.93
+
+  - id: "MET-TSC-005"
+    nome: "Construção do High Output Team Canvas"
+    objetivo: "Criar um mapa visual claro da estrutura organizacional com equipes, líderes, responsabilidades e métricas de cada área"
+    passos:
+      - "BRAINSTORM DE FUNÇÕES CORE: Listar todas as funções core que existem no negócio"
+      - "AGRUPAR: Categorizar em produto, receita e operações"
+      - "VALIDAR NÚMERO: Confirmar que há entre 5-7 equipes core (se houver mais, considerar agrupamentos)"
+      - "SEQUENCIAR: Ordenar as equipes pela jornada do cliente (produto → marketing → vendas → operações)"
+      - "PREENCHER: Para cada equipe, definir líder responsável, responsabilidades principais e KPIs"
+      - "REVISAR: Garantir que toda atividade crítica do negócio está coberta por alguma equipe"
+      - "INTEGRAR COM VALUE ENGINES: Garantir que as equipes mapeadas cobrem todas as etapas dos value engines"
+      - "ATUALIZAR NO OS AUDIT: Revisar o HOT Canvas ao final de cada QSP se houve mudanças significativas"
+    quando_usar: "Ao estruturar ou reestruturar a organização, ao criar job descriptions e ao delegar responsabilidades"
+    dominios:
+      - "estrutura organizacional"
+      - "liderança"
+      - "accountability"
+      - "High Output Team Canvas"
+    peso: 0.91
+
+  - id: "MET-TSC-006"
+    nome: "Construção da Clarity Compass"
+    objetivo: "Criar o documento de clareza estratégica da empresa com propósito, valores, missão, visão e plano de 12 trimestres, de forma participativa com o time de liderança"
+    passos:
+      - "PREPARAR: O fundador brainstorma ideias e faz anotações mas NÃO completa a Clarity Compass sozinho"
+      - "NÃO COMPARTILHAR RASCUNHO: Não mostrar nenhum rascunho da Clarity Compass para o time antes do Clarity Day"
+      - "AGENDAR CLARITY DAY: Marcar o primeiro dia da reunião de 2 dias (Clarity Day + QSP)"
+      - "CLARITY DAY - PARTE 1: Facilitar discussão sobre propósito, valores e missão com toda a liderança"
+      - "CLARITY DAY - PARTE 2: Definir visão e construir o 12Q plan com a equipe"
+      - "CLARITY DAY - PARTE 3: Definir âncoras estratégicas (capacidades e vantagens competitivas)"
+      - "CONSOLIDAR: Compilar todos os inputs em um documento final da Clarity Compass"
+      - "ALINHAR: Obter confirmação de todos os participantes que o documento os representa"
+      - "COMPARTILHAR COM A EMPRESA: No all-hands após o QSP"
+    quando_usar: "No início do ScalableOS ou quando a empresa precisa de realinhamento estratégico fundamental"
+    dominios:
+      - "clareza organizacional"
+      - "estratégia"
+      - "cultura organizacional"
+      - "Clarity Compass"
+    peso: 0.93
+
+  - id: "MET-TSC-007"
+    nome: "Rollout do Plano Trimestral para Toda a Empresa"
+    objetivo: "Comunicar o plano trimestral da liderança para toda a organização com buy-in genuíno dentro de 7-14 dias após o QSP"
+    passos:
+      - "ALINHAR LIDERANÇA: Definir exatamente o que cada líder vai comunicar e quando (ainda na sessão do QSP)"
+      - "ACORDAR CRONOGRAMA: Definir datas para: team meetings, feedback loop, integração e all-hands"
+      - "COMUNICAÇÃO SEQUENCIAL: Cada líder apresenta o plano para seu time (não anunciar antes que outros líderes tenham falado com seus times)"
+      - "COLETAR FEEDBACK: Times revisam e sugerem ajustes, iniciativas faltantes ou impossíveis"
+      - "INTEGRAR FEEDBACK: Liderança revisa os inputs dos times e integra o que for relevante"
+      - "FINALIZAR PLANO: Versão final do Quarterly Sprint Plan após integração do feedback"
+      - "ALL-HANDS: Apresentar o plano finalizado para toda a empresa com transparência sobre o raciocínio"
+      - "TIMELINE MÁXIMO: Todo o processo deve ser concluído em no máximo 14 dias"
+    quando_usar: "Imediatamente após cada QSP de liderança"
+    dominios:
+      - "comunicação organizacional"
+      - "QSP"
+      - "liderança"
+      - "alinhamento organizacional"
+    peso: 0.90
+
+  - id: "MET-TSC-008"
+    nome: "Definição e Estruturação do Company Scorecard"
+    objetivo: "Criar um scorecard de empresa que permita ao CEO e liderança identificar rapidamente se o negócio está saudável sem precisar mergulhar em dados departamentais"
+    passos:
+      - "LISTAR CANDIDATOS: Listar todas as métricas que atualmente são rastreadas"
+      - "APLICAR LITMUS TEST: Para cada métrica, perguntar 'se eu estiver numa ilha de férias, preciso ver este número?' — se não, pertence ao scorecard departamental"
+      - "AGRUPAR POR FUNÇÃO: Organizar as métricas restantes pelas funções core (marketing, vendas, operações, produto etc.)"
+      - "LIMITAR POR FUNÇÃO: Selecionar no máximo 1-3 métricas por área funcional"
+      - "VERIFICAR COBERTURA: Confirmar que o scorecard responde 'o negócio está funcionando?' de forma geral"
+      - "CRIAR SCORECARDS DEPARTAMENTAIS: Garantir que as métricas filtradas do company scorecard vão para scorecards dos líderes de departamento"
+      - "IMPLEMENTAR REVISÃO SEMANAL: Estabelecer reunião semanal para revisão do company scorecard com a liderança"
+      - "ATUALIZAR NO QSP: Revisar North Star metrics no OS Audit de cada QSP"
+    quando_usar: "Ao implementar o ScalableOS ou quando o scorecard atual tem métricas demais e a liderança está sobrecarregada"
+    dominios:
+      - "métricas"
+      - "scorecards"
+      - "gestão"
+      - "liderança"
+    peso: 0.92
+
+  - id: "MET-TSC-009"
+    nome: "Processamento de Itens da B&O List no QSP"
+    objetivo: "Processar cada bottleneck e oportunidade da lista de forma estruturada, garantindo que nenhum item importante seja ignorado e que decisões sejam tomadas"
+    passos:
+      - "PREPARAR: Colocar a B&O list visível para todos os participantes"
+      - "1 MINUTO DE LEITURA: Dar 1 minuto de silêncio para todos lerem a lista"
+      - "ELIMINAR: Perguntar 'o que pode ser removido da lista?' (já foi resolvido, não é relevante agora)"
+      - "COMBINAR: Perguntar 'o que pode ser combinado com outro item?'"
+      - "PRIORIZAR: Identificar o que absolutamente precisa ser processado"
+      - "PROCESSAR CADA ITEM: Para cada item relevante: quem tem opinião forte? quem discorda? quem quer propor solução? quem quer propor solução oposta? quem decide?"
+      - "TOMAR DECISÃO: Alguém deve decidir — não 'kicking the can'. Pode ser: resolver, adiar para próximo trimestre (com data), ou conscientemente não priorizar"
+      - "VERIFICAR IMPACTO: 'Algum item da B&O list muda nossa tema, métricas ou pilares estratégicos?'"
+    quando_usar: "Ao final da fase de brainstorming do QSP, antes de finalizar o plano"
+    dominios:
+      - "QSP"
+      - "facilitação de reuniões"
+      - "tomada de decisão"
+      - "B&O List"
+    peso: 0.89
+
+  - id: "MET-TSC-010"
+    nome: "Avaliação Trimestral de Desempenho Individual"
+    objetivo: "Conduzir avaliações de performance individuais trimestrais que conectem o desempenho de cada funcionário à estratégia da empresa e aos resultados do QSP"
+    passos:
+      - "TIMING: Realizar após o QSP, para que os funcionários tenham contexto do que foi planejado"
+      - "COMPARTILHAR CONTEXTO: Mostrar ao funcionário os resultados do QSP recente (3 pilares, métricas, key initiatives)"
+      - "AUTO-AVALIAÇÃO PRIMEIRO: Pedir que o funcionário se avalie antes de receber feedback do gestor"
+      - "PERGUNTAS DA AUTO-AVALIAÇÃO: Passado (orgulho e arrependimentos), presente (confiança e lacunas), futuro (excitamento e preocupações) + 5 realizações do trimestre"
+      - "IDENTIFICAR GAPS: A partir da auto-avaliação, identificar onde o funcionário precisa crescer"
+      - "CONECTAR À ESTRATÉGIA: Mostrar como o trabalho do funcionário alimenta os objetivos da empresa"
+      - "DEFINIR OBJETIVOS DO PRÓXIMO TRIMESTRE: Colaborativamente, definir 5 metas para o próximo trimestre"
+      - "INCLUIR DESENVOLVIMENTO: Planos de treinamento ou desenvolvimento pessoal como parte dos objetivos"
+    quando_usar: "A cada trimestre com todos os funcionários, especialmente gerentes e líderes de equipe"
+    dominios:
+      - "gestão de pessoas"
+      - "performance"
+      - "cultura organizacional"
+      - "QSP"
+    peso: 0.87
+
+  - id: "MET-TSC-011"
+    nome: "Publicação de Value Engine em Ferramenta Digital"
+    objetivo: "Converter um value engine validado em sticky notes para uma representação digital profissional e compartilhável"
+    passos:
+      - "PRÉ-REQUISITO: O value engine já deve estar completamente validado em sticky notes/whiteboard"
+      - "AGUARDAR: Não abrir ferramenta digital enquanto o processo ainda está sendo iterado"
+      - "FOTOGRAFAR: Tirar foto do whiteboard como backup antes de converter"
+      - "ESCOLHER FERRAMENTA: Selecionar ferramenta de fluxograma (Lucidchart, Miro, Draw.io etc.)"
+      - "CONVERTER: Transcrever o mapa de sticky notes para a ferramenta digital mantendo a estrutura validada"
+      - "REVISAR: Verificar que todos os passos foram incluídos corretamente"
+      - "COMPARTILHAR: Disponibilizar o value engine digital para todos que precisam entender o processo"
+      - "MANTER SIMPLES: Lembrar que uma foto do whiteboard sempre funciona se necessário"
+    quando_usar: "Após a validação completa de um value engine em sticky notes, quando for necessário compartilhar formalmente"
+    dominios:
+      - "value engines"
+      - "processos"
+      - "documentação"
+      - "ferramentas"
+    peso: 0.85
+
+  - id: "MET-TSC-012"
+    nome: "Brainstorm Bottom-Up de Key Initiatives no QSP"
+    objetivo: "Gerar e priorizar key initiatives de forma participativa, começando pelas ideias individuais e subindo para os pilares estratégicos"
+    passos:
+      - "BRIEFING: Explicar ao time que vão listar projetos abertos (em andamento) e projetos que deveriam estar em andamento"
+      - "INDIVIDUAL BRAINSTORM (5 min): Cada participante escreve uma ideia por post-it em silêncio"
+      - "REFERÊNCIAS DISPONÍVEIS: Orientar para olhar o 90-day game plan e o 12Q plan como fontes de inspiração"
+      - "APRESENTAÇÃO EM GRUPO: Cada pessoa apresenta seus post-its, começando pelo que tem mais"
+      - "STACKING: Quando alguém tiver ideia igual, empilhar o post-it sobre o outro (voto implícito)"
+      - "IDENTIFICAR TEMAS: Observar quais clusters de post-its emergem naturalmente"
+      - "FORMAR PILARES: Agrupar as ideias em 3 pilares estratégicos temáticos"
+      - "IDENTIFICAR OUTLIERS: Separar ideias que não se encaixam em nenhum pilar"
+      - "DECIDIR SOBRE OUTLIERS: Eliminar, adiar, ou forçar encaixe nos pilares existentes"
+      - "PRIORIZAR: Dentro de cada pilar, identificar as iniciativas mais críticas do trimestre"
+    quando_usar: "No QSP, depois do 90-day game plan e antes da definição de success metrics"
+    dominios:
+      - "QSP"
+      - "brainstorming"
+      - "planejamento estratégico"
+      - "facilitação de reuniões"
+    peso: 0.92
+
+  - id: "MET-TSC-013"
+    nome: "Implementação do Ritmo de Reuniões Operacionais"
+    objetivo: "Criar um cadência de reuniões que mantenha o alinhamento da equipe sem sobrecarregar com reuniões excessivas"
+    passos:
+      - "REUNIÃO SEMANAL: Estabelecer weekly meeting com a liderança para revisão do company scorecard (status: verde/amarelo/vermelho)"
+      - "EXPECTATIVA DA REUNIÃO SEMANAL: Os líderes chegam com 'aqui está o que identificamos e o que já estamos fazendo' — não apenas reporting de problemas"
+      - "QSP TRIMESTRAL: Agendar o QSP de 2 dias a cada 90 dias"
+      - "TIMING DO QSP: Realizar pelo menos 2 semanas antes do fim do trimestre para ter tempo de rollout"
+      - "REUNIÕES DEPARTAMENTAIS: Cada líder conduz reuniões com seu time usando seus scorecards departamentais"
+      - "ALL-HANDS: Após cada QSP para comunicar o plano a toda a empresa"
+      - "AVALIAÇÕES TRIMESTRAIS: Imediatamente após o QSP com todos os funcionários"
+      - "MEDIR MATURIDADE: Reuniões que ficam progressivamente mais curtas e produtivas indicam maior maturidade do sistema"
+    quando_usar: "Ao implementar o ScalableOS e ao estabelecer o ritmo operacional da empresa"
+    dominios:
+      - "gestão"
+      - "cultura organizacional"
+      - "liderança"
+      - "melhoria contínua"
+    peso: 0.90

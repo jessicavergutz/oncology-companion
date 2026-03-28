@@ -1,7 +1,31 @@
-# INDEX: DOSSIERS
+ # INDEX: DOSSIERS
 
-> **Ultima atualizacao:** 2026-01-10
-> **Total:** 31 dossiers (10 PERSONS + 21 THEMES)
+> **Ultima atualizacao:** 2026-03-23
+> **Total:** 34 dossiers (10 PERSONS + 21 THEMES + 3 PROJETOS INDEPENDENTES)
+
+---
+
+## 🎬 PROJETO: HIDDENMINDS INSIGHTS (Canal YouTube)
+
+| Dossier | Descrição | Status |
+|---------|-----------|--------|
+| [DOSSIER-HIDDENMINDS-INSIGHTS](hiddenminds-insights/DOSSIER.md) | Canal YouTube de psicologia profunda — projeto independente, sem relação com outros produtos | COMPLETE |
+
+---
+
+## 📘 PROJETO: THE CLARITY MAP (Ebook Digital — EUA)
+
+| Dossier | Descrição | Status |
+|---------|-----------|--------|
+| [DOSSIER-THE-CLARITY-MAP](the-clarity-map/DOSSIER.md) | Ebook/curso digital vendido nos EUA para mulheres questionando sexualidade — projeto independente, sem relação com outros produtos | **NEW** |
+
+---
+
+## 🧭 PROJETO: BÚSSOLA INTERIOR (Guia Digital — Brasil)
+
+| Dossier | Descrição | Status |
+|---------|-----------|--------|
+| [DOSSIER-BUSSOLA-INTERIOR](bussola-interior/DOSSIER.md) | Guia digital vendido no Brasil para mulheres questionando sexualidade — versão brasileira do The Clarity Map — projeto independente | **NEW** |
 
 ---
 

@@ -1,0 +1,88 @@
+# knowledge/dna/persons/JEREMY-MINER/CONFIG.yaml
+# Configuracao e metadados do DNA — Jeremy Miner
+
+pessoa: "Jeremy Miner"
+codigo: "JM"
+versao: "1.0.0"
+data_criacao: "2026-03-16T00:00:00Z"
+data_atualizacao: "2026-03-16T00:00:00Z"
+
+dna_layers:
+  filosofias:
+    arquivo: "FILOSOFIAS.yaml"
+    total_itens: 17
+    status: "COMPLETE"
+
+  modelos_mentais:
+    arquivo: "MODELOS-MENTAIS.yaml"
+    total_itens: 15
+    status: "COMPLETE"
+
+  heuristicas:
+    arquivo: "HEURISTICAS.yaml"
+    total_itens: 19
+    status: "COMPLETE"
+
+  frameworks:
+    arquivo: "FRAMEWORKS.yaml"
+    total_itens: 15
+    status: "COMPLETE"
+
+  metodologias:
+    arquivo: "METODOLOGIAS.yaml"
+    total_itens: 25
+    status: "COMPLETE"
+
+dna_sources:
+  - codigo: "JM"
+    nome: "Jeremy Miner"
+    total_raw_files: 45
+    arquivos_processados:
+      - "JM-0003"
+      - "JM-0004"
+      - "JM-0010"
+      - "JM-0011"
+      - "JM-0016"
+      - "JM-0018"
+      - "JM-0022"
+      - "JM-0024"
+      - "JM-0025"
+      - "JM-0026"
+      - "JM-0029"
+      - "JM-0035"
+      - "JM-0038"
+      - "JM-0044"
+      - "JM-0047"
+      - "JM-0049"
+      - "JM-0055"
+      - "JM-0058"
+      - "JM-0064"
+      - "JM-0066"
+      - "JM-0074"
+      - "JM-0075"
+      - "JM-0080"
+      - "JM-0093"
+      - "JM-0094"
+      - "JM-0095"
+      - "JM-0097"
+      - "JM-0101"
+      - "JM-0107"
+      - "JM-0114"
+      - "JM-0119"
+      - "JM-0121"
+      - "JM-0125"
+      - "JM-0126"
+      - "JM-0128"
+      - "JM-0129"
+      - "JM-0131"
+      - "JM-0134"
+      - "JM-0135"
+      - "JM-0136"
+      - "JM-0138"
+      - "JM-0142"
+      - "JM-0143"
+      - "JM-0144"
+      - "JM-0153"
+
+total_itens: 91  # 17 filosofias + 15 modelos_mentais + 19 heuristicas + 15 frameworks + 25 metodologias
+status: "COMPLETE"

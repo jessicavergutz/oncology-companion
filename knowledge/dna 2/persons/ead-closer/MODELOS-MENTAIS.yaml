@@ -1,0 +1,270 @@
+# knowledge/dna 2/persons/ead-closer/MODELOS-MENTAIS.yaml
+# EAD Closer - Curso Brasileiro de Vendas High-Ticket
+# Gerado em: 2026-03-12
+# Fonte: 22 arquivos EDC (EDC-0005 a EDC-0089)
+
+fonte: "EAD Closer"
+codigo: "EDC"
+versao: "1.0.0"
+data_extracao: "2026-03-12T00:00:00Z"
+total_itens: 22
+arquivos_fonte: ["EDC-0005", "EDC-0007", "EDC-0020", "EDC-0023", "EDC-0025",
+                 "EDC-0040", "EDC-0042", "EDC-0046", "EDC-0064", "EDC-0067",
+                 "EDC-0074", "EDC-0075", "EDC-0086", "EDC-0089"]
+
+modelos_mentais:
+
+  # ==========================================================================
+  # ESTRUTURA DE VENDAS
+  # ==========================================================================
+
+  - id: "MM-EDC-001"
+    nome: "Venda como Arquitetura de Persuasão"
+    descricao: "A venda não é um evento — é uma arquitetura construída em fases sequenciais, cada uma preparando o terreno para a próxima."
+    como_usar:
+      - "Diagnóstico antes de apresentação (SPIN antes de pitch)"
+      - "Emoção antes de lógica (pré-pitch antes de pitch)"
+      - "Rapport antes de fechamento"
+    analogia: "Como construir uma casa: fundação → estrutura → telhado → acabamento. Pular etapa = estrutura frágil."
+    dominios: ["estrutura-venda", "processo", "sequência"]
+    fontes: ["EDC-0005"]
+
+  - id: "MM-EDC-002"
+    nome: "Hierarquia de Compra"
+    descricao: "As pessoas compram primeiro o profissional, depois a empresa, depois o método, depois o produto. Você é o primeiro produto."
+    como_usar:
+      - "Investir em postura, comunicação e autoridade pessoal primeiro"
+      - "Se o cliente não compra você, não compra nada"
+      - "Marketing pessoal e credibilidade abrem portas que produto não abre"
+    dominios: ["confiança", "credibilidade", "posicionamento"]
+    fontes: ["EDC-0007"]
+
+  - id: "MM-EDC-003"
+    nome: "Funil de Temperatura do Cliente"
+    descricao: "Clientes entram frios → SDR aquece → Closer converte → CS cuida e retém. Cada etapa tem um objetivo específico."
+    como_usar:
+      - "Não pular etapas: não fechar cliente que não foi aquecido"
+      - "Cada departamento tem métricas diferentes"
+      - "CS e pós-venda aumentam LTV e geram indicações"
+    componentes:
+      - "SDR: agenda reuniões e faz pré-qualificação"
+      - "Closer: conduz diagnóstico e fecha"
+      - "CS: onboard, suporte e indicações"
+    dominios: ["estrutura-time", "funil", "processo"]
+    fontes: ["EDC-0020"]
+
+  - id: "MM-EDC-004"
+    nome: "Jornada de Confiança"
+    descricao: "Clientes passam por 4 fases antes de comprar: Conhece você → Gosta de você → Confia em você → Compra de você."
+    como_usar:
+      - "Diagnosticar em qual fase o cliente está"
+      - "Não tentar fechar cliente que ainda não confia"
+      - "Rapport e rapport e rapport — até criar confiança"
+    dominios: ["confiança", "rapport", "jornada"]
+    fontes: ["EDC-0020"]
+
+  - id: "MM-EDC-005"
+    nome: "Dicotomia Inferno vs Céu (Cenário A vs B)"
+    descricao: "Criar contraste entre estado atual doloroso (Cenário A / Inferno) e estado futuro desejado (Cenário B / Céu) para motivar decisão."
+    como_usar:
+      - "Primeiro aprofundar e ampliar o Cenário A (dores, consequências)"
+      - "Depois pintar o Cenário B com detalhes emocionais vívidos"
+      - "Fazer cliente viver os dois mundos antes de apresentar solução"
+    analogia: "Como médico que mostra o raio-X do problema antes de prescrever o tratamento."
+    dominios: ["emoção", "contraste", "decisão"]
+    fontes: ["EDC-0025"]
+
+  - id: "MM-EDC-006"
+    nome: "Pré-Pitch Levanta Emoção, Pitch Estrutura Razão"
+    descricao: "O pré-pitch cria o estado emocional necessário para o pitch racional aterrissar. Sem emoção elevada, a lógica não converte."
+    como_usar:
+      - "Usar conteúdo, storytelling e visualização para elevar estado antes do pitch"
+      - "Instalar BITs (pequenas crenças) que tornam a solução óbvia"
+      - "O pitch funciona melhor quando cliente já está 'aberto'"
+    dominios: ["pré-venda", "emoção", "sequência"]
+    fontes: ["EDC-0023"]
+
+  # ==========================================================================
+  # PSICOLOGIA DO CLIENTE
+  # ==========================================================================
+
+  - id: "MM-EDC-007"
+    nome: "Dois Motivos Para Não Comprar"
+    descricao: "Cliente não compra por apenas dois razões: (1) não entendeu a oferta, (2) não confia em você. Ambos têm solução."
+    como_usar:
+      - "Se não comprou: diagnosticar qual dos dois é o bloqueio"
+      - "Clareza → resolver com apresentação melhor"
+      - "Confiança → resolver com rapport, prova social e autoridade"
+    dominios: ["objeção", "diagnóstico", "conversão"]
+    fontes: ["EDC-0020"]
+
+  - id: "MM-EDC-008"
+    nome: "Perfis Comportamentais em Venda (DISC simplificado)"
+    descricao: "Cada perfil compra por uma razão diferente: Analítico precisa de dados e detalhes; Dominante quer resultado e poder; Influente quer reconhecimento e status."
+    como_usar:
+      - "Identificar perfil nas primeiras perguntas"
+      - "Adaptar pitch para o que motiva aquele perfil"
+      - "Analítico: mostre números. Dominante: mostre resultado. Influente: mostre reconhecimento."
+    dominios: ["psicologia", "personalização", "rapport"]
+    fontes: ["EDC-0042"]
+
+  - id: "MM-EDC-009"
+    nome: "Sincronização de Comunicação (Rapport Técnico)"
+    descricao: "Conexão genuína acontece quando volume, tom, ritmo, vocabulário e postura corporam com o cliente. Mirroring é arte e ciência."
+    como_usar:
+      - "Espelhar ritmo de fala (rápido com rápido, calmo com calmo)"
+      - "Usar o mesmo vocabulário que o cliente usa"
+      - "Sincronizar postura e gestos em reuniões presenciais/vídeo"
+    componentes:
+      - "Qualidades vocais: tom, volume, ritmo"
+      - "Linguagem: gírias, expressões, nível de formalidade"
+      - "Estado interno: espelhar energia emocional"
+    dominios: ["rapport", "mirroring", "conexão"]
+    fontes: ["EDC-0040"]
+
+  - id: "MM-EDC-010"
+    nome: "Gatilhos como Estímulos Automáticos"
+    descricao: "Gatilhos mentais são estímulos que acionam respostas automáticas e emocionais no cérebro — anteriores ao pensamento racional."
+    como_usar:
+      - "Usar gatilhos para criar o estado mental certo no momento certo"
+      - "Urgência e escassez no final; autoridade e curiosidade no início"
+      - "Gatilho + emoção = decisão acelerada"
+    dominios: ["psicologia", "persuasão", "gatilhos"]
+    fontes: ["EDC-0089"]
+
+  # ==========================================================================
+  # DIAGNÓSTICO E QUESTIONÁRIO
+  # ==========================================================================
+
+  - id: "MM-EDC-011"
+    nome: "Atenção é o Recurso Mais Valioso na Venda"
+    descricao: "Durante o questionário e diagnóstico, 100% da atenção deve estar no cliente — anotar, escutar, absorver cada palavra."
+    como_usar:
+      - "Usar mapa mental visual para registrar respostas"
+      - "Repetir palavras exatas do cliente no pitch (espelho linguístico)"
+      - "Cliente percebe quando você está realmente ouvindo"
+    dominios: ["diagnóstico", "escuta", "presença"]
+    fontes: ["EDC-0007"]
+
+  - id: "MM-EDC-012"
+    nome: "Negociação Começa Antes de Começar"
+    descricao: "A posição de negociação é construída antes de sentar à mesa: cases, resultados, autoridade e conhecimento do perfil do contratante."
+    como_usar:
+      - "Definir cenário ideal, aceitável e limite antes da reunião"
+      - "Pesquisar a empresa/expert antes de negociar"
+      - "Nunca aceitar a primeira proposta — sempre há espaço para negociar"
+    dominios: ["negociação", "preparação", "estratégia"]
+    fontes: ["EDC-0046"]
+
+  # ==========================================================================
+  # LIDERANÇA E TIME
+  # ==========================================================================
+
+  - id: "MM-EDC-013"
+    nome: "Líder como Termostato do Time"
+    descricao: "A velocidade e energia do líder definem o teto da equipe. Líder empolgado → equipe corre. Líder desmotivado → equipe para."
+    como_usar:
+      - "Gerenciar próprio estado emocional como prioridade de liderança"
+      - "Não esconder inseguranças — equipe sente antes de ver"
+      - "Celebrar publicamente para elevar energia coletiva"
+    analogia: "Termostato: define a temperatura do ambiente. Termômetro: apenas mede."
+    dominios: ["liderança", "energia", "cultura"]
+    fontes: ["EDC-0075"]
+
+  - id: "MM-EDC-014"
+    nome: "Pertencimento como Retenção"
+    descricao: "Vendedores talentosos ficam onde se sentem pertencentes, não necessariamente onde ganham mais. Cultura de pertencimento supera salário."
+    como_usar:
+      - "Criar rituais de equipe que reforçam identidade do grupo"
+      - "Reconhecer individualmente — cada pessoa precisa se sentir especial"
+      - "Perguntar ao colaborador: você se sente parte disso?"
+    dominios: ["retenção", "cultura", "pertencimento"]
+    fontes: ["EDC-0064", "EDC-0075"]
+
+  - id: "MM-EDC-015"
+    nome: "Skills do Closer Águia — Roda de Desenvolvimento"
+    descricao: "Ferramenta de auto-avaliação de 0-10 em 13 dimensões críticas. A roda que não roda indica gargalo de performance."
+    como_usar:
+      - "Avaliar cada dimensão honestamente (primeira nota é a verdadeira)"
+      - "Ligar todos os pontos para visualizar qual área está coxa"
+      - "Escolher 4 habilidades prioritárias para desenvolvimento imediato"
+    dimensoes:
+      - "Comunicação, Entusiasmo, Inteligência Emocional, Visão"
+      - "Imagem, Protagonismo, Audácia, Genuíno"
+      - "Impetuoso, Ambicioso, Único, Conhecimento de Persuasão"
+    dominios: ["desenvolvimento", "auto-avaliação", "skills"]
+    fontes: ["EDC-0067"]
+
+  - id: "MM-EDC-016"
+    nome: "Cultura é Responsabilidade do Líder"
+    descricao: "A cultura do time não emerge — é intencionalmente criada e mantida pelo líder. Você é o portador da cultura."
+    como_usar:
+      - "Definir valores e comportamentos esperados explicitamente"
+      - "Recompensar publicamente quem vive os valores"
+      - "Não tolerar comportamentos fora da cultura — mesmo de top performers"
+    dominios: ["liderança", "cultura", "valores"]
+    fontes: ["EDC-0074"]
+
+  # ==========================================================================
+  # WARM-UP E ABERTURA
+  # ==========================================================================
+
+  - id: "MM-EDC-017"
+    nome: "Estrutura de Pergunta-Resposta-Suporte"
+    descricao: "Conversação eficaz segue o ritmo: Pergunta → Resposta → Suporte (validação + aprofundamento) → nova Pergunta. Sem suporte, vira interrogatório."
+    como_usar:
+      - "Após resposta do cliente, validar antes de fazer nova pergunta"
+      - "Suporte pode ser: 'que legal', 'eu entendo', 'como foi isso?'"
+      - "Suporte cria segurança para o cliente falar mais"
+    dominios: ["warm-up", "rapport", "dinâmica-conversação"]
+    fontes: ["EDC-0086"]
+
+  - id: "MM-EDC-018"
+    nome: "FORM — Mapa para Descobrir o que a Pessoa Adora Falar"
+    descricao: "Família, Ocupação, Recreação, Motivação. Cada área é uma potencial porta de entrada para conexão genuína."
+    como_usar:
+      - "Testar cada área para ver qual abre mais a pessoa"
+      - "Profissão geralmente abre melhor (médicos, advogados adoram falar do trabalho)"
+      - "Usar a área que a pessoa mais responde para warm-up eficaz"
+    dominios: ["warm-up", "rapport", "psicologia"]
+    fontes: ["EDC-0086"]
+
+  - id: "MM-EDC-019"
+    nome: "Motivação por Necessidade Supera Motivação por Sonho"
+    descricao: "Necessidade é urgente e imediata; sonho é aspiracional e distante. Conectar decisão à necessidade gera ação mais rápida."
+    como_usar:
+      - "Perguntar pela necessidade real, não pelo sonho"
+      - "Usar SPIN para transformar problema em necessidade urgente"
+      - "Conectar produto com o que a pessoa precisa AGORA"
+    dominios: ["motivação", "urgência", "diagnóstico"]
+    fontes: ["EDC-0075"]
+
+  - id: "MM-EDC-020"
+    nome: "BITs — Instalação Progressiva de Crenças"
+    descricao: "Pequenas crenças (BITs) instaladas no pré-pitch tornam a solução óbvia quando o pitch chega. O cliente já 'sabe' que precisa antes de ouvir o produto."
+    como_usar:
+      - "Identificar 3-5 crenças que o cliente precisa ter para dizer sim"
+      - "Criar conteúdo/storytelling que instala cada crença"
+      - "Repetir cada BIT por ~5 minutos para fixar antes de passar ao próximo"
+    dominios: ["pré-pitch", "crenças", "psicologia"]
+    fontes: ["EDC-0023"]
+
+  - id: "MM-EDC-021"
+    nome: "Ancoragem de Preço (Percepção de Valor)"
+    descricao: "Apresentar valor total acumulado (alto) antes do preço real cria percepção de desconto enorme, facilitando o 'sim'."
+    como_usar:
+      - "Mostrar cada bônus individualmente com seu valor"
+      - "Somar total: 'isso tudo seria R$17k'"
+      - "Revelar preço real após âncora: 'por R$6.2k você leva tudo isso'"
+    dominios: ["preço", "valor", "psicologia"]
+    fontes: ["EDC-0025", "EDC-0042"]
+
+  - id: "MM-EDC-022"
+    nome: "Depoimento como Arma Contra Objeção"
+    descricao: "Para cada objeção previsível do cliente, ter um depoimento específico pronto. Prova social supera argumento lógico."
+    como_usar:
+      - "Mapear as 5 objeções mais comuns do produto"
+      - "Para cada uma, ter 1-2 depoimentos de clientes que tinham aquela objeção e compraram"
+      - "Usar depoimento ANTES do fechamento, não só quando objeção aparecer"
+    dominios: ["objeção", "prova-social", "fechamento"]
+    fontes: ["EDC-0020"]

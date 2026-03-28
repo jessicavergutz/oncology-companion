@@ -1,0 +1,265 @@
+# knowledge/dna 2/persons/ead-closer/FILOSOFIAS.yaml
+# EAD Closer - Curso Brasileiro de Vendas High-Ticket
+# Gerado em: 2026-03-12
+# Fonte: 22 arquivos EDC (EDC-0005 a EDC-0089)
+
+fonte: "EAD Closer"
+codigo: "EDC"
+versao: "1.0.0"
+data_extracao: "2026-03-12T00:00:00Z"
+total_itens: 23
+arquivos_fonte: ["EDC-0005", "EDC-0007", "EDC-0020", "EDC-0023", "EDC-0025",
+                 "EDC-0040", "EDC-0042", "EDC-0046", "EDC-0064", "EDC-0065",
+                 "EDC-0067", "EDC-0075", "EDC-0086", "EDC-0089"]
+
+filosofias:
+
+  # ==========================================================================
+  # VENDAS: PROPÓSITO E ÉTICA
+  # ==========================================================================
+
+  - id: "FIL-EDC-001"
+    crenca: "Vender é um ato de amor — você vende porque acredita que aquele produto vai transformar a vida da pessoa."
+    implicacoes:
+      - "Venda com intenção genuína, não para empurrar produto"
+      - "Se não acredita no produto, não deveria vender"
+      - "O fechamento vem da certeza de que você está ajudando"
+    dominios: ["ética-venda", "propósito", "mentalidade"]
+    fontes: ["EDC-0005", "EDC-0067"]
+    peso: 0.95
+
+  - id: "FIL-EDC-002"
+    crenca: "O que assina o cheque é a emoção, não a razão. A lógica justifica, mas a emoção decide."
+    implicacoes:
+      - "Investir em criar estado emocional antes do pitch racional"
+      - "Conectar produto a dores reais e sonhos genuínos"
+      - "Usar pré-pitch para elevar estado emocional antes de apresentar"
+    dominios: ["psicologia-venda", "emoção", "decisão"]
+    fontes: ["EDC-0023"]
+    peso: 0.95
+
+  - id: "FIL-EDC-003"
+    crenca: "Vender é influenciar quando você sabe que vai ser bom para a pessoa, mesmo que ela não saiba ainda."
+    implicacoes:
+      - "Persuasão é diferente de manipulação"
+      - "Manipulação é para benefício próprio; persuasão é para benefício do cliente"
+      - "O closer deve ter certeza do valor antes de insistir no fechamento"
+    dominios: ["ética", "persuasão", "propósito"]
+    fontes: ["EDC-0023", "EDC-0089"]
+    peso: 0.90
+
+  - id: "FIL-EDC-004"
+    crenca: "Quando você tirar o cifrão do olho, ele vai pro seu bolso. Foque no ser humano, não no número."
+    implicacoes:
+      - "Ver cada prospect como pessoa que precisa de ajuda, não como comissão"
+      - "Maior empatia = maior conversão = maior ganho"
+      - "O closer que só pensa em dinheiro fecha menos"
+    dominios: ["mentalidade", "empatia", "resultado"]
+    fontes: ["EDC-0065"]
+    peso: 0.92
+
+  - id: "FIL-EDC-005"
+    crenca: "Ser humano é um bicho carente. Quem dá mais amor, leva mais vendas."
+    implicacoes:
+      - "Rapport e conexão genuína são vantagens competitivas"
+      - "Atenção, escuta e validação vendem mais do que qualquer técnica"
+      - "A pessoa compra quando se sente vista e compreendida"
+    dominios: ["rapport", "psicologia", "relacionamento"]
+    fontes: ["EDC-0020"]
+    peso: 0.88
+
+  - id: "FIL-EDC-006"
+    crenca: "Menos é mais. Só fale o necessário para nocautear — sem florear, sem encher linguiça."
+    implicacoes:
+      - "Pitch objetivo tem mais impacto do que pitch longo"
+      - "Clareza e precisão vendem mais do que volume de informação"
+      - "Cada palavra deve ter propósito no processo de venda"
+    dominios: ["comunicação", "pitch", "eficiência"]
+    fontes: ["EDC-0007"]
+    peso: 0.85
+
+  # ==========================================================================
+  # MERCADO E NEGÓCIO
+  # ==========================================================================
+
+  - id: "FIL-EDC-007"
+    crenca: "O mercado mudou: antes era o jogo do link (80% no funil), agora é o jogo do time de vendas (80% com closer)."
+    implicacoes:
+      - "Só ter funil bem feito já não é suficiente"
+      - "Times de fechamento 1:1 são diferencial competitivo"
+      - "Treinamento de closer é investimento com alto ROI"
+    dominios: ["mercado", "estratégia", "vendas"]
+    fontes: ["EDC-0020"]
+    peso: 0.90
+
+  - id: "FIL-EDC-008"
+    crenca: "Custa 10 vezes mais buscar novos clientes do que vender para clientes existentes."
+    implicacoes:
+      - "Customer success e retenção são tão importantes quanto aquisição"
+      - "LTV deve ser métrica central, não só volume de fechamentos"
+      - "Closer deve trabalhar indicação como estratégia"
+    dominios: ["rentabilidade", "retenção", "LTV"]
+    fontes: ["EDC-0020"]
+    peso: 0.88
+
+  - id: "FIL-EDC-009"
+    crenca: "A gestão é a alma do negócio. Sem gestão, time de vendas é só bagunça com energia."
+    implicacoes:
+      - "Processos e métricas são obrigatórios, não opcionais"
+      - "Cultura e liderança determinam resultado do time"
+      - "O líder que não gerencia não lidera"
+    dominios: ["gestão", "liderança", "processo"]
+    fontes: ["EDC-0023"]
+    peso: 0.85
+
+  # ==========================================================================
+  # MENTALIDADE DO CLOSER
+  # ==========================================================================
+
+  - id: "FIL-EDC-010"
+    crenca: "Adultos fazem o que tem que ser feito; crianças fazem o que querem. O closer profissional age como adulto."
+    implicacoes:
+      - "Disciplina e consistência superam talento esporádico"
+      - "Resultados vêm de fazer o processo mesmo sem vontade"
+      - "Protagonismo e accountability são marcas do closer de alto nível"
+    dominios: ["mentalidade", "disciplina", "profissionalismo"]
+    fontes: ["EDC-0020"]
+    peso: 0.90
+
+  - id: "FIL-EDC-011"
+    crenca: "A gente compra de quem a gente confia. Rapport é o elo que transforma conversa em venda."
+    implicacoes:
+      - "Investir em rapport não é 'perder tempo' — é construir a venda"
+      - "Confiança não se cria no fechamento, se cria no início"
+      - "Sem rapport, qualquer técnica de fechamento é violência"
+    dominios: ["rapport", "confiança", "relacionamento"]
+    fontes: ["EDC-0040"]
+    peso: 0.93
+
+  - id: "FIL-EDC-012"
+    crenca: "Parecer é muito mais importante do que ser — mas depois você tem que ser também."
+    implicacoes:
+      - "Autoridade percebida abre portas que competência sozinha não abre"
+      - "Postura, imagem e linguagem constroem credibilidade antes de provar resultados"
+      - "A entrega precisa sustentar a promessa"
+    dominios: ["credibilidade", "imagem", "autoridade"]
+    fontes: ["EDC-0046"]
+    peso: 0.85
+
+  - id: "FIL-EDC-013"
+    crenca: "Quanto melhor você for como closer, maior será sua comissão. Desenvolvimento é investimento direto no bolso."
+    implicacoes:
+      - "Capacitação contínua é obrigação, não opção"
+      - "Closer que não estuda estagna — e estagnação é regressão"
+      - "Performance = taxa de fechamento = poder de negociar comissão maior"
+    dominios: ["desenvolvimento", "comissão", "carreira"]
+    fontes: ["EDC-0064"]
+    peso: 0.92
+
+  # ==========================================================================
+  # LIDERANÇA E RETENÇÃO
+  # ==========================================================================
+
+  - id: "FIL-EDC-014"
+    crenca: "O problema não é trazer talentos — o problema é retê-los. Retenção é a disciplina mais difícil em vendas."
+    implicacoes:
+      - "Processo de onboarding e cultura determinam se talento fica ou vai"
+      - "Líder que retém talento tem vantagem competitiva duradoura"
+      - "Custo de perder um top performer é enorme e muitas vezes invisível"
+    dominios: ["retenção", "liderança", "talentos"]
+    fontes: ["EDC-0075"]
+    peso: 0.90
+
+  - id: "FIL-EDC-015"
+    crenca: "A velocidade da equipe é a velocidade do líder. Se o líder para, a equipe morre."
+    implicacoes:
+      - "Liderança pelo exemplo é insubstituível"
+      - "Energia e urgência do líder definem o teto da equipe"
+      - "Líder desmotivado = equipe desmotivada, independente de salário"
+    dominios: ["liderança", "energia", "exemplo"]
+    fontes: ["EDC-0075"]
+    peso: 0.93
+
+  - id: "FIL-EDC-016"
+    crenca: "O ser humano motiva muito mais pela necessidade do que pelo sonho. Descubra o que a pessoa precisa agora."
+    implicacoes:
+      - "Conectar retenção com necessidades reais (família, tempo, dívida)"
+      - "Sonho é aspiracional; necessidade é urgente — usar os dois"
+      - "Perguntar pela necessidade é mais poderoso do que apresentar o sonho"
+    dominios: ["motivação", "psicologia", "retenção"]
+    fontes: ["EDC-0075"]
+    peso: 0.88
+
+  - id: "FIL-EDC-017"
+    crenca: "Nós adoramos ficar em locais onde as pessoas nos amam, nos valorizam e nos cuidam. Pertencimento retém mais que salário."
+    implicacoes:
+      - "Cultura de reconhecimento e cuidado é estratégia de retenção"
+      - "Pertencimento ao grupo é necessidade humana fundamental"
+      - "Top performers ficam onde se sentem especiais, não só onde ganham mais"
+    dominios: ["pertencimento", "cultura", "retenção"]
+    fontes: ["EDC-0075"]
+    peso: 0.88
+
+  # ==========================================================================
+  # PERSUASÃO E EMOÇÃO
+  # ==========================================================================
+
+  - id: "FIL-EDC-018"
+    crenca: "O contratante espera resultado, não história. Negocie com base em entrega, não em esforço."
+    implicacoes:
+      - "Pitch para expert deve ser sobre resultado que você vai gerar, não sobre você"
+      - "Cases e comprovantes de conversão valem mais que anos de experiência"
+      - "No mundo do closer, você é o que você fecha"
+    dominios: ["resultado", "negociação", "credibilidade"]
+    fontes: ["EDC-0046"]
+    peso: 0.88
+
+  - id: "FIL-EDC-019"
+    crenca: "Persuasão é quando você faz alguém tomar uma decisão que vai ser benéfica para ela. Isso é ato de serviço."
+    implicacoes:
+      - "Gatilhos mentais usados para o bem do cliente são éticos"
+      - "A diferença entre manipulação e persuasão é a intenção e o benefício"
+      - "Closer ético usa influência como instrumento de transformação"
+    dominios: ["ética", "persuasão", "mentalidade"]
+    fontes: ["EDC-0089"]
+    peso: 0.92
+
+  - id: "FIL-EDC-020"
+    crenca: "Emoções fortes impulsionam ações rápidas. Criar estado emocional é parte técnica do processo de venda."
+    implicacoes:
+      - "Urgência genuína vem de emoção, não de artificialidade"
+      - "Warm-up e pré-pitch são investimento na decisão final"
+      - "Cliente frio decide lento; cliente aquecido decide rápido"
+    dominios: ["emoção", "urgência", "psicologia"]
+    fontes: ["EDC-0086", "EDC-0089"]
+    peso: 0.90
+
+  - id: "FIL-EDC-021"
+    crenca: "Pessoas compram de quem se veem como semelhante. Semelhança cria confiança — confiança facilita decisão."
+    implicacoes:
+      - "Buscar e usar pontos em comum é estratégia, não conversa fiada"
+      - "Rapport por semelhança acelera o ciclo de compra"
+      - "Closer que parece igual ao cliente converte mais"
+    dominios: ["rapport", "semelhança", "confiança"]
+    fontes: ["EDC-0086"]
+    peso: 0.88
+
+  - id: "FIL-EDC-022"
+    crenca: "A conversa fica natural quando você genuinamente se importa. Técnica sem empatia é mecânica — e o cliente sente."
+    implicacoes:
+      - "Presença genuína vale mais que roteiro perfeito"
+      - "Sorrir, escutar e validar criam ambiente para fechamento"
+      - "Autenticidade é vantagem competitiva inimitável"
+    dominios: ["empatia", "autenticidade", "conexão"]
+    fontes: ["EDC-0086"]
+    peso: 0.87
+
+  - id: "FIL-EDC-023"
+    crenca: "Quem faz a pergunta conduz a reunião. Quem responde perde o controle da mesa."
+    implicacoes:
+      - "Manter postura de perguntador durante toda a call"
+      - "Responder objeção com pergunta, não com defesa"
+      - "Diagnóstico via perguntas > apresentação via monólogo"
+    dominios: ["controle", "diagnóstico", "dinâmica"]
+    fontes: ["EDC-0086"]
+    peso: 0.90

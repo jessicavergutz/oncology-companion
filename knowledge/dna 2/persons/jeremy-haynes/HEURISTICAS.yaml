@@ -1,0 +1,410 @@
+# JEREMY HAYNES - DNA COGNITIVO
+# Camada: HEURISTICAS (Regras Práticas e Atalhos de Decisão)
+# Versao: 1.0.0 | Criado: 2026-03-17
+
+pessoa: "Jeremy Haynes"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 20
+camada: "HEURISTICAS"
+
+itens:
+
+  # ═══════════════════════════════════════════════════════════════
+  # PRICING & REVENUE HEURISTICS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-HEUR-001"
+    titulo: "Pricing Evolution: $1.5K → $2K → $5K → $10K/mês"
+    descricao: |
+      Progressão de pricing para agências de marketing digital. Começa em $1.5-1.8K
+      para primeiros clientes, avança para $4-5K conforme resultados são provados,
+      depois $8-12K, e o objetivo é $25K+/mês com revshare. Nunca iniciar em poverty
+      pricing (sub $1K) nem tentar saltar direto para $25K sem track record provado.
+    peso: 0.95
+    numero: "$1,800 → $4,000 → $8,000-$12,000 → $25,000+/mês"
+    aplicacao:
+      - "Usar ao definir pricing para novo serviço ou quando considerando subir preços"
+      - "Nunca aceitar cliente abaixo de $1.5K mesmo que para 'ganhar experiência'"
+      - "Quando fechar 2-3 clientes no tier atual com resultados, subir para próximo tier"
+    dominios:
+      - "pricing"
+      - "progressão de agência"
+    fontes: ["AOBA-0025"]
+
+  - id: "JH-HEUR-002"
+    titulo: "High-Ticket vs Poverty: 4 Clientes x $25K = 100 Clientes x $1K"
+    descricao: |
+      Para atingir $100K/mês: ou 100 clientes a $1K cada (modelo babysitter, impossível
+      de gerenciar) ou 4 clientes a $25K (modelo focado, escalável). A heurística:
+      sempre escolher menos clientes de maior valor. O foco de gestão e qualidade
+      de resultado é sempre melhor com menos clientes high-ticket.
+    peso: 0.96
+    numero: "4 clientes x $25K = 100 clientes x $1K = $100K/mês"
+    aplicacao:
+      - "Quando avaliar se deve aceitar cliente de baixo ticket 'para completar mês'"
+      - "Usar para justificar recusa de leads não qualificados"
+      - "Meta: sempre reduzir número de clientes e aumentar ticket médio"
+    dominios:
+      - "pricing"
+      - "modelo de negócio"
+      - "escala"
+    fontes: ["AOBA-0025"]
+
+  - id: "JH-HEUR-003"
+    titulo: "Contractor Markup: $1K de Custo Pode Ser Vendido por $5K"
+    descricao: |
+      Margem padrão em modelo de agência com contractors: custo de $1K/mês para
+      o contractor, venda para cliente por $5K/mês = $4K de lucro (80% de margem).
+      Esta heurística guia estrutura de pricing ao construir equipe de contractors:
+      preço de venda deve ser 4-5x o custo do contractor.
+    peso: 0.92
+    numero: "$1,000 (custo) → $5,000 (venda) = $4,000 lucro (80% margem)"
+    aplicacao:
+      - "Ao estruturar pacotes de serviço com contractors"
+      - "Para calcular viabilidade de novo serviço antes de contratar contractor"
+      - "Referência de multiplicador mínimo aceitável"
+    dominios:
+      - "operações"
+      - "precificação de serviços"
+      - "margens"
+    fontes: ["AOBA-0004"]
+
+  - id: "JH-HEUR-004"
+    titulo: "Referral Network Kickback: 10-20% por Deal"
+    descricao: |
+      Para rede de referências estratégicas: aceitar 10-20% de kickback por deal
+      enviado. Recurring = aceitar menos porcentagem (10%). Transactional = exigir
+      mais (20%+). A heurística: quanto mais passivo e menor o risco, menor o kickback
+      aceito; quanto mais ativo e arriscado (one-time), maior o kickback exigido.
+    peso: 0.90
+    numero: "10% recurring / 20%+ transacional"
+    aplicacao:
+      - "Ao negociar acordos de parceria com outros providers"
+      - "Para avaliar se parceria de referência vale o esforço"
+      - "Estruturar contratos de kickback - sempre por escrito, mesmo com amigos"
+    dominios:
+      - "parcerias"
+      - "rede de referências"
+      - "receita passiva"
+    fontes: ["AOBA-0004"]
+
+  - id: "JH-HEUR-005"
+    titulo: "Full Pay vs Split Pay: Penalidade de $200+ Direciona Comportamento"
+    descricao: |
+      Para produto de $5K: split pay (2x $2.600) custa $200+ a mais E não inclui
+      bônus. Esta penalidade direciona clientes ao full pay. A heurística: criar
+      diferença de preço entre opções de pagamento grande o suficiente para influenciar
+      comportamento, e recompensar full pay com bônus extras.
+    peso: 0.93
+    numero: "Full pay $5K (+ bônus) vs Split pay 2x $2.600 = $5.200 (sem bônus)"
+    aplicacao:
+      - "Ao estruturar opções de pagamento para ofertas high-ticket"
+      - "Para aumentar AOV médio sem pressionar diretamente o cliente"
+      - "Referência de diferença mínima para influenciar comportamento de pagamento"
+    dominios:
+      - "pricing"
+      - "estrutura de pagamento"
+      - "AOV"
+    fontes: ["JH-ST-0013"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # SALES TEAM HEURISTICS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-HEUR-006"
+    titulo: "Cleaner Role: Introduzir na Semana 2-3 da Campanha"
+    descricao: |
+      Matematicamente, na semana 1 o closer consegue gerenciar tudo: leads novos,
+      follow-up e agendamentos. Na semana 2, começa a acumular. Na semana 3 cruza
+      o threshold onde é impossível seguir todos. O momento de introduzir o Cleaner
+      é ao final da semana 2 ou início da semana 3, antes que leads sejam abandonados.
+    peso: 0.94
+    numero: "Semana 2-3 = threshold de capacidade do closer solo"
+    aplicacao:
+      - "Ao escalar equipe de vendas: contratar Cleaner antes de Setter"
+      - "Indicador: closer reclamando de não conseguir fazer follow-up = hora do Cleaner"
+      - "Nunca contratar Cleaner apenas depois que os leads já foram abandonados"
+    dominios:
+      - "estrutura de equipe de vendas"
+      - "timing de contratação"
+    fontes: ["JH-ST-0004", "JH-ST-0005"]
+
+  - id: "JH-HEUR-007"
+    titulo: "Atividade Composta: 3 Pilares Do Closer Nunca Podem Ser Comprometidos"
+    descricao: |
+      Um closer tem 3 atividades fundamentais: (1) Leads Diários Novos, (2) Calls
+      Agendadas, (3) Follow-up de Leads Anteriores. Quando qualquer um dos três
+      começa a ser comprometido, é sinal imediato de necessidade de estrutura.
+      A heurística: nenhum dos 3 pode ser sacrificado pelo outro.
+    peso: 0.93
+    numero: "3 atividades = cada uma demanda tempo irredutível"
+    aplicacao:
+      - "Diagnóstico de equipe: qual dos 3 pilares está sendo negligenciado?"
+      - "Ao adicionar volume de leads: verificar se 3 pilares ainda são viáveis"
+      - "Setter/Cleaner resolve quando 2+ pilares estão comprometidos"
+    dominios:
+      - "gestão de equipe de vendas"
+      - "atividade de vendedor"
+    fontes: ["JH-ST-0004"]
+
+  - id: "JH-HEUR-008"
+    titulo: "Problema de Leads Abandanados Multiplica com o Tamanho da Equipe"
+    descricao: |
+      Se 1 closer abandona leads, o problema é 1x. Com 2 closers, 2x. Com 3, 3x.
+      A heurística: o problema de leads não seguidos escala linearmente com o
+      número de vendedores. 1 Cleaner consegue cobrir todo esse gap enquanto
+      a equipe de closers foca em atividades de alta conversão.
+    peso: 0.91
+    numero: "N closers = N x problema de leads abandonados"
+    aplicacao:
+      - "Para justificar contratação de Cleaner antes que a equipe escale mais"
+      - "Calcular volume de leads abandonados por semana multiplicando por número de closers"
+    dominios:
+      - "equipe de vendas"
+      - "estrutura operacional"
+    fontes: ["JH-ST-0005"]
+
+  - id: "JH-HEUR-009"
+    titulo: "Setter Não Precisa Fechar - Só Qualificar e Agendar"
+    descricao: |
+      Setter não precisa saber todas as respostas técnicas. Precisa saber: extrair
+      dados do prospect, garantir que as perguntas serão respondidas na call,
+      agendar o contato do closer antes do appointment. A heurística: setter que
+      tenta fechar cria desconfiança. Setter que qualifica e tranquiliza gera
+      appointments mais quentes.
+    peso: 0.92
+    numero: "4 funções do setter: extrair dados, fazer perguntas, tranquilizar, agendar pré-contato"
+    aplicacao:
+      - "Ao treinar setters: focar em escuta ativa e extração de dados, não em conhecimento técnico"
+      - "KPI de setter: taxa de agendamentos confirmados, não conversão em venda"
+    dominios:
+      - "estrutura de equipe"
+      - "treinamento de vendas"
+    fontes: ["JH-ST-0004"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # FOLLOW-UP HEURISTICS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-HEUR-010"
+    titulo: "Follow-Up de Valor: Frequência Ideal de 1x por Semana"
+    descricao: |
+      A frequência ideal de follow-up de valor é pelo menos 1 contato por semana.
+      Frequência menor = prospect esquece. Frequência maior = parece desesperado.
+      1x/semana mantém presença mental sem criar pressão. O contato deve trazer
+      algo novo de valor a cada vez, nunca repetir o mesmo conteúdo.
+    peso: 0.93
+    numero: "1x por semana = frequência ideal"
+    aplicacao:
+      - "Ao configurar sequência de follow-up no CRM"
+      - "Para definir régua de comunicação para leads não convertidos"
+      - "Cadência mínima que mantém lead 'quente' sem irritar"
+    dominios:
+      - "follow-up"
+      - "cadência de vendas"
+    fontes: ["JH-ST-0008"]
+
+  - id: "JH-HEUR-011"
+    titulo: "Arsenal de Follow-Up: Tipos de Conteúdo de Valor"
+    descricao: |
+      Para follow-up de valor, ter arsenal preparado: (1) Artigos de newsrooms das
+      plataformas (Facebook, Instagram, Google, YouTube), (2) Selfie vídeos pessoais,
+      (3) Case studies e testimonials, (4) Entrevistas com clientes, (5) Podcasts
+      com timestamp específico, (6) Scarcity real (aumento de preço, prazo), (7) Incentivo
+      de conexão com cliente existente. Nunca depender de improvisação.
+    peso: 0.91
+    numero: "7 tipos de conteúdo de follow-up = arsenal mínimo"
+    aplicacao:
+      - "Construir biblioteca de follow-up antes de iniciar prospecção"
+      - "Checar newsrooms das plataformas semanalmente para conteúdo atualizado"
+      - "Quando pipeline esfriar: lançar sequência de follow-up com conteúdo de valor"
+    dominios:
+      - "follow-up"
+      - "conteúdo"
+      - "vendas"
+    fontes: ["JH-ST-0008"]
+
+  - id: "JH-HEUR-012"
+    titulo: "Scarcity Real vs Fake: 10% de Aumento de Preço em Q4"
+    descricao: |
+      Scarcity deve ser real para funcionar como argumento de follow-up. Exemplo
+      funcional: "Q4 chegando, custos sobem 10%, fazer negócio agora = preço atual."
+      A heurística: use scarcity apenas quando é verdadeiro. Scarcity falsa queima
+      credibilidade. Scarcity real (aumento de preço sazonal, vagas limitadas reais)
+      é legítimo e efetivo para reativar leads parados.
+    peso: 0.90
+    numero: "10% de aumento de preço = scarcity crível para Q4"
+    aplicacao:
+      - "Ao criar campanhas de reativação de leads parados"
+      - "Nunca usar scarcity que não pode ser respaldado - destrói confiança"
+      - "Calendário de previsibilidade de preços permite scarcity recorrente genuína"
+    dominios:
+      - "vendas"
+      - "follow-up"
+      - "psicologia de urgência"
+    fontes: ["JH-ST-0008"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # PERFORMANCE & RESULTS HEURISTICS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-HEUR-013"
+    titulo: "Métricas de Performance JH: $734K em 7 dias, 285x ROAS"
+    descricao: |
+      Referências de benchmark comprovados: $734K em 7 dias BFCM com $83K de spend
+      (8.8x ROAS). 285x ROAS no TikTok ($500 → $210K). $12M em 3.5 meses com
+      Mini Webinar 2.0. 48x ROAS com 67.8% close rate. $0 → $1M/mês em 2 meses.
+      Estes números representam o teto comprovado de performance com metodologias corretas.
+    peso: 0.97
+    numero: "$734K/7 dias | 285x ROAS | $12M/3.5 meses | 48x ROAS + 67.8% close"
+    aplicacao:
+      - "Usar como referência do que é possível para calibrar ambição e metas"
+      - "Benchmarks reais quando prospects questionam resultados máximos alcançáveis"
+      - "Casos específicos provam que metodologias funcionam em escala"
+    dominios:
+      - "performance"
+      - "benchmarks"
+      - "resultados"
+    fontes: ["CONFIG"]
+
+  - id: "JH-HEUR-014"
+    titulo: "Income Threshold: $20K/mês Antes de Contratar Staff ou Coach Caro"
+    descricao: |
+      Não contratar staff ou investir em coaching de alto nível antes de atingir
+      pelo menos $20K/mês de receita. Abaixo disso, o overhead de gestão e o custo
+      do investimento absorvem as margens. A heurística: primeiro atingir a receita
+      base, depois investir em escala. Ordem importa.
+    peso: 0.90
+    numero: "$20K/mês = threshold mínimo para escalar com staff/coaching"
+    aplicacao:
+      - "Ao avaliar quando contratar a primeira pessoa full-time"
+      - "Quando considerar programas de mentoria de alto investimento"
+      - "Abaixo desse número: focar em vendas e entrega, não em gestão"
+    dominios:
+      - "operações"
+      - "timing de contratação"
+      - "gestão financeira"
+    fontes: ["CONFIG"]
+
+  - id: "JH-HEUR-015"
+    titulo: "97% Retention Rate Como Indicador de Fair Pricing Funcionando"
+    descricao: |
+      97% de retention rate é o indicador de que o fair pricing está funcionando:
+      clientes percebem valor maior que o preço e ficam. Abaixo de 90% = sinal de
+      que produto não entrega valor suficiente ou cliente errado está sendo fechado.
+      A heurística: retention rate é o verdadeiro indicador de saúde do negócio recurring.
+    peso: 0.93
+    numero: "97% retention = benchmark de excelência; <90% = problema crítico"
+    aplicacao:
+      - "Ao definir metas de retenção para equipe de account management"
+      - "Quando diagnosticar por que churn está alto"
+      - "Meta de 97%+ valida que produto/serviço entrega valor superior ao preço"
+    dominios:
+      - "retention"
+      - "account management"
+      - "saúde do negócio"
+    fontes: ["CONFIG"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # MEDIA & CREATIVE HEURISTICS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-HEUR-016"
+    titulo: "DSL vs VSL: 77% chegam ao Slide 5 vs 5-9% assistem VSL completo"
+    descricao: |
+      Deck Sales Letter (DSL) tem taxa de engajamento profundamente superior ao
+      Video Sales Letter (VSL): 77% dos visitantes chegam ao slide 5 do DSL,
+      contra apenas 5-9% que assistem o VSL completo. A heurística: para
+      qualificação inicial, DSL gera mais prospects chegando ao ponto de decisão.
+    peso: 0.96
+    numero: "DSL: 77% chegam ao slide 5 / VSL: 5-9% assistem completo"
+    aplicacao:
+      - "Ao escolher formato de material de marketing para novas campanhas"
+      - "Usar DSL para funis onde qualificação profunda antes do contato é importante"
+      - "VSL ainda tem papel para awareness e conteúdo - não para conversão direta"
+    dominios:
+      - "marketing de conteúdo"
+      - "funil de vendas"
+      - "taxa de conversão"
+    fontes: ["CONFIG"]
+
+  - id: "JH-HEUR-017"
+    titulo: "Andromeda Adaptation: 50+ Criativos por Semana Para Anti-Fadiga"
+    descricao: |
+      Para manter performance em paid media sem fadiga de anúncios, o mínimo
+      é 50+ criativos novos por semana. Menos que isso em escala = queda de ROAS
+      por fadiga. A heurística: o algoritmo precisa de variedade constante;
+      criar sistemas de produção de criativos em volume é tão importante quanto
+      o copy ou o targeting.
+    peso: 0.92
+    numero: "50+ criativos novos por semana = anti-fadiga em escala"
+    aplicacao:
+      - "Ao escalar budget acima de $1K/dia - volume de criativo é gargalo"
+      - "Estruturar time de criação para produção em volume, não apenas qualidade"
+      - "Abaixo de 50/semana em escala = esperar queda de ROAS em 2-4 semanas"
+    dominios:
+      - "paid media"
+      - "criativos"
+      - "anti-fadiga"
+    fontes: ["CONFIG"]
+
+  - id: "JH-HEUR-018"
+    titulo: "Hydra Strategy: Lead Form Antes do VSSL Aumenta Qualificação"
+    descricao: |
+      Colocar formulário de lead (TypeForm + Calendly) antes de exibir o
+      VSSL (Video Sales Letter) pre-qualifica o tráfego. Quem preenche o
+      formulário está mais comprometido - 99% booking rate em calls agendadas
+      reportado com esta estrutura. A heurística: pré-qualificação via formulário
+      = leads mais quentes chegando para o closer.
+    peso: 0.95
+    numero: "99% booking rate com TypeForm+Calendly antes do VSSL"
+    aplicacao:
+      - "Ao estruturar funil de call booking para high-ticket"
+      - "Comparar funil atual com e sem pré-qualificação via formulário"
+      - "Usar para reduzir no-shows e melhorar qualidade de leads"
+    dominios:
+      - "funil de vendas"
+      - "qualificação de leads"
+      - "call booking"
+    fontes: ["CONFIG"]
+
+  - id: "JH-HEUR-019"
+    titulo: "Share of Wallet: Categorias de Conta - Retention, Growth, Acquisition"
+    descricao: |
+      Classificar clientes em 3 categorias para gestão de conta: (1) Retention -
+      cliente gasta 50%+ do orçamento contigo (proteger), (2) Growth - cliente
+      já gasta mas tem potencial de expandir (cultivar), (3) Acquisition - cliente
+      novo ou que gasta pouco (desenvolver). Cada categoria tem abordagem diferente
+      de account management.
+    peso: 0.91
+    numero: "50%+ wallet share = Retention / <50% com crescimento = Growth / novo = Acquisition"
+    aplicacao:
+      - "Ao estruturar programa de account management para clientes existentes"
+      - "Priorizar esforço de upsell em contas Growth com maior potencial"
+      - "Contas Retention = defender e superar expectativas consistentemente"
+    dominios:
+      - "account management"
+      - "retenção"
+      - "upsell"
+    fontes: ["UHTC-0009"]
+
+  - id: "JH-HEUR-020"
+    titulo: "Qualificação de Prospect Financeiro: Pode Pagar o Serviço e Ver ROI?"
+    descricao: |
+      Duas perguntas de qualificação financeira não-negociáveis: (1) O prospect tem
+      orçamento para pagar o serviço sem estresse? (2) O modelo de negócio dele
+      gera ROI suficiente para justificar o investimento? Fechar prospect que não
+      pode pagar ou cujo negócio não gera o ROI necessário = problema garantido
+      e churn certo.
+    peso: 0.94
+    numero: "2 perguntas de qualificação financeira obrigatórias antes de fechar"
+    aplicacao:
+      - "Checklist de qualificação em toda call de discovery"
+      - "Quando prospect hesita no preço: explorar se é incapacidade financeira ou percepção de valor"
+      - "Clientes sem orçamento sólido = churn previsível nos primeiros 90 dias"
+    dominios:
+      - "qualificação de leads"
+      - "vendas"
+      - "retenção"
+    fontes: ["CONFIG"]

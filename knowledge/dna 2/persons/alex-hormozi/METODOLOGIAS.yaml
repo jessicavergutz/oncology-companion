@@ -1,0 +1,374 @@
+# knowledge/dna/persons/alex-hormozi/METODOLOGIAS.yaml
+# Gerado em: 2026-03-17
+# Fonte: Raw files AH-0002, AH-0004, AH-0006, AH-0008, AH-0010, AH-0012, AH-0019
+
+pessoa: "Alex Hormozi"
+codigo: "AH"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 10
+
+metodologias:
+  - id: "MET-AH-001"
+    nome: "Escalar Time de Vendas do Zero"
+    descricao: "Processo passo a passo para construir um time de vendas outbound de alta performance partindo de nenhum vendedor até equipe completa e auto-sustentável."
+    passos:
+      - ordem: 1
+        nome: "Estruturar o Funil de 3 Níveis"
+        acoes:
+          - "Definir papéis: BDR (outreach), SDS (qualificação + valor), BC (fechamento)"
+          - "Definir quotas e OTE para cada nível"
+          - "Criar script base para cada nível"
+      - ordem: 2
+        nome: "Recrutar e Selecionar"
+        acoes:
+          - "Testar velocidade de resposta do candidato (rapidez = métrica de work ethic)"
+          - "Avaliar se é ambivert (sabe ouvir E sabe falar)"
+          - "Testar coachability: dar feedback, pedir para repetir, avaliar se melhorou"
+          - "Priorizar candidatos que QUEREM aprender, não que já 'sabem tudo'"
+      - ordem: 3
+        nome: "Onboarding de 14 dias"
+        acoes:
+          - "Dias 1-7: ouvir 40 calls boas (em 2x speed)"
+          - "Entremeio: estudar script (framework de perguntas, não script fechado)"
+          - "Dias 8-14: role-play diário com manager"
+          - "Passar no role-play antes de ir para o floor"
+      - ordem: 4
+        nome: "Half Schedule com Acompanhamento Intensivo"
+        acoes:
+          - "Colocar em metade do schedule (menos calls, mais qualidade)"
+          - "Meeting todo início e fim do dia com manager"
+          - "Manager escuta 1-2 calls em 2x, anota, comunica 1-2 pontos de melhoria"
+          - "25 min de role-play dos pontos identificados"
+          - "Repetir ciclo diário"
+      - ordem: 5
+        nome: "Full Schedule após Atingir Quota Mínima"
+        acoes:
+          - "Promover para full schedule quando bater minimum allowable close rate"
+          - "Se cair abaixo da KPI por 2 semanas → PIP (Performance Improvement Plan)"
+          - "Se não melhorar em 2 semanas de PIP → desligamento"
+      - ordem: 6
+        nome: "Cadência de Gestão Contínua"
+        acoes:
+          - "Daily huddle: manhã (treinamento) + fim do dia (check-in rápido)"
+          - "One-on-one semanal: review de calls + feedback + role-play"
+          - "Reunião mensal de time: KPIs, leaderboard, competição"
+          - "Corte trimestral: bottom 10% sai"
+    source_arquivo: "[AH-0010] 10 - HOW TO BUILD LARGE SALES TEAMS (STARTING FROM 0).txt"
+
+  - id: "MET-AH-002"
+    nome: "Executar uma Call de Vendas High-Ticket (CLOSER)"
+    descricao: "Processo de execução de call de vendas seguindo o acrônimo CLOSER. Funciona para B2B e B2C, de $500 a $100K+."
+    passos:
+      - ordem: 1
+        nome: "C — Clarify (Clarificar o objetivo)"
+        acoes:
+          - "Perguntar: 'O que te trouxe aqui hoje? O que você está tentando resolver?'"
+          - "Se disser 'só quero mais informações': aprofundar — 'Claro, mas o que você quer RESOLVER com essa informação?'"
+          - "Rotular o problema: 'O que estou ouvindo é que você está lutando com X. Isso está certo?'"
+          - "Prospect deve confirmar verbalmente que tem o problema"
+      - ordem: 2
+        nome: "L — Label (Rotular com o problema)"
+        acoes:
+          - "Usar as palavras do próprio prospect para nomear o problema"
+          - "Confirmar com a pessoa que o label está correto"
+          - "Este passo é o anchor para o restante da call"
+      - ordem: 3
+        nome: "O — Overview (Dores e tentativas passadas)"
+        acoes:
+          - "Aplicar Pain Cycle: 'O que você já tentou para resolver isso?'"
+          - "Para cada tentativa: 'Como foi? O que funcionou? O que não funcionou?'"
+          - "Repetir até esgotar todas as tentativas"
+          - "Mostrar empatia: 'Eu entendo — parece que você tem quase tudo, só falta uma peça'"
+      - ordem: 4
+        nome: "S — Sell the Vacation"
+        acoes:
+          - "Pedir permissão para apresentar: 'Posso te contar como acho que posso resolver isso?'"
+          - "Apresentar APENAS 3 benefícios/pilares (não mais)"
+          - "Para cada pilar: usar anedota de 30 segundos que ilustra o outcome (não o processo)"
+          - "Falar de resultados, status, transformação — NÃO de módulos, calls, ferramentas"
+      - ordem: 5
+        nome: "E — Explain Concerns (Vencer objeções)"
+        acoes:
+          - "Perguntar: 'Tem algo que te impede de avançar?'"
+          - "Para objeção de decisor: usar past agreements (cônjuge já sabe do problema e quer que resolva)"
+          - "Para objeção de preço: ancorar em valor, não em custo"
+          - "Para objeção 'preciso pensar': usar Decision Framework (3 perguntas de Sim)"
+          - "Fazer concessão (bonus) + 'fair enough' para gerar reciprocidade"
+      - ordem: 6
+        nome: "R — Reinforce (Reforçar a decisão)"
+        acoes:
+          - "Nas primeiras 48h após compra: enviar vídeo personalizado do próximo responsável"
+          - "Card de agradecimento escrito à mão para tickets altos"
+          - "Email de boas-vindas com detalhes do que acontece a seguir"
+          - "Apresentar próximo passo concreto antes de encerrar a call"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"
+
+  - id: "MET-AH-003"
+    nome: "Lançar Outbound do Zero (12 a 14 Meses para Maturidade)"
+    descricao: "Processo de construção de canal outbound do zero até 60%+ do volume de vendas. Requer paciência e foco em progresso incremental."
+    passos:
+      - ordem: 1
+        nome: "Preparação da Infraestrutura"
+        acoes:
+          - "Scraping de lista: usar software ou VAs para enriquecer dados"
+          - "Verificar: empresas reais, números válidos, emails verificados"
+          - "Configurar PhoneBurner (ou similar) com wrap de área local"
+          - "Criar script inicial de BDR (curto, 5-10 min de call)"
+      - ordem: 2
+        nome: "Contratar e Rampear Primeiros BDRs"
+        acoes:
+          - "BDR trabalha 4h/dia em blocos focados de cold calling"
+          - "Quota: 100 calls/dia → 2 shows"
+          - "Pagamento de $50 por show agendado e que apareceu"
+          - "Ramp de 2 dias: ouvir calls existentes + praticar script"
+      - ordem: 3
+        nome: "Definir e Testar Lead Magnet de Valor Real"
+        acoes:
+          - "Não usar eBooks ou PDFs genéricos — precisa ser algo que as pessoas realmente querem"
+          - "Testar até encontrar o que faz o prospect aparecer na call com o SDS"
+          - "Pode ser não-escalável no início — escalar depois que funcionar"
+      - ordem: 4
+        nome: "Rodar o Ciclo BDR → SDS → BC"
+        acoes:
+          - "SDS entrega valor real por 30 min"
+          - "SDS transiciona para 15 min de qualificação e agendamento"
+          - "Fazer live transfer 3-way para criar show-rate de deal qualificado"
+          - "BC fecha no próximo dia"
+      - ordem: 5
+        nome: "Medir e Iterar (Expectativa de Crescimento Linear)"
+        acoes:
+          - "Mês 1: ~1 venda. Mês 2: ~2. Mês 3: ~4. Meses seguintes: crescimento linear"
+          - "Enquanto houver progresso no funil: continuar sem desistir"
+          - "Adicionar BDRs conforme otimizar cada etapa do funil"
+          - "Objetivo final: outbound representar 50%+ do volume total de vendas"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "MET-AH-004"
+    nome: "Conseguir os Primeiros 5 Clientes (do Zero)"
+    descricao: "Processo para obter os primeiros 5 clientes usando contatos existentes, sem gastar dinheiro com ads."
+    passos:
+      - ordem: 1
+        nome: "Construir 3 Listas de Contatos"
+        acoes:
+          - "Lista 1: Todos os contatos de email (exportar da caixa de entrada)"
+          - "Lista 2: Todos os followers em redes sociais onde é possível DM"
+          - "Lista 3: Todos os contatos do celular"
+          - "Juntar as 3 listas: vai ter muito mais leads do que imagina"
+      - ordem: 2
+        nome: "Personalizar e Enviar Outreach"
+        acoes:
+          - "Escolher a plataforma com mais contatos"
+          - "Para cada mensagem: 30 segundos de pesquisa → mencionar algo real sobre a pessoa"
+          - "Enviar 100 mensagens por dia"
+          - "Mensagem foca em pergunta, não em venda"
+      - ordem: 3
+        nome: "Warm Up com ACA"
+        acoes:
+          - "Quando responder: Acknowledge (reconhecer algo deles)"
+          - "Compliment (elogiar com base no que reconheceu)"
+          - "Ask (fazer pergunta relacionada ao problema que seu serviço resolve)"
+      - ordem: 4
+        nome: "Fazer Oferta Gratuita para Primeiros 5"
+        acoes:
+          - "Oferecer o serviço de graça em troca de: (1) usar o serviço de verdade, (2) dar feedback, (3) deixar review"
+          - "Aceitar no máximo 5 clientes gratuitos (capacidade real de atender)"
+          - "Ser honesto: 'Estou começando e quero pegar experiência'"
+      - ordem: 5
+        nome: "Escalar o Preço Gradualmente"
+        acoes:
+          - "Quando clientes começarem a indicar outros: começa a cobrar"
+          - "Primeiro preço: 80% de desconto para próximos 5"
+          - "Depois: 60%, 40%, 20%, preço cheio"
+          - "Com escassez real: pode cobrar acima do preço cheio"
+      - ordem: 6
+        nome: "Manter Lista Quente"
+        acoes:
+          - "Check-in periódico como ser humano com toda a lista"
+          - "Entregar valor regularmente (conteúdo, dicas, novidades)"
+          - "Quando acumularem valor suficiente, começam a entrar em contato por conta própria"
+    source_arquivo: "[AH-0008] 8 - WATCH THIS TO GET YOUR FIRST 5 CUSTOMERS.txt"
+
+  - id: "MET-AH-005"
+    nome: "Treinar Conviction em Time de Vendas"
+    descricao: "Processo para aumentar o nível de conviction do time de vendas e, como resultado, aumentar closing rate sem mudar o script."
+    passos:
+      - ordem: 1
+        nome: "Diagnóstico de Conviction"
+        acoes:
+          - "Escutar calls e identificar quem soa incerto vs. convicto"
+          - "Perguntar internamente: 'Esse vendedor venderia isso para a própria mãe?'"
+          - "Identificar se o produto realmente funciona (se não funciona, consertar primeiro)"
+      - ordem: 2
+        nome: "Rotina Diária de Conviction"
+        acoes:
+          - "60 min/dia de treinamento de vendas, 5 dias/semana"
+          - "5 min: ler script em voz alta"
+          - "5 min: drill de obstáculos (I need to think about it / precisa falar com parceiro / caro)"
+          - "50 min: role-play da segunda metade da call (fechamento)"
+      - ordem: 3
+        nome: "Injeção de Testimonials"
+        acoes:
+          - "Ler testimonials em voz alta para o time todos os dias"
+          - "Ter vendedor que fechou aquele cliente específico lendo o testimonial (dobra o efeito)"
+          - "Assistir vídeos de clientes compartilhando resultados antes de começar o dia"
+          - "Se possível: fazer clientes ligarem ao vivo para o time de vendas"
+      - ordem: 4
+        nome: "Consertar o Produto Quando Necessário"
+        acoes:
+          - "Nunca culpar cliente por falta de sucesso — sempre perguntar 'o que poderíamos ter feito diferente?'"
+          - "Plugar cada buraco identificado para deixar produto mais forte"
+          - "Resultado: vendedor que vê produto melhorando constantemente aumenta conviction organicamente"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"
+
+  - id: "MET-AH-006"
+    nome: "Estruturar Programa de Compensação de Vendas"
+    descricao: "Como montar estrutura de compensação que atrai e retém bons vendedores, cria progressão visível e alimenta cultura de meritocracia."
+    passos:
+      - ordem: 1
+        nome: "Definir OTE por Nível"
+        acoes:
+          - "BDR: ~$40K OTE (motivado pela expectativa de chegar a $200K em 9-12 meses)"
+          - "SDS: ~$55-70K OTE"
+          - "BC (Closer): ~$120-220K OTE"
+          - "Bumps entre sub-níveis são simbólicos mas existem ($50 → $55 base fixo)"
+      - ordem: 2
+        nome: "Criar 4 Sub-Níveis por Posição"
+        acoes:
+          - "Junior → Associate → [Cargo] → Senior"
+          - "Cada promoção ocorre ao atingir qualifier objetivo (ex: 50 shows, 100 shows)"
+          - "Qualifiers espaçados para ocorrer a cada ~8 semanas"
+          - "Promoção = bump de título + bump simbólico de pay"
+      - ordem: 3
+        nome: "Criar Competição com Periodicidade Certa"
+        acoes:
+          - "Leaderboard visual atualizado em tempo real"
+          - "Competição de curto prazo a cada 30-42 dias (não muito longo, não muito curto)"
+          - "Otimizar para cash up front — o KPI que melhor alinha incentivos"
+          - "Pequenos prêmios que dão 'bragging rights', não apenas dinheiro"
+      - ordem: 4
+        nome: "Comunicar Claramente o Caminho"
+        acoes:
+          - "Mostrar estrutura completa na contratação"
+          - "Deixar claro: promoção é por habilidade/resultados, nunca por tempo"
+          - "Eliminar conversas de HR sobre salário — o path é transparente e público"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "MET-AH-007"
+    nome: "Preparar Negócio para Exit (ou para Não Precisar de Exit)"
+    descricao: "Processo de transformar um negócio dependente do fundador em um ativo vendável — e perceber que não precisar vender é o maior poder."
+    passos:
+      - ordem: 1
+        nome: "Identificar as 3 Fraquezas Principais para PE"
+        acoes:
+          - "Churn alto de clientes"
+          - "Nome do fundador = marca (fundador indispensável)"
+          - "Dependência de canal único de aquisição"
+      - ordem: 2
+        nome: "Resolver Cada Fraqueza"
+        acoes:
+          - "Churn: melhorar produto e onboarding"
+          - "Fundador como marca: contratar liderança, sistematizar processos"
+          - "Canal único: adicionar segundo canal (outbound, conteúdo, etc.)"
+      - ordem: 3
+        nome: "Testar o 'Match the Conditions'"
+        acoes:
+          - "Imaginar: como seria sua vida DEPOIS da venda?"
+          - "Criar essas condições ANTES de vender"
+          - "Se você consegue ter a vida pós-venda sem vender → você tem poder"
+      - ordem: 4
+        nome: "Estruturar como Ativo, Não como Job"
+        acoes:
+          - "Buy, build, refinance — não precisa vender para extrair valor"
+          - "Empresa saudável pode carregar dívida e liberar capital tax-free"
+          - "Se business vai existir em 10 anos: qual a razão de vender agora?"
+    source_arquivo: "[AH-0012] 12 - How I Scaled My Sales Team.txt"
+
+  - id: "MET-AH-008"
+    nome: "Gerenciar Objeções nas 3 Categorias"
+    descricao: "Processo específico para tratar cada uma das 3 objeções universais de vendas: decisor, preço e timing."
+    passos:
+      - ordem: 1
+        nome: "Objeção: Preciso falar com [decisor]"
+        acoes:
+          - "Usar past agreements: 'Seu parceiro/cônjuge sabe que você tem esse problema?'"
+          - "'Eles querem que você continue tendo esse problema?'"
+          - "'Se eles não querem que você continue sofrendo, por que se oporiam a resolvê-lo?'"
+          - "Alternativa: 'Às vezes é melhor pedir perdão do que permissão'"
+          - "Oferecer garantia de 3-5 dias para consultar e cancelar se necessário"
+      - ordem: 2
+        nome: "Objeção: É muito caro"
+        acoes:
+          - "Não é sobre preço — é sobre conviction do vendedor (drill conviction, não argumentos)"
+          - "Ancorar no valor: 'Se você conseguir X resultado, quanto vale isso para você?'"
+          - "Oferecer bonus/concessão + 'fair enough' (reciprocidade)"
+      - ordem: 3
+        nome: "Objeção: Preciso pensar"
+        acoes:
+          - "Perguntar: 'Qual é sua maior preocupação?' (levar para algo concreto)"
+          - "Aplicar Decision Framework (3 Sins)"
+          - "Worst case / best case: 'Seu pior medo é X. Mas Y é provável. Qual o risco real?'"
+          - "Se necessário: delayed close com data específica e down payment"
+    source_arquivo: "[AH-0004] 4 - I TAUGHT 116+ SALESMEN MY CLOSING FRAMEWORK.txt"
+
+  - id: "MET-AH-009"
+    nome: "Construir Conviction Pessoal como Vendedor"
+    descricao: "Processo que qualquer vendedor pode usar para desenvolver conviction genuína no produto que vende — o único caminho para fechar bem sem sentir que manipula."
+    passos:
+      - ordem: 1
+        nome: "Verificar se o Produto Funciona"
+        acoes:
+          - "Ler testimonials — todos os que existem"
+          - "Se não há testimonials suficientes: encontrar outro produto para vender"
+          - "Fazer a pergunta: 'Eu venderia isso para minha mãe?'"
+      - ordem: 2
+        nome: "Rotina Diária de Reforço"
+        acoes:
+          - "Ler testimonials em voz alta toda manhã antes de começar"
+          - "Escutar calls de sucesso regularmente"
+          - "Assistir vídeos de clientes com resultados"
+      - ordem: 3
+        nome: "Consertar o Produto Continuamente"
+        acoes:
+          - "Nunca culpar cliente — sempre perguntar o que podia ser melhor"
+          - "Cada melhoria = mais conviction no produto"
+          - "Quanto mais melhorias você mesmo viu acontecer, mais crê que funciona"
+      - ordem: 4
+        nome: "Treinar Consistência sob Pressão"
+        acoes:
+          - "Frustration tolerance é habilidade treinável — não traço de personalidade"
+          - "Drill de objeções diariamente até responder automaticamente sem pensar"
+          - "Saber que as primeiras semanas serão ruins — e fazer mesmo assim"
+    source_arquivo: "[AH-0005] 5 - IF YOURE AMBITIOUS BUT INCONSISTENT, PLEASE WATCH THIS.txt"
+
+  - id: "MET-AH-010"
+    nome: "Cold Outreach em Volume com Personalização"
+    descricao: "Sistema para fazer cold outreach em escala sem parecer spam — combinando personalização automatizada com big fast value."
+    passos:
+      - ordem: 1
+        nome: "Construir a Lista"
+        acoes:
+          - "Opção 1: Scraping com software (ex: Apollo, Instantly Lead Finder)"
+          - "Opção 2: Comprar lista de diretório"
+          - "Opção 3: VA customizando lista manualmente"
+          - "Enriquecer: verificar empresa real, número válido, email verificado"
+      - ordem: 2
+        nome: "Personalizar com IA"
+        acoes:
+          - "Usar ferramenta como Instantly + API do ChatGPT"
+          - "Gerar linha de personalização única para cada contato (30 segundos de research)"
+          - "Formato: algo real sobre a pessoa/empresa que mostre que não é blast genérico"
+      - ordem: 3
+        nome: "Estrutura da Mensagem (Big Fast Value)"
+        acoes:
+          - "Não começar com 'eu tenho algo para te contar'"
+          - "Personalização → Problema que você resolve → Prova/garantia → Oferta de valor (não CTA de venda)"
+          - "CTA: pedir permissão de enviar algo útil, não pedir call imediatamente"
+      - ordem: 4
+        nome: "Escalar Volume com Automação"
+        acoes:
+          - "Configurar sequência de follow-up (a maioria das vendas vem do follow-up)"
+          - "A maioria subestima o volume necessário — enviar muito mais do que parece razoável"
+          - "Analisar reply rates, ajustar mensagem, iterar"
+          - "Tracking obrigatório: não 'spray and pray'"
+    source_arquivo: "[AH-0019] 19 - ALEX HORMOZI'S LEAD GENERATION STRATEGY FOR 2025.txt"

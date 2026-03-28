@@ -1,0 +1,346 @@
+# knowledge/dna 2/persons/ead-closer/HEURISTICAS.yaml
+# EAD Closer - Curso Brasileiro de Vendas High-Ticket
+# NOTA: Esta é a camada MAIS VALIOSA — priorizar heurísticas com números
+# Gerado em: 2026-03-12
+# Fonte: 22 arquivos EDC (EDC-0005 a EDC-0089)
+
+fonte: "EAD Closer"
+codigo: "EDC"
+versao: "1.0.0"
+data_extracao: "2026-03-12T00:00:00Z"
+total_itens: 33
+arquivos_fonte: ["EDC-0005", "EDC-0007", "EDC-0020", "EDC-0023", "EDC-0025",
+                 "EDC-0040", "EDC-0046", "EDC-0064", "EDC-0065", "EDC-0074",
+                 "EDC-0075", "EDC-0086"]
+
+heuristicas:
+
+  # ==========================================================================
+  # HEURÍSTICAS COM THRESHOLD NUMÉRICO (Mais valiosas)
+  # ==========================================================================
+
+  - id: "HEUR-EDC-001"
+    regra: "7% das pessoas compram no webinário; 93% precisam de contato 1:1 com um closer para fechar."
+    threshold:
+      valor: 7
+      operador: "<="
+      unidade: "% conversão direta webinário"
+    contexto_de_uso: "Decisão de estruturar time de vendas vs só otimizar funil"
+    acao_recomendada: "Para produtos acima de R$3k, ter closer para o 93% que não fechariam sozinhos"
+    fontes: ["EDC-0020"]
+
+  - id: "HEUR-EDC-002"
+    regra: "Antes: 80% compravam no lançamento, 20% com closer. Hoje inverteu: 20% no funil, 80% precisam de closer."
+    threshold:
+      valor: 80
+      operador: "="
+      unidade: "% dependência de closer no mercado atual"
+    contexto_de_uso: "Dimensionamento de time de vendas e alocação de budget"
+    acao_recomendada: "Priorizar estrutura de closer sobre apenas otimização de funil"
+    fontes: ["EDC-0020"]
+
+  - id: "HEUR-EDC-003"
+    regra: "Apresentação total: 20 minutos de pitch + 40 minutos de fechamento = 60 minutos máximo."
+    threshold:
+      valor: 60
+      operador: "<="
+      unidade: "minutos total de call"
+    contexto_de_uso: "Estruturando duração de call de vendas"
+    distribuicao:
+      pitch: "20 minutos"
+      fechamento: "40 minutos"
+    acao_recomendada: "Trinar pitch para caber em 20min e reservar 40min para diagnóstico e fechamento"
+    fontes: ["EDC-0007"]
+
+  - id: "HEUR-EDC-004"
+    regra: "97-98% do pitch deve ser idêntico para todos os clientes; apenas 2-3% personalizado."
+    threshold:
+      valor: 97
+      operador: ">="
+      unidade: "% padronização do pitch"
+    contexto_de_uso: "Design de pitch escalável"
+    acao_recomendada: "Padronizar a estrutura toda; personalizar apenas conexão inicial e metáforas"
+    fontes: ["EDC-0007"]
+
+  - id: "HEUR-EDC-005"
+    regra: "Formações B2C: 20-30 minutos de apresentação. B2B: 40-45 minutos (mais 'imagina-se' emocional)."
+    threshold:
+      b2c: "20-30 minutos"
+      b2b: "40-45 minutos"
+      unidade: "minutos de apresentação"
+    contexto_de_uso: "Calibrando duração da apresentação por segmento"
+    fontes: ["EDC-0025"]
+
+  - id: "HEUR-EDC-006"
+    regra: "Instalar cada BIT por ~5 minutos antes de passar para o próximo. Menos que 5 min não fixa."
+    threshold:
+      valor: 5
+      operador: ">="
+      unidade: "minutos por BIT"
+    contexto_de_uso: "Estruturando pré-pitch de evento"
+    acao_recomendada: "Planejar pré-pitch com tempo explícito por BIT, não só lista de pontos"
+    fontes: ["EDC-0023"]
+
+  - id: "HEUR-EDC-007"
+    regra: "Urgência SPIN: de 0 a 10, quanto você precisa resolver esse problema? Abaixo de 8, não está pronto para comprar."
+    threshold:
+      valor: 8
+      operador: ">="
+      unidade: "pontos de urgência (0-10)"
+    contexto_de_uso: "Qualificando urgência no diagnóstico SPIN"
+    acao_recomendada: "Se abaixo de 8: ampliar implicações antes de apresentar solução"
+    fontes: ["EDC-0005"]
+
+  # ==========================================================================
+  # COMISSÃO (Tabela completa)
+  # ==========================================================================
+
+  - id: "HEUR-EDC-008"
+    regra: "Regra geral de comissão: abaixo de 5% não vale; acima de 20% não consegue negociar."
+    threshold:
+      minimo: "5%"
+      maximo: "20%"
+      unidade: "% comissão"
+    contexto_de_uso: "Negociando taxa de comissão com expert/empresa"
+    fontes: ["EDC-0064"]
+
+  - id: "HEUR-EDC-009"
+    regra: "Cursos gravados: 5% a 30% de comissão. 5% quando tráfego é do expert; 30% quando você traz cliente novo."
+    threshold:
+      minimo: "5%"
+      maximo: "30%"
+      tipo_produto: "cursos-gravados"
+      unidade: "% comissão"
+    contexto_de_uso: "Negociando comissão em cursos gravados"
+    fontes: ["EDC-0064"]
+
+  - id: "HEUR-EDC-010"
+    regra: "Investimentos e consultorias: 5% a 20%. Mercado fica em 10%. Gere mais valor = negocie mais."
+    threshold:
+      minimo: "5%"
+      mercado: "10%"
+      maximo: "20%"
+      tipo_produto: "investimentos, consultorias"
+      unidade: "% comissão"
+    contexto_de_uso: "Negociando comissão em produtos de investimento e consultoria"
+    fontes: ["EDC-0064"]
+
+  - id: "HEUR-EDC-011"
+    regra: "Mentorias: 5% a 20%. Eventos presenciais: 5% a 30% (ticket baixo = expert pode dar mais por volume)."
+    threshold:
+      mentoria_min: "5%"
+      mentoria_max: "20%"
+      evento_min: "5%"
+      evento_max: "30%"
+      unidade: "% comissão"
+    contexto_de_uso: "Negociando comissão em mentorias e eventos"
+    fontes: ["EDC-0064"]
+
+  - id: "HEUR-EDC-012"
+    regra: "Se você fecha 7-8 de cada 10 contatos: negocie 20%. Se fecha pouco: 5% é o seu teto."
+    threshold:
+      alta_performance: "≥7/10 fechamentos → negocie 20%"
+      baixa_performance: "<5/10 fechamentos → aceite 5%"
+      unidade: "fechamentos / 10 contatos"
+    contexto_de_uso: "Preparando proposta de comissão baseada em performance"
+    acao_recomendada: "Documentar taxa de fechamento antes de negociar"
+    fontes: ["EDC-0064"]
+
+  # ==========================================================================
+  # FOLLOW-UP E ACOMPANHAMENTO
+  # ==========================================================================
+
+  - id: "HEUR-EDC-013"
+    regra: "Confirmar reunião 30 minutos antes via WhatsApp. Reduz no-show e cria rapport antes da call."
+    threshold:
+      valor: 30
+      operador: "="
+      unidade: "minutos antes da reunião"
+    contexto_de_uso: "Rotina de pré-call do closer"
+    acao_recomendada: "Automatizar lembrete e personalizar a mensagem com nome"
+    fontes: ["EDC-0065"]
+
+  - id: "HEUR-EDC-014"
+    regra: "Primeiro 'não' raramente é definitivo. Acompanhar após recusa — reconverter é mais fácil do que nova prospecção."
+    threshold:
+      valor: 1
+      operador: "="
+      unidade: "primeiro não (não encerra a venda)"
+    contexto_de_uso: "Definindo política de follow-up após objeção"
+    acao_recomendada: "Criar cadência de follow-up para quem disse não"
+    fontes: ["EDC-0065"]
+
+  # ==========================================================================
+  # TREINAMENTO DE EQUIPE
+  # ==========================================================================
+
+  - id: "HEUR-EDC-015"
+    regra: "Profissionais treinados geram em média 2x mais resultados que não treinados."
+    threshold:
+      valor: 2
+      operador: "x"
+      unidade: "multiplicador de resultado com treinamento"
+    contexto_de_uso: "Justificando investimento em treinamento de equipe"
+    acao_recomendada: "Calcular ROI do treinamento: 1 closer que fecha 2x mais paga o treinamento em meses"
+    fontes: ["EDC-0074"]
+
+  - id: "HEUR-EDC-016"
+    regra: "Palestras e cursos: participar de 2 por semestre. Treinamento avançado: 1 por semestre mínimo."
+    threshold:
+      palestras_cursos: "2 por semestre"
+      treinamento_avancado: "1 por semestre"
+      unidade: "frequência de capacitação"
+    contexto_de_uso: "Definindo calendário de capacitação para equipe"
+    fontes: ["EDC-0074"]
+
+  - id: "HEUR-EDC-017"
+    regra: "Leitura em equipe: 1x por semana, cada liderado ministra 10 minutos sobre o livro que o time está lendo."
+    threshold:
+      frequencia: "1x semana"
+      duracao: "10 minutos"
+      unidade: "reunião de leitura"
+    contexto_de_uso: "Implementando cultura de leitura em time de vendas"
+    fontes: ["EDC-0074"]
+
+  - id: "HEUR-EDC-018"
+    regra: "Vídeos de treinamento: 1x por semana, 15 minutos. Curto o suficiente para não cansar, longo o suficiente para aprender."
+    threshold:
+      frequencia: "1x semana"
+      duracao: "15 minutos"
+      unidade: "sessão de vídeo-treinamento"
+    contexto_de_uso: "Rotina semanal de treinamento de equipe"
+    fontes: ["EDC-0074"]
+
+  # ==========================================================================
+  # FEEDBACK E RECONHECIMENTO
+  # ==========================================================================
+
+  - id: "HEUR-EDC-019"
+    regra: "Para cada interação negativa, dar 3 interações positivas para neutralizar o impacto."
+    threshold:
+      valor: 3
+      operador: ":"
+      descricao: "3 positivos para cada 1 negativo"
+      unidade: "ratio elogio:crítica"
+    contexto_de_uso: "Fornecendo feedback para membros da equipe"
+    acao_recomendada: "Nunca dar feedback corretivo sem primeiro reconhecer o que está bem"
+    fontes: ["EDC-0075"]
+
+  - id: "HEUR-EDC-020"
+    regra: "6-8 interações positivas por mês = alta performance. Acima de 8, qualidade cai pois a pessoa começa a se achar boa demais."
+    threshold:
+      otimo: "6-8 por mês"
+      excesso: ">8 por mês (reduz exigência)"
+      unidade: "interações positivas/mês"
+    contexto_de_uso: "Calibrando frequência de reconhecimento"
+    acao_recomendada: "Manter reconhecimento consistente sem exagerar"
+    fontes: ["EDC-0075"]
+
+  # ==========================================================================
+  # MERCADO E CONVERSÃO
+  # ==========================================================================
+
+  - id: "HEUR-EDC-021"
+    regra: "Investimento de R$20k em tráfego pode gerar 102 vendas de R$4k = R$408k (ROI de ~1920%)."
+    threshold:
+      exemplo_roi: "R$20k → R$408k"
+      multiplicador: "~20x"
+      unidade: "ROI de tráfego + closer"
+    contexto_de_uso: "Justificando investimento em time de vendas para expert"
+    acao_recomendada: "Usar case real como âncora em negociação de comissão"
+    fontes: ["EDC-0020"]
+
+  - id: "HEUR-EDC-022"
+    regra: "Brasileiro lê, em média, 12 minutos por ano. Quem lê tem vantagem competitiva enorme."
+    threshold:
+      valor: 12
+      operador: "media-brasil"
+      unidade: "minutos de leitura por ano"
+    contexto_de_uso: "Motivando equipe a ler e criar hábito de estudo"
+    acao_recomendada: "Usar como argumento para implementar clube do livro no time"
+    fontes: ["EDC-0086"]
+
+  - id: "HEUR-EDC-023"
+    regra: "Ancoragem: mostrar valor total de R$17k antes de revelar preço de R$6.2k cria percepção de 64% de desconto."
+    threshold:
+      ancora_valor: "R$17k"
+      preco_real: "R$6.2k"
+      desconto_percebido: "~64%"
+      unidade: "ancoragem de preço"
+    contexto_de_uso: "Estruturando apresentação de oferta com bônus"
+    acao_recomendada: "Construir offer stack com valor documentado antes de revelar preço"
+    fontes: ["EDC-0025"]
+
+  # ==========================================================================
+  # HEURÍSTICAS QUALITATIVAS (Sem threshold numérico)
+  # ==========================================================================
+
+  - id: "HEUR-EDC-024"
+    regra: "Para cada objeção previsível, ter um depoimento específico pronto. Prova social > argumento lógico."
+    tipo: "qualitativa"
+    contexto_de_uso: "Preparação para call de fechamento"
+    acao_recomendada: "Mapear top 5 objeções e coletar depoimento específico para cada uma"
+    fontes: ["EDC-0020"]
+
+  - id: "HEUR-EDC-025"
+    regra: "Sempre fazer micro-pacto de confirmação após cada fase do pitch: 'Faz sentido? Isso te ajudaria?'"
+    tipo: "qualitativa"
+    contexto_de_uso: "Conduzindo pitch interativo"
+    acao_recomendada: "Treinar pitch com perguntas de checkin após cada seção"
+    fontes: ["EDC-0007"]
+
+  - id: "HEUR-EDC-026"
+    regra: "Apresentar decisores ausentes como bloqueio: se o casal/sócio não está na call, remarcar — nunca apresentar preço sem todos."
+    tipo: "qualitativa"
+    contexto_de_uso: "Gerenciando calls com tomadores de decisão compartilhados"
+    acao_recomendada: "Confirmar presença de todos os decisores no agendamento"
+    fontes: ["EDC-0025"]
+
+  - id: "HEUR-EDC-027"
+    regra: "Benefício vende; característica informa. Apresentar produto sempre pela perspectiva de benefício para o cliente."
+    tipo: "qualitativa"
+    contexto_de_uso: "Estruturando apresentação de produto/módulos/bônus"
+    acao_recomendada: "Para cada feature, perguntar: 'o que isso faz pelo cliente?' e falar isso"
+    fontes: ["EDC-0042"]
+
+  - id: "HEUR-EDC-028"
+    regra: "Negociação: nunca aceitar primeira proposta — jogar para cima (pedir 10% se quer 5%) para ter margem de recuo."
+    tipo: "qualitativa"
+    contexto_de_uso: "Negociando comissão ou termos com expert/empresa"
+    acao_recomendada: "Iniciar negociação ~30-50% acima do objetivo real"
+    fontes: ["EDC-0046"]
+
+  - id: "HEUR-EDC-029"
+    regra: "Persona transformada (cliente com resultado) é o melhor canal de indicação para eventos presenciais."
+    tipo: "qualitativa"
+    contexto_de_uso: "Estratégia de crescimento orgânico via indicação"
+    acao_recomendada: "Mapear clientes transformados e criar programa de indicação estruturado"
+    fontes: ["EDC-0020"]
+
+  - id: "HEUR-EDC-030"
+    regra: "Veterano errado desmotiva novato. Escolher parceiro de dobrada com critério: motivado, confiável, que você respeita."
+    tipo: "qualitativa"
+    contexto_de_uso: "Montando parcerias de treinamento novato+veterano"
+    acao_recomendada: "Entrevistar veterano antes de colocar como mentor de novatos"
+    fontes: ["EDC-0074"]
+
+  - id: "HEUR-EDC-031"
+    regra: "Closer de dois tipos de remuneração: só comissão (maior %, maior risco) ou fixo + comissão (menor %, mais segurança)."
+    tipo: "qualitativa"
+    contexto_de_uso: "Estruturando contrato de closer"
+    acao_recomendada: "Só fixo = closer frouxo. Sempre ter variável ligado a performance."
+    fontes: ["EDC-0064"]
+
+  - id: "HEUR-EDC-032"
+    regra: "Dar curiosidade sem dar resposta imediata mantém atenção da pessoa durante toda a apresentação."
+    tipo: "qualitativa"
+    contexto_de_uso: "Mantendo engajamento durante pitch longo"
+    acao_recomendada: "Usar frases como 'você vai entender por que isso funciona daqui a pouco' durante apresentação"
+    fontes: ["EDC-0089"]
+
+  - id: "HEUR-EDC-033"
+    regra: "Primeiro não não é definitivo. Acompanhar mesmo após recusa — reconversão é mais barata que nova prospecção."
+    tipo: "qualitativa"
+    contexto_de_uso: "Gerindo follow-up pós-call"
+    acao_recomendada: "Criar sequência de follow-up de 5-7 contatos para quem não fechou"
+    fontes: ["EDC-0065"]

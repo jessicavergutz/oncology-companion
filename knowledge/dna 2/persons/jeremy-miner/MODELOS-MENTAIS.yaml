@@ -1,0 +1,116 @@
+# knowledge/dna/persons/JEREMY-MINER/MODELOS-MENTAIS.yaml
+# Modelos de pensamento e lentes cognitivas — Camada L2
+# Gerado em: 2026-03-16 | Total extraido: 15
+
+pessoa: "Jeremy Miner"
+versao: "1.0.0"
+data_extracao: "2026-03-16T00:00:00Z"
+total_itens: 15
+total_fonte: 45
+
+modelos_mentais:
+
+  - id: "MM-JM-001"
+    nome: "Estado Atual → Gap → Estado Objetivo"
+    descricao: "Modelo de tres fases para high ticket: (1) mapear o estado atual do prospecto em detalhe, (2) revelar o gap entre onde estao e onde querem estar, (3) ajuda-los a visualizar o estado objetivo. O gap e o que cria urgencia e justifica o investimento."
+    como_usar: "Usado especialmente em high ticket. Quanto maior o gap revelado atraves de perguntas, maior o valor percebido da solucao."
+    source_id: "JM-0107"
+    peso: 0.97
+
+  - id: "MM-JM-002"
+    nome: "Modo Luta-ou-Fuga em Vendas"
+    descricao: "Em 7-12 segundos de qualquer interacao de vendas, o cerebro do prospecto ja detectou sinais sociais verbais e nao-verbais. Se detectar agressividade, presuncao ou necessidade (needy), ativa o modo luta-ou-fuga. Luta = 'me diz quanto custa' (Type A). Fuga = 'parece otimo, me liga na semana que vem' (ghosting)."
+    como_usar: "Identificar qual modo foi ativado permite ajustar abordagem. O objetivo e nao ativar nenhum dos dois — manter abertura total."
+    source_id: "JM-0129"
+    peso: 0.96
+
+  - id: "MM-JM-003"
+    nome: "Duas Verdades"
+    descricao: "Todo prospecto tem duas verdades: a Primeira Verdade (resposta protegida e socialmente aceitavel) e a Segunda Verdade (o que realmente esta acontecendo). A maioria dos vendedores aceita a Primeira Verdade. O top 1% faz a pergunta que revela a Segunda Verdade."
+    como_usar: "Apos receber a primeira resposta, validar e perguntar: 'Tem alguma coisa que voce mudaria se pudesse?' — 99% contradizem sua primeira resposta."
+    source_id: "JM-0045"
+    peso: 0.95
+
+  - id: "MM-JM-004"
+    nome: "Detachment como Atracao — Analogia do Namoro"
+    descricao: "Em namoro, perseguir faz o outro correr. Agir desapegado faz o outro se aproximar. Em vendas e identico: vendedor que demonstra que 'nao precisa da venda' cria atracao. A escassez e o desapego sao as ferramentas mais poderosas de atracao."
+    como_usar: "Praticar HILA (High Intent, Low Attachment): total intencao de ajudar + desapego total do resultado."
+    source_id: "JM-0129"
+    peso: 0.94
+
+  - id: "MM-JM-005"
+    nome: "Medico como Modelo de Vendas"
+    descricao: "Um bom medico nunca prescreve sem primeiro diagnosticar. Um bom vendedor nunca apresenta a solucao sem primeiro entender profundamente a situacao. O paciente sabe melhor que o medico sobre seus sintomas — o medico sabe sobre o tratamento. Quando o paciente sente que faz parte do processo, confia na solucao prescrita."
+    como_usar: "Fazer perguntas diagnosticas antes de qualquer apresentacao. Quanto mais o prospecto fala, mais confia."
+    source_id: "JM-0138"
+    peso: 0.95
+
+  - id: "MM-JM-006"
+    nome: "Descascar as Camadas da Cebola"
+    descricao: "Vendedores medios ficam nas primeiras camadas (perguntas de superficie). O top 1% continua descascando a cebola — cada camada removida aprofunda o entendimento e o rapport. Quanto mais camadas descascadas, mais o vendedor e visto como autoridade, nao como mais um vendedor."
+    como_usar: "Apos cada resposta do prospecto, ir mais fundo: 'Pode me contar mais?' / 'Como especificamente isso te afeta?' — nao aceitar respostas de uma frase."
+    source_id: "JM-0138"
+    peso: 0.93
+
+  - id: "MM-JM-007"
+    nome: "Pensamento Baseado em Resultados vs Custo"
+    descricao: "Prospectos ancorados em custo precisam ser deframe-reframe para resultados. O frame do custo pergunta 'quanto isso custa?'. O frame dos resultados pergunta 'quanto custa NAO resolver isso?'. A mudanca de frame transforma a conversa de preco para valor."
+    como_usar: "Usar perguntas de consequencia para revelar o custo do status quo antes de qualquer conversa de preco."
+    source_id: "JM-0125"
+    peso: 0.93
+
+  - id: "MM-JM-008"
+    nome: "Motivacao Interna vs Externa"
+    descricao: "Motivacao externa (criada pelo vendedor atraves de pressao, urgencia artificial, entusiasmo) desgasta rapidamente — gera buyer's remorse. Motivacao interna (gerada pelo proprio prospecto ao articular seus problemas e objetivos) e duradoura e leva a decisao real."
+    como_usar: "Em vez de entusiasmar o prospecto com o produto, fazer perguntas que ativem a motivacao interna dele."
+    source_id: "JM-0138"
+    peso: 0.94
+
+  - id: "MM-JM-009"
+    nome: "Jogo de Lama na Parede — Features as Cegas"
+    descricao: "Apresentar features sem entender necessidades e 'jogar lama na parede e torcer para algo grudar'. O vendedor que descobre as necessidades primeiras sabe exatamente qual lama vai grudar — apresenta apenas o relevante com precisao cirurgica."
+    como_usar: "Nunca iniciar apresentacao sem ter mapeado completamente os problemas e objetivos do prospecto."
+    source_id: "JM-0138"
+    peso: 0.92
+
+  - id: "MM-JM-010"
+    nome: "Pacing Verbal como Controle do Cerebro"
+    descricao: "A velocidade com que o vendedor fala determina se o prospecto esta processando superficialmente ou profundamente. Falar rapido = processamento de superficie. Falar devagar + pausas = processamento profundo. As pausas forcam o cerebro do prospecto a preencher o silencio com suas proprias conexoes."
+    como_usar: "Desacelerar intencionalmente ao fazer perguntas importantes. Pausar 3-5 segundos apos palavras-chave antes de continuar."
+    source_id: "JM-0080"
+    peso: 0.94
+
+  - id: "MM-JM-011"
+    nome: "Fechamento = 5% do Processo, Nao 30%"
+    descricao: "Vendedores medios gastam 30% do processo tentando fechar. No NEPQ, fechar e apenas 5% — e apenas a confirmacao do que o prospecto ja decidiu durante o discovery. O investimento de energia esta todo na fase de conscientizacao do problema."
+    como_usar: "Medir onde esta sendo gasto o tempo em cada call. Se mais de 10% esta em 'fechamento', o discovery foi inadequado."
+    source_id: "JM-0126"
+    peso: 0.95
+
+  - id: "MM-JM-012"
+    nome: "Perguntas Sao Postes de Sinalizacao"
+    descricao: "As perguntas funcionam como postes de sinalizacao em uma estrada — orientam tanto o vendedor quanto o prospecto na descoberta de (1) se ha um problema, (2) o que causa o problema, e (3) como o problema os afeta. Sem as perguntas certas, nenhum dos dois sabe se ha fit."
+    como_usar: "Estruturar o mapa de perguntas antes da call — saber exatamente quais postes usar em qual ordem."
+    source_id: "JM-0138"
+    peso: 0.92
+
+  - id: "MM-JM-013"
+    nome: "Confianca Sai Antes de Entrar — Detectada em 7-12 Segundos"
+    descricao: "Nos primeiros 7-12 segundos, o subconsciente do prospecto ja tomou a decisao de abrir ou fechar. Sinais verbais (palavras usadas, velocidade) e nao-verbais (postura, olhar, distancia) sao processados automaticamente. Nao ha segunda chance para uma primeira impressao."
+    como_usar: "Preparar os primeiros 12 segundos com maximo cuidado: tom, postura, primeira frase. A call esta sendo ganha ou perdida antes de qualquer argumento."
+    source_id: "JM-0129"
+    peso: 0.93
+
+  - id: "MM-JM-014"
+    nome: "O Prospecto Sabe a Resposta — O Vendedor Sabe a Pergunta"
+    descricao: "O prospecto conhece melhor que qualquer pessoa sua situacao, seus problemas e o que quer como solucao. O vendedor nao tem acesso a essas informacoes — mas tem acesso as perguntas que revelam essas informacoes. A call perfeita e um espelho: o prospecto se ve a si mesmo."
+    como_usar: "Resistir ao impulso de responder, explicar ou resolver antes de terminar o discovery completo."
+    source_id: "JM-0153"
+    peso: 0.93
+
+  - id: "MM-JM-015"
+    nome: "Downplay Ativa Resgate — Diminuir Atrai"
+    descricao: "Quando alguem diminui a si mesmo ou ao seu produto ('antes de entrar em todo esse assunto chato...'), o instinto humano e de resgatar e defender. O prospecto automaticamente comeca a demonstrar interesse para compensar. O downplay estrategico gera atracao."
+    como_usar: "Usar frases como 'before I go into who we are and all that boring stuff...' — o prospect vai dizer 'nao, continue!'."
+    source_id: "JM-0153"
+    peso: 0.91

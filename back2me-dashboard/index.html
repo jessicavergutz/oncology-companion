@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back2me | Mission Control Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="logo">🔄 Back2me</div>
+            <nav class="side-nav">
+                <a href="#" class="nav-item active"><span>🏠</span> Dashboard</a>
+                <a href="#" class="nav-item"><span>🏷️</span> My Tags</a>
+                <a href="#" class="nav-item"><span>💬</span> Messages <span class="badge">1</span></a>
+                <a href="#" class="nav-item"><span>💳</span> Subscription</a>
+                <a href="#" class="nav-item"><span>⚙️</span> Settings</a>
+            </nav>
+            <div class="user-profile">
+                <div class="avatar">JV</div>
+                <div class="user-info">
+                    <div class="user-name">Jessica V.</div>
+                    <div class="user-plan">Safety Plus</div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+            <header class="top-bar">
+                <h1>Mission Control</h1>
+                <div class="global-status">
+                    <span class="status-dot pulsing"></span> Global Security Active
+                </div>
+            </header>
+
+            <!-- LIVE ALERT (SIMULATED) -->
+            <div class="alert-banner">
+                <div class="alert-icon">📍</div>
+                <div class="alert-content">
+                    <h3>Critical Alert: Tag "Bolinha" Scanned</h3>
+                    <p>Found 2 mins ago near Rua Augusta, SP. A finder is waiting for you in the chat.</p>
+                </div>
+                <a href="../back2me-poc/index.html" class="btn btn-alert">Open Secure Chat</a>
+            </div>
+
+            <!-- ECOSYSTEM GRID -->
+            <section class="section">
+                <h2 class="section-title">My Ecosystem</h2>
+                <div class="tag-grid">
+                    <div class="tag-card alert">
+                        <img src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80" alt="Bolinha" class="tag-img">
+                        <div class="tag-info">
+                            <h3>Bolinha (Pet)</h3>
+                            <div class="tag-status">STATUS: LOST</div>
+                        </div>
+                        <div class="tag-actions">
+                            <span class="pulse-indicator"></span>
+                        </div>
+                    </div>
+                    <div class="tag-card">
+                        <div class="tag-icon-placeholder">💼</div>
+                        <div class="tag-info">
+                            <h3>MacBook Pro</h3>
+                            <div class="tag-status">STATUS: SECURE</div>
+                        </div>
+                    </div>
+                    <div class="tag-card">
+                        <div class="tag-icon-placeholder">🔑</div>
+                        <div class="tag-info">
+                            <h3>House Keys</h3>
+                            <div class="tag-status">STATUS: SECURE</div>
+                        </div>
+                    </div>
+                    <div class="add-tag-card">
+                        <span>+</span>
+                        <p>Register New Tag</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ACTIVITY FEED -->
+            <section class="section">
+                <h2 class="section-title">Recent Activity</h2>
+                <div class="activity-list">
+                    <div class="activity-item">
+                        <div class="activity-time">15:42</div>
+                        <div class="activity-desc">Scan detected on <strong>Bolinha</strong> (Rua Augusta, SP)</div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-time">Yesterday</div>
+                        <div class="activity-desc">Subscription renewed (Safety Plus)</div>
+                    </div>
+                    <div class="activity-item">
+                        <div class="activity-time">2 days ago</div>
+                        <div class="activity-desc">Tag <strong>MacBook Pro</strong> registered successfully</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

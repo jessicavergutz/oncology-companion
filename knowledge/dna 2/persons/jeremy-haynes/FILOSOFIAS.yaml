@@ -1,0 +1,369 @@
+# JEREMY HAYNES - DNA COGNITIVO
+# Camada: FILOSOFIAS (Crenças Fundamentais e Visão de Mundo)
+# Versao: 1.0.0 | Criado: 2026-03-17 | Extração dos arquivos raw
+
+pessoa: "Jeremy Haynes"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 18
+camada: "FILOSOFIAS"
+
+itens:
+
+  # ═══════════════════════════════════════════════════════════════
+  # PRICING & VALUE PHILOSOPHY
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FIL-001"
+    titulo: "High-Ticket ou Poverty Pricing - Não Existe Meio Termo"
+    descricao: |
+      Existe apenas duas opções: high-ticket ou poverty pricing. Competitive pricing
+      baixo ($500-$1K/mês) é uma armadilha que impede escala real. A escolha entre
+      os dois modelos determina o acesso a recursos, ferramentas e qualidade de vida.
+      Não é uma questão de merecimento, é uma questão de matemática e padrões.
+    peso: 0.98
+    implicacoes:
+      - "Nunca aceitar clientes que pagam menos do que um patamar mínimo viável"
+      - "Pricing baixo = babysitter profissional de clientes e funcionários"
+      - "Pricing alto = acesso a melhores ferramentas, que geram melhores resultados"
+      - "Confiança e certeza pessoal são a única barreira real para cobrar high-ticket"
+    dominios:
+      - "pricing"
+      - "mentalidade"
+      - "posicionamento"
+    fontes: ["AOBA-0025"]
+
+  - id: "JH-FIL-002"
+    titulo: "Fair Pricing - Valor Deve Exceder Preço Toda Vez"
+    descricao: |
+      Para cobrar recurring, o valor entregue ao cliente precisa exceder o preço
+      a cada ciclo de 30 dias. Não é sobre o preço ser justo no conceito abstrato,
+      é sobre a equação de valor ser positiva para o cliente constantemente.
+      Se o valor não excede o preço, não tem direito moral nem comercial de cobrar recurring.
+    peso: 0.97
+    implicacoes:
+      - "Toda decisão de pricing deve começar pela pergunta: estamos entregando valor superior ao custo?"
+      - "Se não consegue provar valor a cada 30 dias, modelo deveria ser transacional"
+      - "Fair pricing não é preço baixo - é preço que o cliente percebe como justo dado o resultado"
+    dominios:
+      - "pricing"
+      - "recurring revenue"
+      - "entrega de valor"
+    fontes: ["CONFIG"]
+
+  - id: "JH-FIL-003"
+    titulo: "Preço Alto Gera Mais Consumo e Melhores Resultados"
+    descricao: |
+      Quanto mais uma pessoa paga, mais ela valoriza e consome o que comprou.
+      Clientes que pagam $10K/mês implementam e aplicam muito mais do que clientes
+      que pagam $500/mês. O preço alto, paradoxalmente, gera melhores resultados
+      porque aumenta o comprometimento e o consumo do produto/serviço.
+    peso: 0.95
+    implicacoes:
+      - "Preço mais alto pode melhorar a taxa de sucesso dos clientes, não piorar"
+      - "Clientes de baixo ticket tendem a ser mais difíceis e menos comprometidos"
+      - "Estrutura de pricing deve ser projetada para atrair clientes que vão implementar"
+    dominios:
+      - "pricing"
+      - "psicologia do consumidor"
+      - "resultados do cliente"
+    fontes: ["CONFIG", "AOBA-0025"]
+
+  - id: "JH-FIL-004"
+    titulo: "Recurring Over Transactional - O Modelo Superior"
+    descricao: |
+      Receita recorrente é fundamentalmente superior à transacional para construção
+      de um negócio sustentável. Transacional cria picos e vales. Recurring cria
+      previsibilidade, permite investimento em crescimento e protege contra choques.
+      Dois critérios validam o modelo recurring: Ongoing Results (entrega resultados
+      a cada ciclo) ou Ongoing Access (fornece acesso a algo de valor contínuo).
+    peso: 0.96
+    implicacoes:
+      - "Todo serviço deve ser estruturado com justificativa recurring clara"
+      - "Sem Ongoing Results ou Ongoing Access, não cobrar recurring - ir transacional"
+      - "Clientes devem ver razão clara para continuar pagando todo mês"
+    dominios:
+      - "modelo de negócio"
+      - "receita"
+      - "retenção"
+    fontes: ["CONFIG", "MODELOS-MENTAIS"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # AGENCY & BUSINESS PHILOSOPHY
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FIL-005"
+    titulo: "Contractors e Redes de Referência São Superiores a Staff"
+    descricao: |
+      Staff (funcionários) não é sinônimo de sucesso - é sinônimo de liability,
+      impostos, despesas fixas e responsabilidade pela vida financeira de outra pessoa.
+      Mentores de $100M+/ano recomendam consistentemente: contractors e redes de
+      referência estratégicas, nunca staff. O modelo correto é pagar por projeto,
+      por resultados, não por presença.
+    peso: 0.94
+    implicacoes:
+      - "Nunca contratar staff enquanto o modelo com contractors resolve"
+      - "Pay per project incentiva velocidade e qualidade - salary não"
+      - "Rede de referência permite renda passiva sem responsabilidade de entrega"
+      - "Recursos liberados do payroll devem ir para: crescimento, marketing, poupança, impostos"
+    dominios:
+      - "operações"
+      - "estrutura de agência"
+      - "modelo de contratação"
+    fontes: ["AOBA-0004"]
+
+  - id: "JH-FIL-006"
+    titulo: "Paid Media Mastery Como Vantagem Competitiva Definitiva"
+    descricao: |
+      Dominar paid media não é apenas uma habilidade técnica - é a vantagem
+      competitiva mais poderosa no mercado atual. Quem controla a distribuição paga
+      controla o acesso a clientes. Agências que dominam paid media podem escalar
+      qualquer negócio com produto/mercado fit. Este domínio é a fundação de
+      tudo que Jeremy construiu.
+    peso: 0.95
+    implicacoes:
+      - "Investimento contínuo em aprender e testar paid media é não-negociável"
+      - "Paid media bem executado pode transformar qualquer negócio sólido"
+      - "Agência sem expertise profunda em paid media não tem moat real"
+    dominios:
+      - "paid media"
+      - "marketing"
+      - "vantagem competitiva"
+    fontes: ["CONFIG", "AOBA-0025"]
+
+  - id: "JH-FIL-007"
+    titulo: "Sistemas e Processos São a Base da Escala"
+    descricao: |
+      Negócios que dependem de pessoas específicas nunca escalam.
+      Negócios que dependem de sistemas escalam indefinidamente.
+      Jeremy construiu a Paramark até 8 figuras criando SOPs (Standard Operating
+      Procedures) para cada função crítica. O objetivo é transformar expertise
+      humana em processos documentados que qualquer pessoa treinada pode executar.
+    peso: 0.93
+    implicacoes:
+      - "Todo processo crítico deve ser documentado antes de delegar"
+      - "SOP antes de contratar - nunca contratar esperando que a pessoa crie o processo"
+      - "O negócio deve funcionar sem você para ser verdadeiramente escalável"
+    dominios:
+      - "operações"
+      - "escala"
+      - "sistemas"
+    fontes: ["CONFIG"]
+
+  - id: "JH-FIL-008"
+    titulo: "Black Box Agency - Serviço Sem Transparência Total"
+    descricao: |
+      Agências devem entregar resultados sem necessariamente revelar todo o processo.
+      A transparência total pode ser uma fraqueza - expõe metodologias proprietárias,
+      cria dependência do cliente na execução, e dilui o valor percebido do serviço.
+      O foco deve ser em resultados mensuráveis, não em educar o cliente sobre o como.
+    peso: 0.88
+    implicacoes:
+      - "Focar em métricas de resultado na comunicação com clientes, não em processo"
+      - "Proteger IP e metodologias como ativo competitivo"
+      - "Resultado é o produto que o cliente compra, não o processo"
+    dominios:
+      - "posicionamento de agência"
+      - "gestão de clientes"
+      - "IP e metodologia"
+    fontes: ["CONFIG"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # SALES & FOLLOW-UP PHILOSOPHY
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FIL-009"
+    titulo: "Follow-Up de Valor, Não de Pressão"
+    descricao: |
+      Follow-up sem valor é egoísta e prejudicial. "Viu minha mensagem?" cria
+      irritação, não vendas. O follow-up correto entrega algo valioso a cada
+      contato: artigo relevante, notícia da plataforma, caso de sucesso, vídeo
+      de podcast, scarcity real. O objetivo é manter-se presente na mente do
+      prospect de forma que ele aguarde suas mensagens, não as ignore.
+    peso: 0.96
+    implicacoes:
+      - "Construir arsenal de conteúdo para follow-up antes de precisar"
+      - "Cada follow-up deve ter um motivo de valor explícito"
+      - "Baixa pressão + alta frequência de valor = conversão no timing certo do prospect"
+    dominios:
+      - "vendas"
+      - "follow-up"
+      - "comunicação"
+    fontes: ["JH-ST-0008"]
+
+  - id: "JH-FIL-010"
+    titulo: "Dinheiro Na Mesa - Leads Abandonados São Receita Perdida"
+    descricao: |
+      A maioria das organizações de vendas deixa dinheiro enorme na mesa ao não
+      ter um sistema para reativar leads que deixaram de ser seguidos.
+      Matematicamente, à medida que a equipe de vendas cresce e o volume de leads
+      acumula, o follow-up se torna impossível sem um papel específico (o Cleaner).
+      Leads abandonados representam investimento pago que nunca se converteu.
+    peso: 0.94
+    implicacoes:
+      - "Qualquer negócio com 2+ semanas de campanha ativa já tem leads abandonados"
+      - "O papel do Cleaner é obrigatório, não opcional, em equipes de vendas"
+      - "ROI de reativação de leads antigos é sempre superior a geração de leads novos"
+    dominios:
+      - "vendas"
+      - "operações de vendas"
+      - "ROI"
+    fontes: ["JH-ST-0005", "JH-ST-0004"]
+
+  - id: "JH-FIL-011"
+    titulo: "Incentivos Controlam Comportamento - Não Palavras"
+    descricao: |
+      Pessoas respondem a incentivos, não a pedidos. Para aumentar AOV, não
+      basta pedir ao vendedor que feche mais - é preciso criar estrutura onde
+      o comportamento desejado é recompensado e o indesejado penalizado.
+      O mesmo vale para clientes: bonificações e penalidades de preço controlam
+      quando e como eles compram.
+    peso: 0.95
+    implicacoes:
+      - "Projetar sistemas de incentivo antes de lamentar comportamentos ruins"
+      - "Estrutura de comissão deve recompensar comportamentos específicos desejados"
+      - "Pricing tiers devem penalizar split pay e recompensar full pay"
+    dominios:
+      - "gestão de equipes"
+      - "pricing"
+      - "psicologia comportamental"
+    fontes: ["JH-ST-0013"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # MINDSET & GROWTH PHILOSOPHY
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FIL-012"
+    titulo: "Melhoria Sistemática Constante É Responsabilidade Profissional"
+    descricao: |
+      Todo profissional tem o direito e a responsabilidade de revisar como pode
+      melhorar continuamente. Não é opcional. A pergunta "como posso fazer isso
+      melhor?" deve ser uma prática diária. Quem não melhora sistematicamente
+      regride - não existe estagnação real em mercados competitivos.
+    peso: 0.93
+    implicacoes:
+      - "Dedique tempo semanal para revisar o que funcionou e o que não funcionou"
+      - "Cada negociação, cada campanha, cada interação tem dados para aprender"
+      - "Curiosidade e melhoria contínua são mindsets que separam alta performance"
+    dominios:
+      - "mentalidade"
+      - "crescimento"
+      - "alta performance"
+    fontes: ["UHTC-0010"]
+
+  - id: "JH-FIL-013"
+    titulo: "Ninguém Te Deve Nada - Autonomia Radical"
+    descricao: |
+      Prospects não têm obrigação de responder. Clientes não têm obrigação de
+      renovar. O mercado não tem obrigação de te pagar. A crença de que alguém
+      te deve atenção ou negócio é a raiz da frustração em vendas.
+      Autonomia radical significa: você é 100% responsável pelos seus resultados
+      e não pode culpar ninguém pela ausência deles.
+    peso: 0.92
+    implicacoes:
+      - "Eliminar linguagem de vítima quando resultados não chegam"
+      - "Cada 'não' é informação, não rejeição pessoal"
+      - "A pressão de prospecting e follow-up é responsabilidade do vendedor, não do prospect"
+    dominios:
+      - "mentalidade"
+      - "vendas"
+      - "responsabilidade pessoal"
+    fontes: ["UHTC-0003"]
+
+  - id: "JH-FIL-014"
+    titulo: "Curiosidade Como Fundação da Alta Performance em Vendas"
+    descricao: |
+      A curiosidade genuína sobre o prospect, sobre seu problema, sobre a
+      melhor solução, é a raiz de toda alta performance em vendas. Vendedores
+      curiosos fazem as perguntas certas, descobrem objeções reais antes que
+      explodam e constroem rapport autêntico. Curiosidade constante =
+      aprendizado constante = evolução constante.
+    peso: 0.91
+    implicacoes:
+      - "Entrar em toda call com genuína curiosidade, não com script rígido"
+      - "Fazer perguntas para entender profundamente antes de recomendar"
+      - "Curiosidade sobre o mercado, plataformas, e mudanças = vantagem competitiva"
+    dominios:
+      - "mentalidade"
+      - "vendas"
+      - "aprendizado"
+    fontes: ["UHTC-0003"]
+
+  # ═══════════════════════════════════════════════════════════════
+  # AGENCY MODEL & SCALE PHILOSOPHY
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "JH-FIL-015"
+    titulo: "Menos Clientes High-Ticket > Muitos Clientes Low-Ticket"
+    descricao: |
+      4 clientes a $25K/mês são infinitamente superiores a 100 clientes a
+      $1K/mês, mesmo que a receita seja igual. Com 4 clientes high-ticket:
+      mais foco, mais recursos por cliente, melhores resultados, mais tempo
+      para operar e inovar. Com 100 clientes low-ticket: você é um babysitter
+      profissional sem tempo para pensar ou melhorar.
+    peso: 0.96
+    implicacoes:
+      - "Nunca aceitar volume de clientes pequenos em detrimento de qualidade"
+      - "Foco em poucos clientes high-ticket com altas margens é sempre a estratégia correta"
+      - "Recurso liberado por ter menos clientes deve ir para melhorar resultados dos que ficam"
+    dominios:
+      - "modelo de agência"
+      - "pricing"
+      - "foco estratégico"
+    fontes: ["AOBA-0025"]
+
+  - id: "JH-FIL-016"
+    titulo: "Outbound Sales Como Habilidade Fundamental Insubstituível"
+    descricao: |
+      Saber vender para pessoas que não te conhecem (outbound) é a habilidade
+      mais valiosa e resistente do negócio. Jeremy construiu $15K/mês deals
+      com rev shares por 7.5 anos usando exclusivamente outbound para leads frios.
+      Quem depende apenas de inbound é vulnerável - quem domina outbound nunca
+      fica sem pipeline.
+    peso: 0.93
+    implicacoes:
+      - "Treinar equipe em outbound antes de depender de inbound"
+      - "Outbound bem executado pode funcionar em qualquer mercado"
+      - "Prospect que nem te conhece e compra é a prova mais forte de fit produto-mercado"
+    dominios:
+      - "vendas"
+      - "prospecção"
+      - "resiliência"
+    fontes: ["JH-ST-0005"]
+
+  - id: "JH-FIL-017"
+    titulo: "Dados e Controle da Informação São Poder"
+    descricao: |
+      Quem controla os dados controla as decisões. Em vendas, ter controle sobre
+      métricas, relatórios, closing rates e comportamento de leads é o que separa
+      gestão profissional de amadorismo. Sem dados, não há como identificar
+      problemas, calibrar soluções ou provar valor ao cliente.
+    peso: 0.93
+    implicacoes:
+      - "Implementar sistemas de rastreamento desde o primeiro dia"
+      - "Toda decisão de escala ou mudança deve ser baseada em dados, não em percepção"
+      - "Account manager que não tem dados não pode defender posição com cliente"
+    dominios:
+      - "dados"
+      - "gestão de vendas"
+      - "account management"
+    fontes: ["UHTC-0003", "UHTC-0009"]
+
+  - id: "JH-FIL-018"
+    titulo: "Video Prospecting Como Diferenciador Estratégico"
+    descricao: |
+      Quando quase todos usam texto para prospecção, usar vídeo personalizado
+      cria diferenciação imediata. Vídeo de prospecção bem executado acelera
+      confiança, demonstra profissionalismo e transmite personalidade de forma
+      impossível para texto. O desconforto inicial com vídeo é temporário;
+      o diferencial competitivo é duradouro.
+    peso: 0.88
+    implicacoes:
+      - "Praticar criação de vídeos de prospecção regularmente até dominar"
+      - "Personalização genuína em vídeo supera qualquer script de texto"
+      - "Video prospecting é especialmente poderoso em mercados onde é subutilizado"
+    dominios:
+      - "prospecção"
+      - "vendas"
+      - "diferenciação"
+    fontes: ["UHTC-0003"]

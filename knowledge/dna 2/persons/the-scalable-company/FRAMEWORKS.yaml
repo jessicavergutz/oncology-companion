@@ -1,0 +1,271 @@
+# THE SCALABLE COMPANY - DNA COGNITIVO
+# Camada: FRAMEWORKS (Metodologias Estruturadas e Processos)
+# Versao: 1.0.0 | Criado: 2026-03-17 | Extraido de 10 fontes TSC
+
+pessoa: "Ryan Deiss / The Scalable Company"
+versao: "1.0.0"
+data_extracao: "2026-03-17T00:00:00Z"
+total_itens: 15
+camada: "FRAMEWORKS"
+
+frameworks:
+
+  - id: "FW-TSC-001"
+    nome: "ScalableOS (Sistema Operacional Escalável)"
+    descricao: "O sistema operacional completo para escalar empresas. Composto de 6 ferramentas principais que documentam os algoritmos da empresa, desenham a arquitetura de comunicação e constroem a bússola de clareza. É dividido em 3 fases: Build (6-8 semanas), Install (2-3 semanas) e Optimize (contínuo)."
+    componentes:
+      - "Fase 1 - Build: Documentar algoritmos, desenhar comunicação, construir Clarity Compass (6-8 semanas)"
+      - "Fase 2 - Install: Reunião estratégica de 2 dias com liderança + rollout para a empresa (2-3 semanas)"
+      - "Fase 3 - Optimize: QSP a cada 90 dias com a equipe de liderança (contínuo, nunca termina)"
+      - "6 ferramentas core do framework (Clarity Compass, Value Engines, Playbooks, HOT Canvas, Scorecard, 12Q)"
+    aplicacao: "Empresas que querem escalar sem depender do fundador no dia a dia e construir um sistema operacional empresarial completo"
+    dominios:
+      - "escalabilidade"
+      - "sistema operacional"
+      - "liderança"
+      - "processos"
+    peso: 0.98
+
+  - id: "FW-TSC-002"
+    nome: "Clarity Compass (Bússola de Clareza)"
+    descricao: "Framework que define os elementos fundacionais de clareza da empresa: propósito, valores, missão, visão, plano de 12 trimestres e âncoras estratégicas. É a bússola que orienta todas as decisões estratégicas e cria alinhamento entre empresa, time e clientes. Deve ser construída com o time, nunca pelo fundador sozinho."
+    componentes:
+      - "Propósito (Purpose): Razão de existir além do lucro"
+      - "Valores (Core Values): Princípios inegociáveis usados para contratar, treinar e demitir"
+      - "Missão (Mission): O que a empresa faz e para quem"
+      - "Visão (Vision): Onde a empresa quer chegar"
+      - "12Q Plan: Plano de 12 trimestres com objetivos financeiros e marcos"
+      - "Âncoras Estratégicas: Capacidades e vantagens competitivas core"
+    aplicacao: "Fase inicial do ScalableOS e ao início de cada período de planejamento estratégico (Clarity Day)"
+    dominios:
+      - "clareza organizacional"
+      - "estratégia"
+      - "cultura organizacional"
+      - "planejamento estratégico"
+    peso: 0.96
+
+  - id: "FW-TSC-003"
+    nome: "12Q Plan (Plano de 12 Trimestres)"
+    descricao: "Plano estratégico de longo prazo que cobre 12 trimestres (3 anos). Define onde a empresa quer chegar em termos de receita, escala e marcos estratégicos ao longo de 3 anos, trimestre a trimestre. Serve como referência para cada QSP para verificar se a empresa está on track, ahead ou behind."
+    componentes:
+      - "Linha do tempo de 12 trimestres (3 anos)"
+      - "Metas de receita por trimestre"
+      - "Marcos estratégicos importantes por período"
+      - "Verificação trimestral: on track / ahead / behind"
+      - "Revisão da velocidade no início de cada QSP"
+    aplicacao: "Criado no Clarity Day inicial, revisado no início de cada QSP para calibrar ambição do trimestre atual"
+    dominios:
+      - "planejamento estratégico"
+      - "longo prazo"
+      - "QSP"
+      - "metas"
+    peso: 0.94
+
+  - id: "FW-TSC-004"
+    nome: "Value Engines (Motores de Valor)"
+    descricao: "Framework para mapear como os clientes acontecem e como valor é entregue em cada etapa da jornada. Divide o negócio em Growth Engines (como clientes são adquiridos) e Fulfillment Engines (como o produto/serviço é entregue). São mapeados em sticky notes no whiteboard, mostrando o fluxo de awareness até entrega."
+    componentes:
+      - "Growth Engines: Mapas de como clientes acontecem (awareness → interesse → conversão)"
+      - "Fulfillment Engines: Mapas de como o produto/serviço é entregue após a venda"
+      - "Mapeamento em sticky notes (não em ferramentas digitais na fase inicial)"
+      - "Publicação em ferramenta de fluxograma apenas após validação"
+      - "Base para identificar onde criar playbooks"
+    aplicacao: "Antes de criar qualquer playbook — é preciso primeiro ter o mapa de como o negócio funciona"
+    dominios:
+      - "growth"
+      - "processos"
+      - "jornada do cliente"
+      - "escalabilidade"
+    peso: 0.95
+
+  - id: "FW-TSC-005"
+    nome: "Business Playbook Library (Biblioteca de Playbooks)"
+    descricao: "Sistema de documentação que captura os processos críticos do negócio em checklists step-by-step. Cada playbook documenta uma tarefa específica em detalhe suficiente para que qualquer pessoa com contexto geral possa executá-la corretamente. A biblioteca é o 'cofre da receita secreta' da empresa."
+    componentes:
+      - "Playbooks individuais: Checklists step-by-step para processos específicos"
+      - "Playbook owner: Responsável por cada processo"
+      - "Processo de criação: Do → Document → Redo following doc → Field Test → Correct → Publish"
+      - "Biblioteca central: Repositório indexado de todos os playbooks"
+      - "Processo de manutenção: Revisão e atualização periódica"
+    aplicacao: "Sempre que um processo crítico precisa ser documentado, delegado ou replicado em escala"
+    dominios:
+      - "playbooks"
+      - "documentação de processos"
+      - "delegação"
+      - "escalabilidade"
+    peso: 0.96
+
+  - id: "FW-TSC-006"
+    nome: "High Output Team Canvas (HOT Canvas)"
+    descricao: "Framework para mapear a estrutura organizacional completa: equipes core, responsabilidades, líderes e métricas de cada área. É o mapa visual de como a empresa está organizada e quem é responsável pelo quê. Sequenciado pela jornada do cliente para criar fluxo visual intuitivo."
+    componentes:
+      - "Core Functions: 5-7 equipes funcionais principais"
+      - "Team Leaders: Quem lidera cada equipe"
+      - "Key Responsibilities: Responsabilidades principais de cada time"
+      - "Team Metrics: KPIs de performance de cada equipe"
+      - "Sequência pela jornada do cliente: Produto → Marketing → Vendas → Ops"
+    aplicacao: "Ao estruturar ou reestruturar a equipe, ao criar job descriptions e ao definir accountabilities"
+    dominios:
+      - "estrutura organizacional"
+      - "liderança"
+      - "accountability"
+      - "gestão"
+    peso: 0.93
+
+  - id: "FW-TSC-007"
+    nome: "Company Scorecard (Painel de Métricas da Empresa)"
+    descricao: "Framework de métricas em dois níveis: company scorecard (visão estratégica para o CEO/liderança com North Star metrics) e department scorecards (visão tática para cada líder de área com métricas detalhadas). O objetivo é que o CEO possa saber se o negócio está 'em chamas' ou funcionando sem precisar mergulhar em detalhes."
+    componentes:
+      - "North Star Metrics: 1-3 métricas por área funcional que importam no nível estratégico"
+      - "Department Scorecards: Métricas detalhadas de cada departamento (responsabilidade dos líderes de área)"
+      - "Status visual: Cores verde/amarelo/vermelho para cada métrica"
+      - "Revisão semanal com a equipe de liderança"
+      - "Litmus test: 'Precisaria ver isso se estivesse de férias?'"
+    aplicacao: "Monitoramento contínuo de saúde do negócio, preparação para QSPs e identificação de onde focar"
+    dominios:
+      - "métricas"
+      - "gestão"
+      - "liderança"
+      - "scorecards"
+    peso: 0.94
+
+  - id: "FW-TSC-008"
+    nome: "Quarterly Sprint Planning (QSP)"
+    descricao: "Processo trimestral de planejamento estratégico com a equipe de liderança. Acontece em 2 dias (Clarity Day + Sprint Planning Day) e resulta em um plano com tema trimestral, success metrics, pilares estratégicos e key initiatives priorizadas. É o coração do ritmo operacional da empresa."
+    componentes:
+      - "Dia 1 - Clarity Day: Finalizar Clarity Compass e trabalho de fundação estratégica"
+      - "Dia 2 - Sprint Planning: Brainstorming de key initiatives, success metrics, pillars"
+      - "Quarterly Sprint Plan Canvas: Documento que captura o plano do trimestre"
+      - "Rollout process: Líderes → Times → All-hands (dentro de 7-14 dias)"
+      - "Revisão no QSP seguinte: 'Fizemos o que dissemos que faríamos?'"
+    aplicacao: "A cada 90 dias com todos os líderes para alinhar e priorizar o próximo trimestre"
+    dominios:
+      - "planejamento estratégico"
+      - "liderança"
+      - "execução"
+      - "alinhamento organizacional"
+    peso: 0.97
+
+  - id: "FW-TSC-009"
+    nome: "Bottleneck & Opportunity List (B&O List)"
+    descricao: "Lista capturada durante o QSP para registrar tópicos que surgem mas que são tangentes ao fluxo principal da reunião. Ao invés de interromper o processo, itens vão para a B&O list para serem processados depois. No final da reunião, cada item é revisado: eliminar, combinar ou processar."
+    componentes:
+      - "Captura em tempo real: qualquer tópico off-track vai para a lista"
+      - "Review estruturado: eliminar → combinar → priorizar"
+      - "Processamento de cada item: quem tem opinião forte? quem discorda? qual a solução?"
+      - "Decisão obrigatória: nenhum item pode ser simplesmente ignorado"
+      - "Conexão com o plano: itens processados podem gerar mudanças no quarterly sprint plan"
+    aplicacao: "Durante qualquer reunião de planejamento para manter o foco sem perder ideias importantes"
+    dominios:
+      - "facilitação de reuniões"
+      - "QSP"
+      - "tomada de decisão"
+      - "gestão de agenda"
+    peso: 0.91
+
+  - id: "FW-TSC-010"
+    nome: "90-Day Game Plan"
+    descricao: "Exercício de reflexão individual que acontece no início de cada QSP para 'fazer negócios com o passado'. Cada participante reflete em 3 dimensões: passado (orgulho e arrependimentos), presente (confiança e lacunas) e futuro (excitamento e preocupações). Limpeza emocional e estratégica antes de planejar."
+    componentes:
+      - "Coluna 1 - Passado: Orgulho e arrependimentos dos últimos 90 dias"
+      - "Coluna 2 - Presente: Áreas de confiança e onde sente que falta algo"
+      - "Coluna 3 - Futuro: O que anima para o próximo trimestre e o que preocupa"
+      - "Coluna 4 - Focus 5: 3-5 projetos que, se concluídos, fariam o trimestre ser melhor que o anterior"
+      - "Compartilhamento em grupo: voluntários compartilham, 'quem concorda? quem discorda?'"
+      - "Ritual de virar a página: 'Can we move forward?' com confirmação verbal de cada participante"
+    aplicacao: "Início de todo QSP, antes de qualquer planejamento futuro. Também usado individualmente e com mastermind members."
+    dominios:
+      - "QSP"
+      - "liderança"
+      - "reflexão estratégica"
+      - "cultura organizacional"
+    peso: 0.93
+
+  - id: "FW-TSC-011"
+    nome: "Quarterly Sprint Plan Canvas"
+    descricao: "Documento estruturado que captura o plano trimestral completo: período, tema, success metrics (com atual, target e gap), pilares estratégicos e key initiatives com responsáveis e prazos. É a saída principal do QSP e referência para toda a execução do trimestre."
+    componentes:
+      - "Período: Qual trimestre está sendo planejado"
+      - "Tema: A palavra ou frase que captura o espírito do trimestre"
+      - "Success Metrics: Métricas prioritárias com atual/target/gap"
+      - "Strategic Pillars: 3 pilares temáticos que organizam as iniciativas"
+      - "Key Initiatives: Projetos específicos embaixo de cada pilar, com responsável e prazo"
+      - "Gut Check: Validação final de viabilidade do plano"
+    aplicacao: "Criado durante o QSP, compartilhado com toda a empresa dentro de 7-14 dias, referenciado semanalmente"
+    dominios:
+      - "QSP"
+      - "planejamento estratégico"
+      - "execução"
+      - "alinhamento organizacional"
+    peso: 0.95
+
+  - id: "FW-TSC-012"
+    nome: "Growth Engine Mapping (Mapeamento de Motor de Crescimento)"
+    descricao: "Framework inspirado na experiência de Ryan Deiss de mapear como clientes acontecem em um guardanapo. O processo documenta explicitamente cada etapa pela qual um potencial cliente passa: awareness, engajamento, subscrição, conversão. Transforma 'sorte' em processo replicável."
+    componentes:
+      - "Awareness: Como as pessoas descobrem a empresa"
+      - "Engage: Como interagem antes de comprar"
+      - "Subscribe: Como entram na lista/comunidade"
+      - "Convert: Como se tornam clientes pagantes"
+      - "Documentação visual em sticky notes/whiteboard"
+      - "Identificação de onde o processo é mais frágil ou dependente de uma pessoa"
+    aplicacao: "Quando o negócio não tem clareza sobre como os clientes acontecem ou quando o crescimento precisa ser sistematizado"
+    dominios:
+      - "growth"
+      - "marketing"
+      - "processos"
+      - "escalabilidade"
+    peso: 0.94
+
+  - id: "FW-TSC-013"
+    nome: "Playbook Design Process (3-Step Playbook Creation)"
+    descricao: "Processo rigoroso em 3 passos para criar playbooks de qualidade: (1) o process owner executa e documenta simultaneamente, (2) o process owner executa novamente seguindo cegamente sua própria documentação para encontrar lacunas, (3) um field tester nunca exposto ao processo executa seguindo a documentação. Ciclo se repete até qualidade alcançada."
+    componentes:
+      - "Passo 1 - Do & Document: Process owner executa enquanto documenta (ou documenta imediatamente após)"
+      - "Passo 2 - Blind Re-run: Process owner executa novamente seguindo a documentação que acabou de criar"
+      - "Passo 3 - Field Test: Pessoa nova ao processo executa seguindo a documentação"
+      - "Debrief & Iterate: Documentador revisa com feedback do field tester"
+      - "Ciclo até qualidade: Repetir field test se mudanças significativas foram feitas"
+      - "Publicação: Apenas após aprovação do field test"
+    aplicacao: "Para cada processo crítico identificado nos value engines que precisa ser documentado e delegado"
+    dominios:
+      - "playbooks"
+      - "documentação de processos"
+      - "qualidade"
+      - "delegação"
+    peso: 0.95
+
+  - id: "FW-TSC-014"
+    nome: "Operating System Audit (Auditoria do Sistema Operacional)"
+    descricao: "Revisão feita ao final de cada QSP para verificar se o plano do próximo trimestre requer mudanças nos componentes do sistema operacional: scorecard, value engines, HOT canvas ou Clarity Compass. Garante que o OS evolui junto com a estratégia."
+    componentes:
+      - "Scorecard review: Atualizar North Star metrics com base no sprint plan?"
+      - "Value Engine review: Criar novo engine ou fazer mudanças substanciais?"
+      - "HOT Canvas review: Mudanças críticas em pessoal ou responsabilidades?"
+      - "Clarity Compass review: Alguma mudança fundamental no 12Q, âncoras estratégicas, valores ou propósito?"
+      - "Ordem de prioridade: Scorecard é mais provável de mudar; Clarity Compass é mais estável"
+    aplicacao: "Ao final de cada QSP antes de comunicar o plano para a empresa"
+    dominios:
+      - "sistema operacional"
+      - "QSP"
+      - "melhoria contínua"
+      - "liderança"
+    peso: 0.90
+
+  - id: "FW-TSC-015"
+    nome: "QSP Rollout Process (Processo de Comunicação do Plano)"
+    descricao: "Framework em 4 etapas para comunicar o plano trimestral de liderança para toda a empresa: líderes compartilham com seus times, times dão feedback, liderança integra o feedback e finaliza o plano, all-hands de lançamento. Todo o processo não deve exceder 14 dias."
+    componentes:
+      - "Etapa 1 - Leadership QSP: Líderes criam o plano inicial (2 dias)"
+      - "Etapa 2 - Team Cascade: Cada líder apresenta para seu time (dentro de dias)"
+      - "Etapa 3 - Feedback Integration: Liderança revisa sugestões dos times"
+      - "Etapa 4 - All-Hands Launch: Apresentação para toda a empresa com plano finalizado"
+      - "Timeline: 7-14 dias do QSP de liderança ao all-hands"
+      - "Alinhamento de comunicação: Definir o que cada líder vai compartilhar e quando"
+    aplicacao: "Imediatamente após cada QSP para garantir alinhamento organizacional completo"
+    dominios:
+      - "comunicação organizacional"
+      - "QSP"
+      - "liderança"
+      - "alinhamento organizacional"
+    peso: 0.91

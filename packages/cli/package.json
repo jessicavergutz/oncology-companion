@@ -1,0 +1,15 @@
+{
+  "name": "@mega-brain/cli",
+  "version": "1.3.0",
+  "description": "Mega Brain Command Line Interface",
+  "type": "module",
+  "bin": {
+    "mega-brain-ai": "bin/cli.js",
+    "mega-brain": "bin/cli.js",
+    "mega-brain-push": "bin/push.js"
+  },
+  "dependencies": {
+    "@mega-brain/core": "*",
+    "@mega-brain/agents": "*"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Bússola Interior",
+  "author": "Jessica Vergutz",
+  "layers": [
+    {
+      "name": "Philosophies",
+      "content": "A jornada de descoberta da sexualidade feminina é um ato de autoconhecimento e libertação."
+    },
+    {
+      "name": "Mental Models",
+      "content": "O 'Mapa da Clareza' como ferramenta de navegação interna."
+    },
+    {
+      "name": "Heuristics",
+      "content": "Siga o desejo, não a obrigação."
+    }
+  ]
+}

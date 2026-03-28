@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script>
+        const audioUrl = 'file:///Users/jessicavergutz/Documents/Projects/mega-brain/packages/video/public/audio/ad5.mp3';
+        const context = new AudioContext();
+        
+        fetch(audioUrl)
+            .then(response => response.arrayBuffer())
+            .then(arrayBuffer => context.decodeAudioData(arrayBuffer))
+            .then(audioBuffer => {
+                const data = audioBuffer.getChannelData(0);
+                const sampleRate = audioBuffer.sampleRate;
+                const threshold = 0.01;
+                const segments = [];
+                let inSegment = false;
+                let start = 0;
+
+                for (let i = 0; i < data.length; i++) {
+                    const amplitude = Math.abs(data[i]);
+                    if (!inSegment && amplitude > threshold) {
+                        inSegment = true;
+                        start = i / sampleRate;
+                    } else if (inSegment && amplitude < threshold) {
+                        // Check if it stays below threshold for 0.5s
+                        let silent = true;
+                        const lookahead = 0.3 * sampleRate;
+                        for (let j = 1; j < lookahead && i + j < data.length; j++) {
+                            if (Math.abs(data[i + j]) > threshold) {
+                                silent = false;
+                                break;
+                            }
+                        }
+                        if (silent) {
+                            inSegment = false;
+                            segments.push({ start, end: i / sampleRate });
+                        }
+                    }
+                }
+                
+                if (inSegment) segments.push({ start, end: data.length / sampleRate });
+
+                console.log('AUDIO_SEGMENTS:', JSON.stringify(segments));
+                const results = document.createElement('pre');
+                results.innerText = JSON.stringify(segments, null, 2);
+                document.body.appendChild(results);
+            })
+            .catch(err => console.error('ERROR:', err));
+    </script>
+</body>
+</html>
