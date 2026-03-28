@@ -87,59 +87,56 @@ const WeeklySummary = () => {
 
   return (
     <div className="container weekly-summary">
-      <div className="report-header" style={{ marginBottom: '2rem', borderBottom: '2px solid #eee', paddingBottom: '1rem' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <h1 style={{ margin: 0 }}>Weekly Symptom Report</h1>
-          <button className="export-button no-print" onClick={exportReport}>Print / PDF</button>
+      <div className="report-header" style={{ marginBottom: '2.5rem', paddingBottom: '1.5rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.25rem' }}>
+          <h1 style={{ margin: 0, fontSize: '1.85rem', color: 'var(--color-primary-text)' }}>Weekly Report</h1>
+          <button className="export-button no-print" onClick={exportReport} style={{ background: 'var(--color-bg)', border: '1px solid var(--color-border)', padding: '0.6rem 1.25rem', borderRadius: '24px', fontWeight: 600, color: 'var(--color-primary)' }}>Print</button>
         </div>
-        <div className="report-meta" style={{ marginTop: '1rem', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem', color: '#555' }}>
-          <div><strong>Patient:</strong> {patient?.name || 'Jane Doe'}</div>
-          <div><strong>Week:</strong> {formatDate(last7Days[last7Days.length - 1].date)} – {formatDate(last7Days[0].date)}</div>
-          <div><strong>Generated on:</strong> {new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</div>
+        <div className="report-meta card" style={{ padding: '1.5rem', margin: 0, display: 'grid', gridTemplateColumns: '1fr', gap: '0.75rem', color: 'var(--color-text)', fontSize: '0.95rem', background: 'var(--color-bg)', boxShadow: 'none' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}><strong style={{ color: 'var(--color-text-light)' }}>Patient</strong> <span style={{ fontWeight: 600 }}>{patient?.name || 'Jane Doe'}</span></div>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}><strong style={{ color: 'var(--color-text-light)' }}>Dates</strong> <span style={{ fontWeight: 600 }}>{formatDate(last7Days[last7Days.length - 1].date)} – {formatDate(last7Days[0].date)}</span></div>
+          <div style={{ display: 'flex', justifyContent: 'space-between' }}><strong style={{ color: 'var(--color-text-light)' }}>Generated</strong> <span style={{ fontWeight: 600 }}>{new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span></div>
         </div>
       </div>
 
       {/* Day‑by‑Day Symptom Overview */}
-      <section className="card">
-        <h2>Daily Symptom Status</h2>
-        <ul style={{ padding: 0, margin: 0 }}>
-          {last7Days.map((d) => (
-            <li key={d.date} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem', borderBottom: '1px solid #f0f0f0', paddingBottom: '0.5rem' }}>
-              <span style={{ fontWeight: 500 }}>{formatDate(d.date)}</span>
-              {d.status === 'symptom' && <span className="badge badge-symptom">Symptoms</span>}
+      <section className="card" style={{ padding: '0', overflow: 'hidden' }}>
+        <h2 style={{ padding: '1.75rem 1.75rem 0.5rem', margin: 0, fontSize: '1.25rem' }}>Daily Symptom Overview</h2>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          {last7Days.map((d, idx) => (
+            <div key={d.date} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1.25rem 1.75rem', borderBottom: idx < last7Days.length - 1 ? '1px solid var(--color-border)' : 'none' }}>
+              <span style={{ fontWeight: 600, color: 'var(--color-text)' }}>{formatDate(d.date)}</span>
+              {d.status === 'symptom' && <span className="badge badge-symptom">Symptoms Reported</span>}
               {d.status === 'no-symptom' && <span className="badge badge-no-symptom">No symptoms</span>}
-              {d.status === 'missing' && <span className="badge badge-missing">No check-in</span>}
-            </li>
+              {d.status === 'missing' && <span className="badge badge-missing">Missing</span>}
+            </div>
           ))}
-        </ul>
+        </div>
       </section>
 
       {/* Generated Summary Block */}
-      <section className="card summary">
-        <h2>Summary</h2>
+      <section className="card summary" style={{ background: 'var(--color-guidance-bg)', boxShadow: 'none' }}>
+        <h2 style={{ margin: '0 0 1rem 0', fontSize: '1.25rem' }}>Automated Analysis</h2>
         {summaryLines.map((line, idx) => (
-          <p key={idx}>{line}</p>
+          <p key={idx} style={{ margin: '0 0 0.5rem 0', display: 'flex', gap: '0.75rem', alignItems: 'flex-start' }}><span style={{ color: 'var(--color-primary)' }}>•</span> <span style={{ color: 'var(--color-text)' }}>{line}</span></p>
         ))}
       </section>
 
       {/* Symptom Frequency */}
       <section className="card">
-        <h2>Symptom Frequency</h2>
+        <h2 style={{ margin: '0 0 1.25rem 0', fontSize: '1.25rem' }}>Frequent Symptoms</h2>
         {Object.keys(symptomCounts).length === 0 ? (
-          <p>No symptoms logged this week.</p>
+          <p style={{ color: 'var(--color-text-light)' }}>No symptoms logged this week.</p>
         ) : (
-          <ul>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
             {Object.entries(symptomCounts).map(([symptom, count]) => (
-              <li key={symptom}>{symptom}: {count} time{count > 1 ? 's' : ''}</li>
+              <div key={symptom} style={{ display: 'flex', justifyContent: 'space-between', background: 'var(--color-bg)', padding: '1rem 1.25rem', borderRadius: '16px' }}>
+                 <span style={{ fontWeight: 500, color: 'var(--color-text)' }}>{symptom}</span>
+                 <span style={{ fontWeight: 700, color: 'var(--color-danger)' }}>{count} logs</span>
+              </div>
             ))}
-          </ul>
+          </div>
         )}
-      </section>
-
-      {/* Symptom Severity Placeholder */}
-      <section className="card severity">
-        <h2>Symptom Severity</h2>
-        <p>Severity data not yet available.</p>
       </section>
 
       {/* Medication Adherence */}

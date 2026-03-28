@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import { Home, ClipboardList, Pill, Activity, Menu } from 'lucide-react';
+
 const Layout = ({ children }) => {
   return (
     <div className="app-layout">
@@ -9,32 +11,24 @@ const Layout = ({ children }) => {
         <h2 className="sidebar-brand no-print">Oncology Companion</h2>
         <div className="nav-links">
           <NavLink to="/" className={({ isActive }) => (isActive ? 'nav-item active' : 'nav-item')}>
-            <span className="nav-icon">🏠</span>
+            <Home size={22} className="nav-icon" strokeWidth={2} />
             <span className="nav-label">Home</span>
           </NavLink>
           <NavLink to="/checkin" className={({ isActive }) => (isActive ? 'nav-item active' : 'nav-item')}>
-            <span className="nav-icon">📝</span>
+            <ClipboardList size={22} className="nav-icon" strokeWidth={2} />
             <span className="nav-label">Check-in</span>
           </NavLink>
           <NavLink to="/medications" className={({ isActive }) => (isActive ? 'nav-item active' : 'nav-item')}>
-            <span className="nav-icon">💊</span>
-            <span className="nav-label">Medications</span>
+            <Pill size={22} className="nav-icon" strokeWidth={2} />
+            <span className="nav-label">Meds</span>
           </NavLink>
           <NavLink to="/health" className={({ isActive }) => (isActive ? 'nav-item active' : 'nav-item')}>
-            <span className="nav-icon">❤️</span>
+            <Activity size={22} className="nav-icon" strokeWidth={2} />
             <span className="nav-label">Health</span>
           </NavLink>
-          <NavLink to="/schedule" className={({ isActive }) => (isActive ? 'nav-item active' : 'nav-item')}>
-            <span className="nav-icon">📅</span>
-            <span className="nav-label">Schedule</span>
-          </NavLink>
-          <NavLink to="/weekly-summary" className={({ isActive }) => (isActive ? 'nav-item active' : 'nav-item')}>
-            <span className="nav-icon">📊</span>
-            <span className="nav-label">Reports</span>
-          </NavLink>
           <NavLink to="/profile" className={({ isActive }) => (isActive ? 'nav-item active' : 'nav-item')}>
-            <span className="nav-icon">👤</span>
-            <span className="nav-label">Profile</span>
+            <Menu size={22} className="nav-icon" strokeWidth={2} />
+            <span className="nav-label">Menu</span>
           </NavLink>
         </div>
       </nav>
